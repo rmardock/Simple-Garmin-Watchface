@@ -31,15 +31,15 @@
     
     <!-- Run Distance (iconFont "%") -->
     <!-- Color -->
-    <label id="RunIcon" x="35%" y="84%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#cba6f7" text="%" />
-    <label id="WeeklyMiles" x="center" y="85%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#cba6f7" />
+    <label id="RunIcon" x="27%" y="85%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#cba6f7" text="%" />
+    <label id="WeeklyMiles" x="center" y="85%" font="@Fonts.futuraSmallFull" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#cba6f7" />
 
     <!-- Notifications (iconFont "@") (change this to ",") -->
-    <label id="NotificationsIcon" x="55%" y="5%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f9e2af" />
+    <label id="NotificationsIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f9e2af" />
     
     <!-- Bluetooth (iconFont "~") -->
-    <label id="BluetoothIcon" x="45%" y="5%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#89dceb" text="~" /> 
+    <label id="BluetoothIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#89dceb" text="~" /> 
 
     <!-- Do not disturb (iconFont "?") -->
-    <label id="DoNotDisturbIcon" x="65%" y="4.3%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f38ba8" text="?" />
+    <label id="DoNotDisturbIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f38ba8" text="?" />
 </layout>
