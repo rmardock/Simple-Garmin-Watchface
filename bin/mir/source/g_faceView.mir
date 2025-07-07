@@ -1,0 +1,1244 @@
+[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+import Toybox.Application;
+[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Activity,2,14,22]; ]
+import Toybox.Activity;
+[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Graphics,3,14,22]; ]
+import Toybox.Graphics;
+[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Lang,4,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [System,5,14,20]; ]
+import Toybox.System;
+[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [WatchUi,6,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Time,7,14,18]; ]
+import Toybox.Time;
+[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [Time,8,14,18]; @symbol_importdef<2> = [Gregorian,8,19,28]; ]
+import Toybox.Time.Gregorian;
+[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 9; @symbol_usingdef<0> = [Toybox,9,6,12]; @symbol_usingdef<1> = [UserProfile,9,13,24]; ]
+using Toybox.UserProfile;
+[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 11; @symbol_classdef = [g_faceView,11,6,16]; @symbol_extends<0> = [WatchUi,11,25,32]; @symbol_extends<1> = [WatchFace,11,33,42]; ]
+class g_faceView extends WatchUi.WatchFace {
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 11; ]
+    <init> {
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 11; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 13; @symbol_functiondef = [initialize,13,13,23]; ]
+    function initialize() as Void {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_13_26_15_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 14 8 ]
+        symbol [ WatchFace %tmp.2 14 8 17 ];
+        %tmp.2 = getv ? :WatchFace;
+        symbol [ initialize %tmp.3 14 18 28 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_13_26_15_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 18; @symbol_functiondef = [onLayout,18,13,21]; @symbol_param<0> = [dc,18,22,24]; @symbol_param<0>_type<0> = [Dc,18,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_18_40_20_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 19 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 19 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.4 19 18 21 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Layouts %tmp.5 19 22 29 ];
+        %tmp.5 = getv %tmp.4 :Layouts;
+        symbol [ WatchFace %tmp.6 19 30 39 ];
+        %tmp.6 = getv function %tmp.5 :WatchFace;
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 19 40 42 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_18_40_20_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 25; @symbol_functiondef = [onShow,25,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 29; @symbol_functiondef = [onUpdate,29,13,21]; @symbol_param<0> = [dc,29,22,24]; @symbol_param<0>_type<0> = [Dc,29,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 31 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop" ]
+        %timeFormat.1 = local;
+        symbol [ timeFormat %timeFormat.1 31 12 22 ];
+        %tmp.1 = "$1$:$2$";
+        lputv %timeFormat.1 %tmp.1;
+        symbol [ timeFormat %timeFormat.1 31 12 22 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 32 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop" ]
+        %clockTime.2 = local;
+        symbol [ clockTime %clockTime.2 32 12 21 ];
+        symbol [ System %tmp.2 32 24 30 ];
+        %tmp.2 = getm $.Toybox.System;
+        symbol [ getClockTime %tmp.3 32 31 43 ];
+        %tmp.3 = getv function %tmp.2 :getClockTime;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %clockTime.2 %tmp.4;
+        symbol [ clockTime %clockTime.2 32 12 21 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 33 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop" ]
+        %hours.3 = local;
+        symbol [ hours %hours.3 33 12 17 ];
+        %tmp.5 = lgetv %clockTime.2;
+        symbol [ clockTime %tmp.5 33 20 29 ];
+        symbol [ hour %tmp.6 33 30 34 ];
+        %tmp.6 = getv %tmp.5 :hour;
+        lputv %hours.3 %tmp.6;
+        symbol [ hours %hours.3 33 12 17 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 34 8 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_34_8_43_8_if_stmt:
+        symbol [ System %tmp.7 34 13 19 ];
+        %tmp.7 = getm $.Toybox.System;
+        symbol [ getDeviceSettings %tmp.8 34 20 37 ];
+        %tmp.8 = getv function %tmp.7 :getDeviceSettings;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        symbol [ is24Hour %tmp.10 34 40 48 ];
+        %tmp.10 = getv %tmp.9 :is24Hour;
+        %tmp.11 = not %tmp.10;
+        bf %tmp.11 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_34_8_43_8_if_else_false;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_34_8_43_8_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_34_50_38_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 35 12 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_35_12_37_12_if_stmt:
+        %tmp.12 = lgetv %hours.3;
+        symbol [ hours %tmp.12 35 16 21 ];
+        %tmp.13 = 12;
+        %tmp.14 = gt %tmp.12 %tmp.13;
+        bf %tmp.14 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_35_12_37_12_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_35_12_37_12_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_35_28_37_12_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 36 16 ]
+        %tmp.15 = lgetv %hours.3;
+        symbol [ hours %tmp.15 36 24 29 ];
+        %tmp.16 = 12;
+        %tmp.17 = sub %tmp.15 %tmp.16;
+        lputv %hours.3 %tmp.17;
+        symbol [ hours %hours.3 36 16 21 ];
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_35_28_37_12_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_35_12_37_12_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_35_12_37_12_if_end:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_34_50_38_8_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_34_8_43_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_34_8_43_8_if_else_false:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_38_15_43_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 39 12 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_39_12_42_12_if_stmt:
+        symbol [ Application %tmp.18 39 16 27 ];
+        %tmp.18 = getm $.Toybox.Application;
+        symbol [ Properties %tmp.19 39 28 38 ];
+        %tmp.19 = getv %tmp.18 :Properties;
+        symbol [ getValue %tmp.20 39 39 47 ];
+        %tmp.20 = getv function %tmp.19 :getValue;
+        %tmp.21 = "UseMilitaryFormat";
+        %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
+        bf %tmp.22 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_39_12_42_12_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_39_12_42_12_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_39_70_42_12_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 40 16 ]
+        %tmp.23 = "$1$$2$";
+        lputv %timeFormat.1 %tmp.23;
+        symbol [ timeFormat %timeFormat.1 40 16 26 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 41 16 ]
+        %tmp.24 = lgetv %hours.3;
+        symbol [ hours %tmp.24 41 24 29 ];
+        symbol [ format %tmp.25 41 30 36 ];
+        %tmp.25 = getv function %tmp.24 :format;
+        %tmp.26 = "%02d";
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        lputv %hours.3 %tmp.27;
+        symbol [ hours %hours.3 41 16 21 ];
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_39_70_42_12_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_39_12_42_12_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_39_12_42_12_if_end:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_38_15_43_8_stop:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_34_8_43_8_if_end:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 44 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop" ]
+        %timeString.4 = local;
+        symbol [ timeString %timeString.4 44 12 22 ];
+        symbol [ Lang %tmp.28 44 25 29 ];
+        %tmp.28 = getm $.Toybox.Lang;
+        symbol [ format %tmp.29 44 30 36 ];
+        %tmp.29 = getv function %tmp.28 :format;
+        %tmp.30 = lgetv %timeFormat.1;
+        symbol [ timeFormat %tmp.30 44 37 47 ];
+        %tmp.31 = newa 2;
+        %tmp.32 = lgetv %hours.3;
+        symbol [ hours %tmp.32 44 50 55 ];
+        %tmp.33 = dup %tmp.31;
+        %tmp.34 = aputv %tmp.33 0 %tmp.32;
+        %tmp.35 = lgetv %clockTime.2;
+        symbol [ clockTime %tmp.35 44 57 66 ];
+        symbol [ min %tmp.36 44 67 70 ];
+        %tmp.36 = getv %tmp.35 :min;
+        symbol [ format %tmp.37 44 71 77 ];
+        %tmp.37 = getv function %tmp.36 :format;
+        %tmp.38 = "%02d";
+        %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
+        %tmp.40 = dup %tmp.34;
+        %tmp.41 = aputv %tmp.40 1 %tmp.39;
+        %tmp.42 = invoke %tmp.28 %tmp.29(%tmp.30, %tmp.41);
+        lputv %timeString.4 %tmp.42;
+        symbol [ timeString %timeString.4 44 12 22 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 47 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop" ]
+        %timeLabel.5 = local;
+        symbol [ timeLabel %timeLabel.5 47 12 21 ];
+        symbol [ View %tmp.44 47 24 28 ];
+        %tmp.44 = getv ? :View;
+        symbol [ findDrawableById %tmp.45 47 29 45 ];
+        %tmp.45 = getv function %tmp.44 :findDrawableById;
+        %tmp.46 = "TimeLabel";
+        %tmp.47 = invoke %tmp.44 %tmp.45(%tmp.46);
+        %tmp.48 = as %tmp.47 Text;
+        symbol [ Text %tmp.48 47 62 66 ];
+        lputv %timeLabel.5 %tmp.48;
+        symbol [ timeLabel %timeLabel.5 47 12 21 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 48 8 ]
+        %tmp.49 = lgetv %timeLabel.5;
+        symbol [ timeLabel %tmp.49 48 8 17 ];
+        symbol [ setText %tmp.50 48 18 25 ];
+        %tmp.50 = getv function %tmp.49 :setText;
+        %tmp.51 = lgetv %timeString.4;
+        symbol [ timeString %tmp.51 48 26 36 ];
+        invoke %tmp.49 %tmp.50(%tmp.51);
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 51 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop" ]
+        %dateLabel.6 = local;
+        symbol [ dateLabel %dateLabel.6 51 12 21 ];
+        symbol [ View %tmp.53 51 24 28 ];
+        %tmp.53 = getv ? :View;
+        symbol [ findDrawableById %tmp.54 51 29 45 ];
+        %tmp.54 = getv function %tmp.53 :findDrawableById;
+        %tmp.55 = "DateLabel";
+        %tmp.56 = invoke %tmp.53 %tmp.54(%tmp.55);
+        %tmp.57 = as %tmp.56 Text;
+        symbol [ Text %tmp.57 51 62 66 ];
+        lputv %dateLabel.6 %tmp.57;
+        symbol [ dateLabel %dateLabel.6 51 12 21 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 52 8 ]
+        %tmp.58 = lgetv %dateLabel.6;
+        symbol [ dateLabel %tmp.58 52 8 17 ];
+        symbol [ setText %tmp.59 52 18 25 ];
+        %tmp.59 = getv function %tmp.58 :setText;
+        %tmp.60 = self;
+        symbol [ getDate %tmp.61 52 26 33 ];
+        %tmp.61 = getv function %tmp.60 :getDate;
+        %tmp.62 = invoke %tmp.60 %tmp.61();
+        invoke %tmp.58 %tmp.59(%tmp.62);
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 55 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop" ]
+        %heartRateLabel.7 = local;
+        symbol [ heartRateLabel %heartRateLabel.7 55 12 26 ];
+        symbol [ View %tmp.64 55 29 33 ];
+        %tmp.64 = getv ? :View;
+        symbol [ findDrawableById %tmp.65 55 34 50 ];
+        %tmp.65 = getv function %tmp.64 :findDrawableById;
+        %tmp.66 = "HeartRateLabel";
+        %tmp.67 = invoke %tmp.64 %tmp.65(%tmp.66);
+        %tmp.68 = as %tmp.67 Text;
+        symbol [ Text %tmp.68 55 72 76 ];
+        lputv %heartRateLabel.7 %tmp.68;
+        symbol [ heartRateLabel %heartRateLabel.7 55 12 26 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 56 8 ]
+        %tmp.69 = lgetv %heartRateLabel.7;
+        symbol [ heartRateLabel %tmp.69 56 8 22 ];
+        symbol [ setText %tmp.70 56 23 30 ];
+        %tmp.70 = getv function %tmp.69 :setText;
+        %tmp.71 = self;
+        symbol [ getHeartRateString %tmp.72 56 31 49 ];
+        %tmp.72 = getv function %tmp.71 :getHeartRateString;
+        %tmp.73 = invoke %tmp.71 %tmp.72();
+        invoke %tmp.69 %tmp.70(%tmp.73);
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 59 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop" ]
+        %caloriesLabel.8 = local;
+        symbol [ caloriesLabel %caloriesLabel.8 59 12 25 ];
+        symbol [ View %tmp.75 59 28 32 ];
+        %tmp.75 = getv ? :View;
+        symbol [ findDrawableById %tmp.76 59 33 49 ];
+        %tmp.76 = getv function %tmp.75 :findDrawableById;
+        %tmp.77 = "CaloriesLabel";
+        %tmp.78 = invoke %tmp.75 %tmp.76(%tmp.77);
+        %tmp.79 = as %tmp.78 Text;
+        symbol [ Text %tmp.79 59 70 74 ];
+        lputv %caloriesLabel.8 %tmp.79;
+        symbol [ caloriesLabel %caloriesLabel.8 59 12 25 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 60 8 ]
+        %tmp.80 = lgetv %caloriesLabel.8;
+        symbol [ caloriesLabel %tmp.80 60 8 21 ];
+        symbol [ setText %tmp.81 60 22 29 ];
+        %tmp.81 = getv function %tmp.80 :setText;
+        %tmp.82 = self;
+        symbol [ getCaloriesString %tmp.83 60 30 47 ];
+        %tmp.83 = getv function %tmp.82 :getCaloriesString;
+        %tmp.84 = invoke %tmp.82 %tmp.83();
+        invoke %tmp.80 %tmp.81(%tmp.84);
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 63 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop" ]
+        %batteryLabel.9 = local;
+        symbol [ batteryLabel %batteryLabel.9 63 12 24 ];
+        symbol [ View %tmp.86 63 27 31 ];
+        %tmp.86 = getv ? :View;
+        symbol [ findDrawableById %tmp.87 63 32 48 ];
+        %tmp.87 = getv function %tmp.86 :findDrawableById;
+        %tmp.88 = "BatteryLabel";
+        %tmp.89 = invoke %tmp.86 %tmp.87(%tmp.88);
+        %tmp.90 = as %tmp.89 Text;
+        symbol [ Text %tmp.90 63 68 72 ];
+        lputv %batteryLabel.9 %tmp.90;
+        symbol [ batteryLabel %batteryLabel.9 63 12 24 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 64 8 ]
+        %tmp.91 = lgetv %batteryLabel.9;
+        symbol [ batteryLabel %tmp.91 64 8 20 ];
+        symbol [ setText %tmp.92 64 21 28 ];
+        %tmp.92 = getv function %tmp.91 :setText;
+        %tmp.93 = self;
+        symbol [ getBatteryString %tmp.94 64 29 45 ];
+        %tmp.94 = getv function %tmp.93 :getBatteryString;
+        %tmp.95 = invoke %tmp.93 %tmp.94();
+        invoke %tmp.91 %tmp.92(%tmp.95);
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 66 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop" ]
+        %batteryIcon.10 = local;
+        symbol [ batteryIcon %batteryIcon.10 66 12 23 ];
+        symbol [ View %tmp.97 66 26 30 ];
+        %tmp.97 = getv ? :View;
+        symbol [ findDrawableById %tmp.98 66 31 47 ];
+        %tmp.98 = getv function %tmp.97 :findDrawableById;
+        %tmp.99 = "BatteryIcon";
+        %tmp.100 = invoke %tmp.97 %tmp.98(%tmp.99);
+        %tmp.101 = as %tmp.100 Text;
+        symbol [ Text %tmp.101 66 66 70 ];
+        lputv %batteryIcon.10 %tmp.101;
+        symbol [ batteryIcon %batteryIcon.10 66 12 23 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 67 8 ]
+        %tmp.102 = lgetv %batteryIcon.10;
+        symbol [ batteryIcon %tmp.102 67 8 19 ];
+        symbol [ setText %tmp.103 67 20 27 ];
+        %tmp.103 = getv function %tmp.102 :setText;
+        %tmp.104 = self;
+        symbol [ getBatteryIcon %tmp.105 67 28 42 ];
+        %tmp.105 = getv function %tmp.104 :getBatteryIcon;
+        %tmp.106 = invoke %tmp.104 %tmp.105();
+        invoke %tmp.102 %tmp.103(%tmp.106);
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 70 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop" ]
+        %stepsLabel.11 = local;
+        symbol [ stepsLabel %stepsLabel.11 70 12 22 ];
+        symbol [ View %tmp.108 70 25 29 ];
+        %tmp.108 = getv ? :View;
+        symbol [ findDrawableById %tmp.109 70 30 46 ];
+        %tmp.109 = getv function %tmp.108 :findDrawableById;
+        %tmp.110 = "StepsLabel";
+        %tmp.111 = invoke %tmp.108 %tmp.109(%tmp.110);
+        %tmp.112 = as %tmp.111 Text;
+        symbol [ Text %tmp.112 70 64 68 ];
+        lputv %stepsLabel.11 %tmp.112;
+        symbol [ stepsLabel %stepsLabel.11 70 12 22 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 71 8 ]
+        %tmp.113 = lgetv %stepsLabel.11;
+        symbol [ stepsLabel %tmp.113 71 8 18 ];
+        symbol [ setText %tmp.114 71 19 26 ];
+        %tmp.114 = getv function %tmp.113 :setText;
+        %tmp.115 = self;
+        symbol [ getStepsString %tmp.116 71 27 41 ];
+        %tmp.116 = getv function %tmp.115 :getStepsString;
+        %tmp.117 = invoke %tmp.115 %tmp.116();
+        invoke %tmp.113 %tmp.114(%tmp.117);
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 74 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop" ]
+        %weeklyDistanceLabel.12 = local;
+        symbol [ weeklyDistanceLabel %weeklyDistanceLabel.12 74 12 31 ];
+        symbol [ View %tmp.119 74 34 38 ];
+        %tmp.119 = getv ? :View;
+        symbol [ findDrawableById %tmp.120 74 39 55 ];
+        %tmp.120 = getv function %tmp.119 :findDrawableById;
+        %tmp.121 = "WeeklyMiles";
+        %tmp.122 = invoke %tmp.119 %tmp.120(%tmp.121);
+        %tmp.123 = as %tmp.122 Text;
+        symbol [ Text %tmp.123 74 74 78 ];
+        lputv %weeklyDistanceLabel.12 %tmp.123;
+        symbol [ weeklyDistanceLabel %weeklyDistanceLabel.12 74 12 31 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 75 8 ]
+        %tmp.124 = lgetv %weeklyDistanceLabel.12;
+        symbol [ weeklyDistanceLabel %tmp.124 75 8 27 ];
+        symbol [ setText %tmp.125 75 28 35 ];
+        %tmp.125 = getv function %tmp.124 :setText;
+        %tmp.126 = self;
+        symbol [ getWeeklyRunDistanceMiles %tmp.127 75 36 61 ];
+        %tmp.127 = getv function %tmp.126 :getWeeklyRunDistanceMiles;
+        %tmp.128 = invoke %tmp.126 %tmp.127();
+        invoke %tmp.124 %tmp.125(%tmp.128);
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 78 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop" ]
+        %notificationsIcon.13 = local;
+        symbol [ notificationsIcon %notificationsIcon.13 78 12 29 ];
+        symbol [ View %tmp.130 78 32 36 ];
+        %tmp.130 = getv ? :View;
+        symbol [ findDrawableById %tmp.131 78 37 53 ];
+        %tmp.131 = getv function %tmp.130 :findDrawableById;
+        %tmp.132 = "NotificationsIcon";
+        %tmp.133 = invoke %tmp.130 %tmp.131(%tmp.132);
+        %tmp.134 = as %tmp.133 Text;
+        symbol [ Text %tmp.134 78 78 82 ];
+        lputv %notificationsIcon.13 %tmp.134;
+        symbol [ notificationsIcon %notificationsIcon.13 78 12 29 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 79 8 ]
+        %tmp.135 = lgetv %notificationsIcon.13;
+        symbol [ notificationsIcon %tmp.135 79 8 25 ];
+        symbol [ setText %tmp.136 79 26 33 ];
+        %tmp.136 = getv function %tmp.135 :setText;
+        %tmp.137 = self;
+        symbol [ getNotificationLabel %tmp.138 79 34 54 ];
+        %tmp.138 = getv function %tmp.137 :getNotificationLabel;
+        %tmp.139 = invoke %tmp.137 %tmp.138();
+        invoke %tmp.135 %tmp.136(%tmp.139);
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 82 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop" ]
+        %bluetoothIcon.14 = local;
+        symbol [ bluetoothIcon %bluetoothIcon.14 82 12 25 ];
+        symbol [ View %tmp.141 82 28 32 ];
+        %tmp.141 = getv ? :View;
+        symbol [ findDrawableById %tmp.142 82 33 49 ];
+        %tmp.142 = getv function %tmp.141 :findDrawableById;
+        %tmp.143 = "BluetoothIcon";
+        %tmp.144 = invoke %tmp.141 %tmp.142(%tmp.143);
+        %tmp.145 = as %tmp.144 Text;
+        symbol [ Text %tmp.145 82 70 74 ];
+        lputv %bluetoothIcon.14 %tmp.145;
+        symbol [ bluetoothIcon %bluetoothIcon.14 82 12 25 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 83 8 ]
+        %tmp.146 = lgetv %bluetoothIcon.14;
+        symbol [ bluetoothIcon %tmp.146 83 8 21 ];
+        symbol [ setText %tmp.147 83 22 29 ];
+        %tmp.147 = getv function %tmp.146 :setText;
+        %tmp.148 = self;
+        symbol [ getConnectionState %tmp.149 83 30 48 ];
+        %tmp.149 = getv function %tmp.148 :getConnectionState;
+        %tmp.150 = invoke %tmp.148 %tmp.149();
+        invoke %tmp.146 %tmp.147(%tmp.150);
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 86 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop" ]
+        %doNotDisturbIcon.15 = local;
+        symbol [ doNotDisturbIcon %doNotDisturbIcon.15 86 12 28 ];
+        symbol [ View %tmp.152 86 31 35 ];
+        %tmp.152 = getv ? :View;
+        symbol [ findDrawableById %tmp.153 86 36 52 ];
+        %tmp.153 = getv function %tmp.152 :findDrawableById;
+        %tmp.154 = "DoNotDisturbIcon";
+        %tmp.155 = invoke %tmp.152 %tmp.153(%tmp.154);
+        %tmp.156 = as %tmp.155 Text;
+        symbol [ Text %tmp.156 86 76 80 ];
+        lputv %doNotDisturbIcon.15 %tmp.156;
+        symbol [ doNotDisturbIcon %doNotDisturbIcon.15 86 12 28 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 87 8 ]
+        %tmp.157 = lgetv %doNotDisturbIcon.15;
+        symbol [ doNotDisturbIcon %tmp.157 87 8 24 ];
+        symbol [ setText %tmp.158 87 25 32 ];
+        %tmp.158 = getv function %tmp.157 :setText;
+        %tmp.159 = self;
+        symbol [ getDoNotDisturb %tmp.160 87 33 48 ];
+        %tmp.160 = getv function %tmp.159 :getDoNotDisturb;
+        %tmp.161 = invoke %tmp.159 %tmp.160();
+        invoke %tmp.157 %tmp.158(%tmp.161);
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 90 8 ]
+        symbol [ View %tmp.163 90 8 12 ];
+        %tmp.163 = getv ? :View;
+        symbol [ onUpdate %tmp.164 90 13 21 ];
+        %tmp.164 = getv function %tmp.163 :onUpdate;
+        %tmp.165 = lgetv %dc;
+        symbol [ dc %tmp.165 90 22 24 ];
+        invoke %tmp.163 %tmp.164(%tmp.165);
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_29_40_91_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 94; @symbol_functiondef = [getDate,94,13,20]; @symbol_return<0> = [String,94,26,32]; ]
+    function getDate() as String {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_94_33_108_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 95 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_94_33_108_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_94_33_108_4_stop" ]
+        %curr.1 = local;
+        symbol [ curr %curr.1 95 12 16 ];
+        symbol [ Gregorian %tmp.1 95 19 28 ];
+        %tmp.1 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.2 95 29 33 ];
+        %tmp.2 = getv function %tmp.1 :info;
+        symbol [ Time %tmp.3 95 34 38 ];
+        %tmp.3 = getm $.Toybox.Time;
+        symbol [ now %tmp.4 95 39 42 ];
+        %tmp.4 = getv function %tmp.3 :now;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        symbol [ Time %tmp.6 95 46 50 ];
+        %tmp.6 = getm $.Toybox.Time;
+        symbol [ FORMAT_MEDIUM %tmp.7 95 51 64 ];
+        %tmp.7 = getv %tmp.6 :FORMAT_MEDIUM;
+        %tmp.8 = invoke %tmp.1 %tmp.2(%tmp.5, %tmp.7);
+        lputv %curr.1 %tmp.8;
+        symbol [ curr %curr.1 95 12 16 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 98 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_94_33_108_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_94_33_108_4_stop" ]
+        %dateString.2 = local;
+        symbol [ dateString %dateString.2 98 12 22 ];
+        symbol [ Lang %tmp.9 98 25 29 ];
+        %tmp.9 = getm $.Toybox.Lang;
+        symbol [ format %tmp.10 98 30 36 ];
+        %tmp.10 = getv function %tmp.9 :format;
+        %tmp.11 = "$1$, $2$ $3$";
+        %tmp.12 = newa 3;
+        %tmp.13 = lgetv %curr.1;
+        symbol [ curr %tmp.13 101 12 16 ];
+        symbol [ day_of_week %tmp.14 101 17 28 ];
+        %tmp.14 = getv %tmp.13 :day_of_week;
+        %tmp.15 = dup %tmp.12;
+        %tmp.16 = aputv %tmp.15 0 %tmp.14;
+        %tmp.17 = lgetv %curr.1;
+        symbol [ curr %tmp.17 102 12 16 ];
+        symbol [ month %tmp.18 102 17 22 ];
+        %tmp.18 = getv %tmp.17 :month;
+        %tmp.19 = dup %tmp.16;
+        %tmp.20 = aputv %tmp.19 1 %tmp.18;
+        %tmp.21 = lgetv %curr.1;
+        symbol [ curr %tmp.21 103 12 16 ];
+        symbol [ day %tmp.22 103 17 20 ];
+        %tmp.22 = getv %tmp.21 :day;
+        %tmp.23 = dup %tmp.20;
+        %tmp.24 = aputv %tmp.23 2 %tmp.22;
+        %tmp.25 = invoke %tmp.9 %tmp.10(%tmp.11, %tmp.24);
+        lputv %dateString.2 %tmp.25;
+        symbol [ dateString %dateString.2 98 12 22 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 107 8 ]
+        %tmp.26 = lgetv %dateString.2;
+        symbol [ dateString %tmp.26 107 15 25 ];
+        ret %tmp.26;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_94_33_108_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 111; @symbol_functiondef = [getHeartRate,111,13,25]; @symbol_return<0> = [Number,111,31,37]; ]
+    function getHeartRate() as Number {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_111_38_114_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 112 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_111_38_114_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_111_38_114_4_stop" ]
+        %heartRateI.1 = local;
+        symbol [ heartRateI %heartRateI.1 112 12 22 ];
+        symbol [ Toybox %tmp.2 112 25 31 ];
+        %tmp.2 = getv ? :Toybox;
+        symbol [ ActivityMonitor %tmp.3 112 32 47 ];
+        %tmp.3 = getv %tmp.2 :ActivityMonitor;
+        symbol [ getHeartRateHistory %tmp.4 112 48 67 ];
+        %tmp.4 = getv function %tmp.3 :getHeartRateHistory;
+        %tmp.5 = 1;
+        %tmp.6 = true;
+        %tmp.7 = invoke %tmp.3 %tmp.4(%tmp.5, %tmp.6);
+        lputv %heartRateI.1 %tmp.7;
+        symbol [ heartRateI %heartRateI.1 112 12 22 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 113 8 ]
+        %tmp.8 = lgetv %heartRateI.1;
+        symbol [ heartRateI %tmp.8 113 15 25 ];
+        symbol [ next %tmp.9 113 26 30 ];
+        %tmp.9 = getv function %tmp.8 :next;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        symbol [ heartRate %tmp.11 113 33 42 ];
+        %tmp.11 = getv %tmp.10 :heartRate;
+        ret %tmp.11;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_111_38_114_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 117; @symbol_functiondef = [getHeartRateString,117,13,31]; @symbol_return<0> = [String,117,37,43]; ]
+    function getHeartRateString() as String {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_117_44_119_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 118 8 ]
+        %tmp.1 = self;
+        symbol [ getHeartRate %tmp.2 118 15 27 ];
+        %tmp.2 = getv function %tmp.1 :getHeartRate;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ format %tmp.4 118 30 36 ];
+        %tmp.4 = getv function %tmp.3 :format;
+        %tmp.5 = "%d";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        ret %tmp.6;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_117_44_119_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 122; @symbol_functiondef = [getSteps,122,13,21]; @symbol_return<0> = [Number,122,27,33]; ]
+    function getSteps() as Number or Null {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_122_42_124_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 123 8 ]
+        symbol [ Toybox %tmp.2 123 15 21 ];
+        %tmp.2 = getv ? :Toybox;
+        symbol [ ActivityMonitor %tmp.3 123 22 37 ];
+        %tmp.3 = getv %tmp.2 :ActivityMonitor;
+        symbol [ getInfo %tmp.4 123 38 45 ];
+        %tmp.4 = getv function %tmp.3 :getInfo;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        symbol [ steps %tmp.6 123 48 53 ];
+        %tmp.6 = getv %tmp.5 :steps;
+        ret %tmp.6;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_122_42_124_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 127; @symbol_functiondef = [getStepsString,127,13,27]; @symbol_return<0> = [String,127,33,39]; ]
+    function getStepsString() as String {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_127_40_133_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 128 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_127_40_133_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_127_40_133_4_stop" ]
+        %steps.1 = local;
+        symbol [ steps %steps.1 128 12 17 ];
+        %tmp.1 = self;
+        symbol [ getSteps %tmp.2 128 20 28 ];
+        %tmp.2 = getv function %tmp.1 :getSteps;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %steps.1 %tmp.3;
+        symbol [ steps %steps.1 128 12 17 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 129 8 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_129_8_131_8_if_stmt:
+        %tmp.4 = lgetv %steps.1;
+        symbol [ steps %tmp.4 129 12 17 ];
+        %tmp.5 = null;
+        %tmp.6 = eq %tmp.4 %tmp.5;
+        bf %tmp.6 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_129_8_131_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_129_8_131_8_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_129_27_131_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 130 12 ]
+        %tmp.7 = "-";
+        ret %tmp.7;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_129_27_131_8_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_129_8_131_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_129_8_131_8_if_end:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 132 8 ]
+        %tmp.8 = self;
+        symbol [ getSteps %tmp.9 132 15 23 ];
+        %tmp.9 = getv function %tmp.8 :getSteps;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        symbol [ format %tmp.11 132 26 32 ];
+        %tmp.11 = getv function %tmp.10 :format;
+        %tmp.12 = "%d";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        ret %tmp.13;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_127_40_133_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 136; @symbol_functiondef = [getBattery,136,13,23]; @symbol_return<0> = [Float,136,29,34]; ]
+    function getBattery() as Float {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_136_35_138_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 137 8 ]
+        symbol [ Toybox %tmp.2 137 15 21 ];
+        %tmp.2 = getv ? :Toybox;
+        symbol [ System %tmp.3 137 22 28 ];
+        %tmp.3 = getv %tmp.2 :System;
+        symbol [ getSystemStats %tmp.4 137 29 43 ];
+        %tmp.4 = getv function %tmp.3 :getSystemStats;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        symbol [ battery %tmp.6 137 46 53 ];
+        %tmp.6 = getv %tmp.5 :battery;
+        ret %tmp.6;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_136_35_138_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 141; @symbol_functiondef = [getBatteryString,141,13,29]; @symbol_return<0> = [String,141,35,41]; ]
+    function getBatteryString() as String {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_141_42_143_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 142 8 ]
+        %tmp.1 = self;
+        symbol [ getBattery %tmp.2 142 15 25 ];
+        %tmp.2 = getv function %tmp.1 :getBattery;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ format %tmp.4 142 28 34 ];
+        %tmp.4 = getv function %tmp.3 :format;
+        %tmp.5 = "%d";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        %tmp.7 = "%";
+        %tmp.8 = add %tmp.6 %tmp.7;
+        ret %tmp.8;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_141_42_143_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 146; @symbol_functiondef = [getBatteryStatus,146,13,29]; @symbol_return<0> = [Boolean,146,35,42]; ]
+    function getBatteryStatus() as Boolean {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_146_43_148_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 147 8 ]
+        symbol [ Toybox %tmp.2 147 15 21 ];
+        %tmp.2 = getv ? :Toybox;
+        symbol [ System %tmp.3 147 22 28 ];
+        %tmp.3 = getv %tmp.2 :System;
+        symbol [ getSystemStats %tmp.4 147 29 43 ];
+        %tmp.4 = getv function %tmp.3 :getSystemStats;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        symbol [ charging %tmp.6 147 46 54 ];
+        %tmp.6 = getv %tmp.5 :charging;
+        ret %tmp.6;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_146_43_148_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 151; @symbol_functiondef = [getBatteryIcon,151,13,27]; @symbol_return<0> = [String,151,33,39]; ]
+    function getBatteryIcon() as String {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_151_40_175_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 152 8 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_152_8_155_8_if_stmt:
+        %tmp.1 = self;
+        symbol [ getBattery %tmp.2 152 11 21 ];
+        %tmp.2 = getv function %tmp.1 :getBattery;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = 15;
+        %tmp.5 = lt %tmp.3 %tmp.4;
+        bf %tmp.5 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_152_8_155_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_152_8_155_8_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_153_8_155_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 154 12 ]
+        %tmp.6 = ":";
+        ret %tmp.6;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_153_8_155_8_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_152_8_155_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_152_8_155_8_if_end:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 156 8 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_156_8_158_8_if_stmt:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_156_11_156_48_begin:
+        %tmp.7 = self;
+        symbol [ getBattery %tmp.8 156 11 21 ];
+        %tmp.8 = getv function %tmp.7 :getBattery;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        %tmp.10 = 15;
+        %tmp.11 = gte %tmp.9 %tmp.10;
+        bf %tmp.11 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_156_8_158_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_156_33_156_48_true:
+        %tmp.12 = self;
+        symbol [ getBattery %tmp.13 156 33 43 ];
+        %tmp.13 = getv function %tmp.12 :getBattery;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        %tmp.15 = 45;
+        %tmp.16 = lt %tmp.14 %tmp.15;
+        push %tmp.16;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_156_33_156_48_end:
+        %tmp.17 = phi [%tmp.11 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_156_11_156_48_begin] [%tmp.16 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_156_33_156_48_true] [%tmp.17 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_156_33_156_48_end];
+        bf %tmp.17 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_156_8_158_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_156_8_158_8_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_156_51_158_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 157 12 ]
+        %tmp.18 = ",";
+        ret %tmp.18;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_156_51_158_8_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_156_8_158_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_156_8_158_8_if_end:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 159 8 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_159_8_162_8_if_stmt:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_159_11_159_48_begin:
+        %tmp.19 = self;
+        symbol [ getBattery %tmp.20 159 11 21 ];
+        %tmp.20 = getv function %tmp.19 :getBattery;
+        %tmp.21 = invoke %tmp.19 %tmp.20();
+        %tmp.22 = 45;
+        %tmp.23 = gte %tmp.21 %tmp.22;
+        bf %tmp.23 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_159_8_162_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_159_33_159_48_true:
+        %tmp.24 = self;
+        symbol [ getBattery %tmp.25 159 33 43 ];
+        %tmp.25 = getv function %tmp.24 :getBattery;
+        %tmp.26 = invoke %tmp.24 %tmp.25();
+        %tmp.27 = 85;
+        %tmp.28 = lt %tmp.26 %tmp.27;
+        push %tmp.28;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_159_33_159_48_end:
+        %tmp.29 = phi [%tmp.23 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_159_11_159_48_begin] [%tmp.28 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_159_33_159_48_true] [%tmp.29 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_159_33_159_48_end];
+        bf %tmp.29 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_159_8_162_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_159_8_162_8_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_160_8_162_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 161 12 ]
+        %tmp.30 = "-";
+        ret %tmp.30;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_160_8_162_8_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_159_8_162_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_159_8_162_8_if_end:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 163 8 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_163_8_166_8_if_stmt:
+        %tmp.31 = self;
+        symbol [ getBattery %tmp.32 163 11 21 ];
+        %tmp.32 = getv function %tmp.31 :getBattery;
+        %tmp.33 = invoke %tmp.31 %tmp.32();
+        %tmp.34 = 85;
+        %tmp.35 = gte %tmp.33 %tmp.34;
+        bf %tmp.35 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_163_8_166_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_163_8_166_8_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_164_8_166_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 165 12 ]
+        %tmp.36 = ".";
+        ret %tmp.36;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_164_8_166_8_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_163_8_166_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_163_8_166_8_if_end:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 167 8 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_167_8_174_8_if_stmt:
+        %tmp.37 = self;
+        symbol [ getBatteryStatus %tmp.38 167 11 27 ];
+        %tmp.38 = getv function %tmp.37 :getBatteryStatus;
+        %tmp.39 = invoke %tmp.37 %tmp.38();
+        bf %tmp.39 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_167_8_174_8_if_else_false;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_167_8_174_8_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_168_8_170_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 169 12 ]
+        %tmp.40 = "=";
+        ret %tmp.40;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_168_8_170_8_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_167_8_174_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_167_8_174_8_if_else_false:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_172_8_174_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 173 12 ]
+        %tmp.41 = ".";
+        ret %tmp.41;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_172_8_174_8_stop:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_167_8_174_8_if_end:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_151_40_175_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 178; @symbol_functiondef = [getCalories,178,13,24]; @symbol_return<0> = [Number,178,30,36]; ]
+    function getCalories() as Number or Null {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_178_45_180_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 179 8 ]
+        symbol [ Toybox %tmp.2 179 15 21 ];
+        %tmp.2 = getv ? :Toybox;
+        symbol [ ActivityMonitor %tmp.3 179 22 37 ];
+        %tmp.3 = getv %tmp.2 :ActivityMonitor;
+        symbol [ getInfo %tmp.4 179 38 45 ];
+        %tmp.4 = getv function %tmp.3 :getInfo;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        symbol [ calories %tmp.6 179 48 56 ];
+        %tmp.6 = getv %tmp.5 :calories;
+        ret %tmp.6;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_178_45_180_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 183; @symbol_functiondef = [getCaloriesString,183,13,30]; @symbol_return<0> = [String,183,36,42]; ]
+    function getCaloriesString() as String {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_183_43_189_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 184 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_183_43_189_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_183_43_189_4_stop" ]
+        %calories.1 = local;
+        symbol [ calories %calories.1 184 12 20 ];
+        %tmp.1 = self;
+        symbol [ getCalories %tmp.2 184 23 34 ];
+        %tmp.2 = getv function %tmp.1 :getCalories;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %calories.1 %tmp.3;
+        symbol [ calories %calories.1 184 12 20 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 185 8 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_185_8_187_8_if_stmt:
+        %tmp.4 = lgetv %calories.1;
+        symbol [ calories %tmp.4 185 11 19 ];
+        %tmp.5 = null;
+        %tmp.6 = eq %tmp.4 %tmp.5;
+        bf %tmp.6 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_185_8_187_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_185_8_187_8_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_185_28_187_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 186 12 ]
+        %tmp.7 = "-";
+        ret %tmp.7;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_185_28_187_8_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_185_8_187_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_185_8_187_8_if_end:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 188 8 ]
+        %tmp.8 = self;
+        symbol [ getCalories %tmp.9 188 15 26 ];
+        %tmp.9 = getv function %tmp.8 :getCalories;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        symbol [ format %tmp.11 188 29 35 ];
+        %tmp.11 = getv function %tmp.10 :format;
+        %tmp.12 = "%d";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        ret %tmp.13;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_183_43_189_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 192; @symbol_functiondef = [getWeeklyRunningDistance,192,13,37]; @symbol_return<0> = [Number,192,43,49]; ]
+    function getWeeklyRunningDistance() as Number or Null {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_192_58_223_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 193 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_192_58_223_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_192_58_223_4_stop" ]
+        %distance.1 = local;
+        symbol [ distance %distance.1 193 12 20 ];
+        %tmp.1 = 0;
+        lputv %distance.1 %tmp.1;
+        symbol [ distance %distance.1 193 12 20 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 194 8 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_194_8_221_8_if_stmt:
+        symbol [ UserProfile %tmp.2 194 11 22 ];
+        %tmp.2 = getm $.Toybox.UserProfile;
+        %tmp.4 = const :getUserActivityHistory;
+        symbol [ getUserActivityHistory %tmp.4 194 28 50 const ];
+        %tmp.5 = canhazplz %tmp.2 %tmp.4;
+        bf %tmp.5 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_194_8_221_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_194_8_221_8_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_195_8_221_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 196 12 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_195_8_221_8_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_195_8_221_8_stop" ]
+        %i.2 = local;
+        symbol [ i %i.2 196 16 17 ];
+        symbol [ UserProfile %tmp.6 196 20 31 ];
+        %tmp.6 = getm $.Toybox.UserProfile;
+        symbol [ getUserActivityHistory %tmp.7 196 32 54 ];
+        %tmp.7 = getv function %tmp.6 :getUserActivityHistory;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        lputv %i.2 %tmp.8;
+        symbol [ i %i.2 196 16 17 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 197 12 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_197_12_220_12_if_stmt:
+        %tmp.9 = lgetv %i.2;
+        symbol [ i %tmp.9 197 15 16 ];
+        %tmp.10 = null;
+        %tmp.11 = ne %tmp.9 %tmp.10;
+        bf %tmp.11 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_197_12_220_12_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_197_12_220_12_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_198_12_220_12_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 199 16 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_198_12_220_12_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_198_12_220_12_stop" ]
+        %next.3 = local;
+        symbol [ next %next.3 199 20 24 ];
+        %tmp.12 = lgetv %i.2;
+        symbol [ i %tmp.12 199 27 28 ];
+        %tmp.13 = as %tmp.12 { (!Null) };
+        symbol [ next %tmp.14 199 29 33 ];
+        %tmp.14 = getv function %tmp.13 :next;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        lputv %next.3 %tmp.15;
+        symbol [ next %next.3 199 20 24 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 200 16 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_198_12_220_12_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_198_12_220_12_stop" ]
+        %first.4 = local;
+        symbol [ first %first.4 200 20 25 ];
+        symbol [ System %tmp.16 200 28 34 ];
+        %tmp.16 = getm $.Toybox.System;
+        symbol [ getDeviceSettings %tmp.17 200 35 52 ];
+        %tmp.17 = getv function %tmp.16 :getDeviceSettings;
+        %tmp.18 = invoke %tmp.16 %tmp.17();
+        symbol [ firstDayOfWeek %tmp.19 200 55 69 ];
+        %tmp.19 = getv %tmp.18 :firstDayOfWeek;
+        %tmp.20 = as %tmp.19 Moment;
+        symbol [ Moment %tmp.20 200 73 79 ];
+        lputv %first.4 %tmp.20;
+        symbol [ first %first.4 200 20 25 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 202 16 ]
+        while @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_202_16_219_16_while_test @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_202_16_219_16_while_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_202_16_219_16_while_test:
+        %tmp.21 = lgetv %next.3;
+        symbol [ next %tmp.21 202 22 26 ];
+        %tmp.22 = null;
+        %tmp.23 = ne %tmp.21 %tmp.22;
+        bf %tmp.23 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_202_16_219_16_while_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_202_16_219_16_while_begin:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_203_16_219_16_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 204 20 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_204_20_217_20_if_stmt:
+        %tmp.24 = lgetv %next.3;
+        symbol [ next %tmp.24 204 23 27 ];
+        %tmp.25 = as %tmp.24 { (!Null) };
+        symbol [ type %tmp.26 204 28 32 ];
+        %tmp.26 = getv %tmp.25 :type;
+        symbol [ Activity %tmp.27 204 36 44 ];
+        %tmp.27 = getm $.Toybox.Activity;
+        symbol [ SPORT_RUNNING %tmp.28 204 45 58 ];
+        %tmp.28 = getv %tmp.27 :SPORT_RUNNING;
+        %tmp.29 = eq %tmp.26 %tmp.28;
+        bf %tmp.29 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_204_20_217_20_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_204_20_217_20_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_205_20_217_20_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 206 24 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_206_24_216_24_if_stmt:
+        %tmp.30 = lgetv %next.3;
+        symbol [ next %tmp.30 206 27 31 ];
+        %tmp.31 = as %tmp.30 { (!Null) };
+        symbol [ distance %tmp.32 206 32 40 ];
+        %tmp.32 = getv %tmp.31 :distance;
+        %tmp.33 = null;
+        %tmp.34 = ne %tmp.32 %tmp.33;
+        bf %tmp.34 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_206_24_216_24_if_else_false;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_206_24_216_24_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_207_24_212_24_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 208 28 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_208_28_211_28_if_stmt:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_208_31_208_96_begin:
+        %tmp.35 = lgetv %next.3;
+        symbol [ next %tmp.35 208 31 35 ];
+        %tmp.36 = as %tmp.35 { (!Null) };
+        symbol [ startTime %tmp.37 208 36 45 ];
+        %tmp.37 = getv %tmp.36 :startTime;
+        %tmp.38 = null;
+        %tmp.39 = ne %tmp.37 %tmp.38;
+        bf %tmp.39 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_208_28_211_28_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_208_57_208_96_true:
+        %tmp.40 = lgetv %first.4;
+        symbol [ first %tmp.40 208 57 62 ];
+        symbol [ lessThan %tmp.41 208 63 71 ];
+        %tmp.41 = getv function %tmp.40 :lessThan;
+        %tmp.42 = lgetv %next.3;
+        symbol [ next %tmp.42 208 72 76 ];
+        %tmp.43 = as %tmp.42 { (!Null) };
+        symbol [ startTime %tmp.44 208 77 86 ];
+        %tmp.44 = getv %tmp.43 :startTime;
+        %tmp.45 = as %tmp.44 Moment;
+        symbol [ Moment %tmp.45 208 90 96 ];
+        %tmp.46 = invoke %tmp.40 %tmp.41(%tmp.45);
+        push %tmp.46;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_208_57_208_96_end:
+        %tmp.47 = phi [%tmp.39 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_208_31_208_96_begin] [%tmp.46 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_208_57_208_96_true] [%tmp.47 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_208_57_208_96_end];
+        bf %tmp.47 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_208_28_211_28_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_208_28_211_28_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_209_28_211_28_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 210 32 ]
+        %tmp.48 = lgetv %distance.1;
+        symbol [ distance %tmp.48 210 32 40 ];
+        %tmp.49 = lgetv %next.3;
+        symbol [ next %tmp.49 210 44 48 ];
+        %tmp.50 = as %tmp.49 { (!Null) };
+        symbol [ distance %tmp.51 210 49 57 ];
+        %tmp.51 = getv %tmp.50 :distance;
+        %tmp.52 = as %tmp.51 Number;
+        symbol [ Number %tmp.52 210 61 67 ];
+        %tmp.53 = add %tmp.48 %tmp.52;
+        lputv %distance.1 %tmp.53;
+        symbol [ distance %distance.1 210 32 40 ];
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_209_28_211_28_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_208_28_211_28_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_208_28_211_28_if_end:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_207_24_212_24_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_206_24_216_24_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_206_24_216_24_if_else_false:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_214_24_216_24_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 215 28 ]
+        %tmp.54 = 0;
+        lputv %distance.1 %tmp.54;
+        symbol [ distance %distance.1 215 28 36 ];
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_214_24_216_24_stop:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_206_24_216_24_if_end:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_205_20_217_20_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_204_20_217_20_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_204_20_217_20_if_end:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 218 20 ]
+        %tmp.55 = lgetv %i.2;
+        symbol [ i %tmp.55 218 27 28 ];
+        %tmp.56 = as %tmp.55 { (!Null) };
+        symbol [ next %tmp.57 218 29 33 ];
+        %tmp.57 = getv function %tmp.56 :next;
+        %tmp.58 = invoke %tmp.56 %tmp.57();
+        lputv %next.3 %tmp.58;
+        symbol [ next %next.3 218 20 24 ];
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_203_16_219_16_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_202_16_219_16_while_test;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_202_16_219_16_while_end:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_198_12_220_12_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_197_12_220_12_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_197_12_220_12_if_end:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_195_8_221_8_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_194_8_221_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_194_8_221_8_if_end:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 222 8 ]
+        %tmp.59 = lgetv %distance.1;
+        symbol [ distance %tmp.59 222 15 23 ];
+        ret %tmp.59;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_192_58_223_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 226; @symbol_functiondef = [getWeeklyRunDistanceMiles,226,13,38]; @symbol_return<0> = [String,226,44,50]; ]
+    function getWeeklyRunDistanceMiles() as String {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_226_51_230_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 227 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_226_51_230_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_226_51_230_4_stop" ]
+        %miles.1 = local;
+        symbol [ miles %miles.1 227 12 17 ];
+        %tmp.1 = self;
+        symbol [ getWeeklyRunningDistance %tmp.2 227 20 44 ];
+        %tmp.2 = getv function %tmp.1 :getWeeklyRunningDistance;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = 1609.344;
+        %tmp.5 = div %tmp.3 %tmp.4;
+        lputv %miles.1 %tmp.5;
+        symbol [ miles %miles.1 227 12 17 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 228 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_226_51_230_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_226_51_230_4_stop" ]
+        %milesString.2 = local;
+        symbol [ milesString %milesString.2 228 12 23 ];
+        %tmp.6 = lgetv %miles.1;
+        symbol [ miles %tmp.6 228 26 31 ];
+        symbol [ format %tmp.7 228 32 38 ];
+        %tmp.7 = getv function %tmp.6 :format;
+        %tmp.8 = "%d";
+        %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
+        lputv %milesString.2 %tmp.9;
+        symbol [ milesString %milesString.2 228 12 23 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 229 8 ]
+        %tmp.10 = lgetv %milesString.2;
+        symbol [ milesString %tmp.10 229 15 26 ];
+        ret %tmp.10;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_226_51_230_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 233; @symbol_functiondef = [getNotificationCount,233,13,33]; @symbol_return<0> = [Number,233,39,45]; ]
+    function getNotificationCount() as Number {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_233_46_236_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 234 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_233_46_236_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_233_46_236_4_stop" ]
+        %devSettings.1 = local;
+        symbol [ devSettings %devSettings.1 234 12 23 ];
+        symbol [ Toybox %tmp.2 234 26 32 ];
+        %tmp.2 = getv ? :Toybox;
+        symbol [ System %tmp.3 234 33 39 ];
+        %tmp.3 = getv %tmp.2 :System;
+        symbol [ getDeviceSettings %tmp.4 234 40 57 ];
+        %tmp.4 = getv function %tmp.3 :getDeviceSettings;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        lputv %devSettings.1 %tmp.5;
+        symbol [ devSettings %devSettings.1 234 12 23 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 235 8 ]
+        %tmp.6 = lgetv %devSettings.1;
+        symbol [ devSettings %tmp.6 235 15 26 ];
+        symbol [ notificationCount %tmp.7 235 27 44 ];
+        %tmp.7 = getv %tmp.6 :notificationCount;
+        ret %tmp.7;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_233_46_236_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 239; @symbol_functiondef = [getNotificationLabel,239,13,33]; @symbol_return<0> = [String,239,39,45]; ]
+    function getNotificationLabel() as String {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_239_46_249_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 240 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_239_46_249_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_239_46_249_4_stop" ]
+        %notifications.1 = local;
+        symbol [ notifications %notifications.1 240 12 25 ];
+        %tmp.1 = self;
+        symbol [ getNotificationCount %tmp.2 240 28 48 ];
+        %tmp.2 = getv function %tmp.1 :getNotificationCount;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %notifications.1 %tmp.3;
+        symbol [ notifications %notifications.1 240 12 25 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 241 8 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_241_8_248_8_if_stmt:
+        %tmp.4 = lgetv %notifications.1;
+        symbol [ notifications %tmp.4 241 11 24 ];
+        %tmp.5 = 0;
+        %tmp.6 = gt %tmp.4 %tmp.5;
+        bf %tmp.6 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_241_8_248_8_if_else_false;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_241_8_248_8_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_242_8_244_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 243 12 ]
+        %tmp.7 = "@";
+        ret %tmp.7;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_242_8_244_8_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_241_8_248_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_241_8_248_8_if_else_false:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_246_8_248_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 247 12 ]
+        %tmp.8 = "";
+        ret %tmp.8;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_246_8_248_8_stop:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_241_8_248_8_if_end:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_239_46_249_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 252; @symbol_functiondef = [getConnectionState,252,13,31]; @symbol_return<0> = [String,252,37,43]; ]
+    function getConnectionState() as String {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_252_44_269_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 253 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_252_44_269_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_252_44_269_4_stop" ]
+        %settings.1 = local;
+        symbol [ settings %settings.1 253 12 20 ];
+        symbol [ System %tmp.1 253 23 29 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getDeviceSettings %tmp.2 253 30 47 ];
+        %tmp.2 = getv function %tmp.1 :getDeviceSettings;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %settings.1 %tmp.3;
+        symbol [ settings %settings.1 253 12 20 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 254 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_252_44_269_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_252_44_269_4_stop" ]
+        %conn.2 = local;
+        symbol [ conn %conn.2 254 12 16 ];
+        %tmp.4 = lgetv %settings.1;
+        symbol [ settings %tmp.4 254 19 27 ];
+        symbol [ phoneConnected %tmp.5 254 28 42 ];
+        %tmp.5 = getv %tmp.4 :phoneConnected;
+        lputv %conn.2 %tmp.5;
+        symbol [ conn %conn.2 254 12 16 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 256 8 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_256_8_263_8_if_stmt:
+        %tmp.6 = lgetv %conn.2;
+        symbol [ conn %tmp.6 256 11 15 ];
+        bf %tmp.6 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_256_8_263_8_if_else_false;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_256_8_263_8_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_257_8_259_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 258 12 ]
+        %tmp.7 = "~";
+        ret %tmp.7;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_257_8_259_8_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_256_8_263_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_256_8_263_8_if_else_false:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_261_8_263_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 262 12 ]
+        %tmp.8 = " ";
+        ret %tmp.8;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_261_8_263_8_stop:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_256_8_263_8_if_end:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_252_44_269_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 272; @symbol_functiondef = [getDoNotDisturb,272,13,28]; @symbol_return<0> = [String,272,34,40]; ]
+    function getDoNotDisturb() as String {
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_272_41_290_4_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 273 8 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_272_41_290_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_272_41_290_4_stop" ]
+        %settings.1 = local;
+        symbol [ settings %settings.1 273 12 20 ];
+        symbol [ System %tmp.1 273 23 29 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getDeviceSettings %tmp.2 273 30 47 ];
+        %tmp.2 = getv function %tmp.1 :getDeviceSettings;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %settings.1 %tmp.3;
+        symbol [ settings %settings.1 273 12 20 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 274 8 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_274_8_289_8_if_stmt:
+        %tmp.4 = lgetv %settings.1;
+        symbol [ settings %tmp.4 274 11 19 ];
+        %tmp.6 = const :doNotDisturb;
+        symbol [ doNotDisturb %tmp.6 274 25 37 const ];
+        %tmp.7 = canhazplz %tmp.4 %tmp.6;
+        bf %tmp.7 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_274_8_289_8_if_else_false;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_274_8_289_8_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_275_8_285_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 276 12 ]
+        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_275_8_285_8_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_275_8_285_8_stop" ]
+        %dnd.2 = local;
+        symbol [ dnd %dnd.2 276 16 19 ];
+        %tmp.8 = lgetv %settings.1;
+        symbol [ settings %tmp.8 276 22 30 ];
+        %tmp.9 = as %tmp.8 { (interface { var doNotDisturb; }) };
+        symbol [ doNotDisturb %tmp.10 276 31 43 ];
+        %tmp.10 = getv %tmp.9 :doNotDisturb;
+        lputv %dnd.2 %tmp.10;
+        symbol [ dnd %dnd.2 276 16 19 ];
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 277 12 ]
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_277_12_284_12_if_stmt:
+        %tmp.11 = lgetv %dnd.2;
+        symbol [ dnd %tmp.11 277 15 18 ];
+        bf %tmp.11 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_277_12_284_12_if_else_false;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_277_12_284_12_if_true:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_278_12_280_12_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 279 16 ]
+        %tmp.12 = "?";
+        ret %tmp.12;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_278_12_280_12_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_277_12_284_12_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_277_12_284_12_if_else_false:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_282_12_284_12_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 283 16 ]
+        %tmp.13 = " ";
+        ret %tmp.13;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_282_12_284_12_stop:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_277_12_284_12_if_end:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_275_8_285_8_stop:
+        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_274_8_289_8_if_end;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_274_8_289_8_if_else_false:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_287_8_289_8_start:
+[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" 288 12 ]
+        %tmp.14 = " ";
+        ret %tmp.14;
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_287_8_289_8_stop:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_274_8_289_8_if_end:
+_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_272_41_290_4_stop:
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 295; @symbol_functiondef = [onHide,295,13,19]; ]
+    function onHide() as Void {
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 299; @symbol_functiondef = [onExitSleep,299,13,24]; ]
+    function onExitSleep() as Void {
+    }
+    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 303; @symbol_functiondef = [onEnterSleep,303,13,25]; ]
+    function onEnterSleep() as Void {
+    }
+}
+[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc"; @line = 1; ]
+<init> {
+}
