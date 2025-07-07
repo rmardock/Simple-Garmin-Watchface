@@ -27,25 +27,13 @@ class g_faceView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
-        // Get the current time and format it correctly
-        var timeFormat = "$1$:$2$";
-        var clockTime = System.getClockTime();
-        var hours = clockTime.hour;
-        if (!System.getDeviceSettings().is24Hour) {
-            if (hours > 12) {
-                hours = hours - 12;
-            }
-        } else {
-            if (Application.Properties.getValue("UseMilitaryFormat")) {
-                timeFormat = "$1$$2$";
-                hours = hours.format("%02d");
-            }
-        }
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
 
         // Time
         var timeLabel = View.findDrawableById("TimeLabel") as Text;
-        timeLabel.setText(timeString);
+        timeLabel.setText(getTimeString());
+
+        var pmLabel = View.findDrawableById("PmLabel") as Text;
+        pmLabel.setText(getPM());
 
         // Date 
         var dateLabel = View.findDrawableById("DateLabel") as Text;
@@ -74,17 +62,19 @@ class g_faceView extends WatchUi.WatchFace {
         var weeklyDistanceLabel = View.findDrawableById("WeeklyMiles") as Text;
         weeklyDistanceLabel.setText(getWeeklyRunDistanceMiles());
 
+        // -- Systray -- //
         // Notifications
         var notificationsIcon = View.findDrawableById("NotificationsIcon") as Text;
-        notificationsIcon.setText(getNotificationLabel());
+        notificationsIcon.setText("@");
+        notificationsIcon.setVisible(getNotificationLabel());
 
         // Bluetooth
         var bluetoothIcon = View.findDrawableById("BluetoothIcon") as Text;
-        bluetoothIcon.setText(getConnectionState());
+        bluetoothIcon.setVisible(getConnectionState());
 
         // Do not disturb
         var doNotDisturbIcon = View.findDrawableById("DoNotDisturbIcon") as Text;
-        doNotDisturbIcon.setText(getDoNotDisturb());
+        doNotDisturbIcon.setVisible(getDoNotDisturb());
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
@@ -93,8 +83,6 @@ class g_faceView extends WatchUi.WatchFace {
     // Function to get current date as string
     function getDate() as String {
         var curr = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-        //var now = Time.now();
-        //var info = Calendar.info(now, Time.FORMAT_MEDIUM);
         var dateString = Lang.format(
             "$1$, $2$ $3$",
         [
@@ -103,8 +91,50 @@ class g_faceView extends WatchUi.WatchFace {
             curr.day
         ]
         );
-        //var dateString = Lang.format("$1$ $2$ $3$")
         return dateString;
+    }
+
+    // Function to get current time
+    function getTime() as System.ClockTime {
+        var time = System.getClockTime();
+        return time;
+    }
+
+    // Function to get the current time as string
+    function getTimeString() as String{
+        //var time = System.getClockTime();
+        var hours = getTime().hour;
+        var min = getTime().min;
+        if(!System.getDeviceSettings().is24Hour)
+        {
+            if(hours > 12)
+            {
+                hours = hours - 12;
+            }
+        }
+        
+        var timeString = Lang.format(
+                "$1$:$2$",
+            [
+                hours,
+                min.format("%02d")
+            ]
+        );
+        return timeString;
+    }
+
+    // Function to get am or pm 
+    function getPM() as String {
+        //var time = System.getClockTime();
+        var hours = getTime().hour;
+        if(hours > 12)
+        {
+            return "p";
+        }
+        else
+        {
+            return "a";
+        }
     }
 
     // Function to get heart rate as a number
@@ -149,6 +179,11 @@ class g_faceView extends WatchUi.WatchFace {
 
     // Function to get battery icon
     function getBatteryIcon() as String {
+        
+        if(getBatteryStatus())
+        {
+            return "=";
+        }
         if(getBattery() < 15)
         {
             return ":";
@@ -163,10 +198,6 @@ class g_faceView extends WatchUi.WatchFace {
         if(getBattery() >=85)
         {
             return ".";
-        }
-        if(getBatteryStatus())
-        {
-            return "=";
         }
         else
         {
@@ -236,56 +267,51 @@ class g_faceView extends WatchUi.WatchFace {
     }
 
     // Function to for forming notification label
-    function getNotificationLabel() as String {
+    function getNotificationLabel() as Boolean {
         var notifications = getNotificationCount();
         if(notifications > 0)
         {
-            return "@";
+            return true;
         }
         else
         {
-            return "";
+            return false;
         }
     }
 
     // Function to get the connection state (with phone)
-    function getConnectionState() as String {
+    function getConnectionState() as Boolean {
         var settings = System.getDeviceSettings();
         var conn = settings.phoneConnected;
 
         if(conn)
         {
-            return "~";
+            return true;
         }
         else
         {
-            return " ";
+            return false;
         }
-        // if(settings has :phoneConnected)
-        // {
-        //     var state = settings.connectionInfo[:BluetoothLowEnergy].state;
-        
-        // }
     }
 
     // Function to get do not disturb
-    function getDoNotDisturb() as String {
+    function getDoNotDisturb() as Boolean {
         var settings = System.getDeviceSettings();
         if(settings has :doNotDisturb)
         {
             var dnd = settings.doNotDisturb;
             if(dnd)
             {
-                return "?";
+                return true;
             }
             else
             {
-                return " ";
+                return false;
             }
         }
         else
         {
-            return " ";
+            return false;
         }
     }
 
