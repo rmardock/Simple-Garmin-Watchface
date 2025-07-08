@@ -211,13 +211,13 @@
         <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="39" parent="globals/Rez/Layouts" pc="268439163" symbol="WatchFace"/>
         <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="41" parent="globals/Rez/Layouts" pc="268439252" symbol="WatchFace"/>
         <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="43" parent="globals/Rez/Layouts" pc="268439341" symbol="WatchFace"/>
-        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="45" parent="globals/Rez/Layouts" pc="268439441" symbol="WatchFace"/>
-        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="47" parent="globals/Rez/Layouts" pc="268439530" symbol="WatchFace"/>
-        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="49" parent="globals/Rez/Layouts" pc="268439630" symbol="WatchFace"/>
-        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="51" parent="globals/Rez/Layouts" pc="268439719" symbol="WatchFace"/>
-        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="53" parent="globals/Rez/Layouts" pc="268439786" symbol="WatchFace"/>
-        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="55" parent="globals/Rez/Layouts" pc="268439864" symbol="WatchFace"/>
-        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="57" parent="globals/Rez/Layouts" pc="268439942" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="45" parent="globals/Rez/Layouts" pc="268439419" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="47" parent="globals/Rez/Layouts" pc="268439508" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="49" parent="globals/Rez/Layouts" pc="268439586" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="51" parent="globals/Rez/Layouts" pc="268439675" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="53" parent="globals/Rez/Layouts" pc="268439742" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="55" parent="globals/Rez/Layouts" pc="268439820" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="41" lineNum="57" parent="globals/Rez/Layouts" pc="268439898" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -349,27 +349,27 @@
         <entry endPc="268438374" name="hours" stackId="1" startPc="268438261"/>
         <entry endPc="268438374" name="min" stackId="2" startPc="268438261"/>
         <entry endPc="268438374" name="timeString" stackId="3" startPc="268438261"/>
-        <entry arg="true" endPc="268440026" name="dc" stackId="1" startPc="268438375"/>
-        <entry endPc="268440026" name="local_Rez_Fonts_futuraXsmall" stackId="2" startPc="268438386"/>
-        <entry endPc="268440026" name="local_Rez_Fonts_futuraSmallFull" stackId="3" startPc="268438386"/>
-        <entry endPc="268440026" name="local_Rez_Fonts_futuraLarge" stackId="4" startPc="268438386"/>
-        <entry endPc="268440026" name="local_Rez_Fonts_iconFont" stackId="5" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_TimeLabel" stackId="6" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_PmLabel" stackId="7" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_DateLabel" stackId="8" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_HeartIcon" stackId="9" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_HeartRateLabel" stackId="10" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_CaloriesIcon" stackId="11" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_CaloriesLabel" stackId="12" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_BatteryIcon" stackId="13" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_BatteryLabel" stackId="14" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_StepsIcon" stackId="15" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_StepsLabel" stackId="16" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_RunIcon" stackId="17" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_WeeklyMiles" stackId="18" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_NotificationsIcon" stackId="19" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_BluetoothIcon" stackId="20" startPc="268438386"/>
-        <entry endPc="268440026" name="rez_cmp_local_text_DoNotDisturbIcon" stackId="21" startPc="268438386"/>
+        <entry arg="true" endPc="268439982" name="dc" stackId="1" startPc="268438375"/>
+        <entry endPc="268439982" name="local_Rez_Fonts_futuraXsmall" stackId="2" startPc="268438386"/>
+        <entry endPc="268439982" name="local_Rez_Fonts_futuraSmallFull" stackId="3" startPc="268438386"/>
+        <entry endPc="268439982" name="local_Rez_Fonts_futuraLarge" stackId="4" startPc="268438386"/>
+        <entry endPc="268439982" name="local_Rez_Fonts_iconFont" stackId="5" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_TimeLabel" stackId="6" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_PmLabel" stackId="7" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_DateLabel" stackId="8" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_HeartIcon" stackId="9" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_HeartRateLabel" stackId="10" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_CaloriesIcon" stackId="11" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_CaloriesLabel" stackId="12" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_BatteryIcon" stackId="13" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_BatteryLabel" stackId="14" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_StepsIcon" stackId="15" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_StepsLabel" stackId="16" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_RunIcon" stackId="17" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_WeeklyMiles" stackId="18" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_NotificationsIcon" stackId="19" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_BluetoothIcon" stackId="20" startPc="268438386"/>
+        <entry endPc="268439982" name="rez_cmp_local_text_DoNotDisturbIcon" stackId="21" startPc="268438386"/>
     </localVars>
     <deviceInfo deviceVersion="810ede84fd9ce09eefda5d76cb08298db48e456c" partNumber="006-B4433-00"/>
     <annotations>
@@ -538,7 +538,7 @@
         <functionEntry accessMode="public" endPc="268438374" name="getTimeString" parent="g_faceView" startPc="268438258">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440026" name="WatchFace" parent="Layouts" startPc="268438375">
+        <functionEntry accessMode="public" endPc="268439982" name="WatchFace" parent="Layouts" startPc="268438375">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

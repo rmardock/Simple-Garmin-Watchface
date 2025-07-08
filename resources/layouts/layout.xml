@@ -26,12 +26,12 @@
     <label id="BatteryLabel" x="25.5%" y="75%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#a6e3a8" />
 
     <!-- Steps (iconFont "#") -->
-    <label id="StepsIcon" x="35%" y="17%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#a6e3a8" text="#" />
+    <label id="StepsIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#a6e3a8" text="#" />
     <label id="StepsLabel" x="center" y="18%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#a6e3a8" />
     
     <!-- Run Distance (iconFont "%") -->
     <!-- Color -->
-    <label id="RunIcon" x="27%" y="85%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#cba6f7" text="%" />
+    <label id="RunIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#cba6f7" text="%" />
     <label id="WeeklyMiles" x="center" y="85%" font="@Fonts.futuraSmallFull" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#cba6f7" />
 
     <!-- Notifications (iconFont "@") (change this to ",") -->

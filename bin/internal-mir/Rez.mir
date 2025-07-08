@@ -631,7 +631,7 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             %tmp.437 = getm $.Toybox.WatchUi;
             symbol [ Text %tmp.438 43 59 63 ];
             %tmp.438 = getv function ? %tmp.437 :Text;
-            %tmp.439 = newd 7;
+            %tmp.439 = newd 5;
             %tmp.441 = const :identifier;
             symbol [ identifier %tmp.441 43 66 76 const ];
             %tmp.442 = "StepsIcon";
@@ -642,397 +642,361 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             %tmp.447 = 0xa6e3a8;
             %tmp.448 = dup %tmp.444;
             %tmp.449 = aputv %tmp.448 %tmp.446 %tmp.447;
-            %tmp.451 = const :locX;
-            symbol [ locX %tmp.451 43 110 114 const ];
-            %tmp.452 = 390;
-            %tmp.453 = 35;
-            %tmp.454 = 100.0;
-            %tmp.455 = div %tmp.453 %tmp.454;
-            %tmp.456 = mul %tmp.452 %tmp.455;
-            %tmp.457 = dup %tmp.449;
-            %tmp.458 = aputv %tmp.457 %tmp.451 %tmp.456;
-            %tmp.460 = const :locY;
-            symbol [ locY %tmp.460 43 139 143 const ];
-            %tmp.461 = 390;
-            %tmp.462 = 17;
-            %tmp.463 = 100.0;
-            %tmp.464 = div %tmp.462 %tmp.463;
-            %tmp.465 = mul %tmp.461 %tmp.464;
-            %tmp.466 = dup %tmp.458;
-            %tmp.467 = aputv %tmp.466 %tmp.460 %tmp.465;
-            %tmp.469 = const :text;
-            symbol [ text %tmp.469 43 168 172 const ];
-            %tmp.470 = "#";
-            %tmp.471 = dup %tmp.467;
-            %tmp.472 = aputv %tmp.471 %tmp.469 %tmp.470;
-            %tmp.474 = const :justification;
-            symbol [ justification %tmp.474 43 180 193 const ];
-            symbol [ Graphics %tmp.475 43 195 203 ];
-            %tmp.475 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.476 43 204 223 ];
-            %tmp.476 = getv %tmp.475 :TEXT_JUSTIFY_CENTER;
-            %tmp.477 = dup %tmp.472;
-            %tmp.478 = aputv %tmp.477 %tmp.474 %tmp.476;
-            %tmp.480 = const :font;
-            symbol [ font %tmp.480 43 226 230 const ];
-            %tmp.481 = lgetv %local_Rez_Fonts_iconFont.4;
-            symbol [ local_Rez_Fonts_iconFont %tmp.481 43 232 256 ];
-            %tmp.482 = dup %tmp.478;
-            %tmp.483 = aputv %tmp.482 %tmp.480 %tmp.481;
-            %tmp.435 = newc %tmp.438 (%tmp.483);
+            %tmp.451 = const :text;
+            symbol [ text %tmp.451 43 110 114 const ];
+            %tmp.452 = "#";
+            %tmp.453 = dup %tmp.449;
+            %tmp.454 = aputv %tmp.453 %tmp.451 %tmp.452;
+            %tmp.456 = const :justification;
+            symbol [ justification %tmp.456 43 122 135 const ];
+            symbol [ Graphics %tmp.457 43 137 145 ];
+            %tmp.457 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.458 43 146 165 ];
+            %tmp.458 = getv %tmp.457 :TEXT_JUSTIFY_CENTER;
+            %tmp.459 = dup %tmp.454;
+            %tmp.460 = aputv %tmp.459 %tmp.456 %tmp.458;
+            %tmp.462 = const :font;
+            symbol [ font %tmp.462 43 168 172 const ];
+            %tmp.463 = lgetv %local_Rez_Fonts_iconFont.4;
+            symbol [ local_Rez_Fonts_iconFont %tmp.463 43 174 198 ];
+            %tmp.464 = dup %tmp.460;
+            %tmp.465 = aputv %tmp.464 %tmp.462 %tmp.463;
+            %tmp.435 = newc %tmp.438 (%tmp.465);
             lputv %rez_cmp_local_text_StepsIcon.14 %tmp.435;
             symbol [ rez_cmp_local_text_StepsIcon %rez_cmp_local_text_StepsIcon.14 43 16 44 ];
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 45 12 ]
             [ "_home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_Rez_mcgen_20_73_58_8_start" "_home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_Rez_mcgen_20_73_58_8_stop" ]
             %rez_cmp_local_text_StepsLabel.15 = local;
             symbol [ rez_cmp_local_text_StepsLabel %rez_cmp_local_text_StepsLabel.15 45 16 45 ];
-            symbol [ WatchUi %tmp.486 45 52 59 ];
-            %tmp.486 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.487 45 60 64 ];
-            %tmp.487 = getv function ? %tmp.486 :Text;
-            %tmp.488 = newd 6;
-            %tmp.490 = const :identifier;
-            symbol [ identifier %tmp.490 45 67 77 const ];
-            %tmp.491 = "StepsLabel";
-            %tmp.492 = dup %tmp.488;
-            %tmp.493 = aputv %tmp.492 %tmp.490 %tmp.491;
-            %tmp.495 = const :color;
-            symbol [ color %tmp.495 45 94 99 const ];
-            %tmp.496 = 0xa6e3a8;
-            %tmp.497 = dup %tmp.493;
-            %tmp.498 = aputv %tmp.497 %tmp.495 %tmp.496;
-            %tmp.500 = const :locX;
-            symbol [ locX %tmp.500 45 112 116 const ];
-            %tmp.501 = 390;
-            %tmp.502 = 0.5;
-            %tmp.503 = mul %tmp.501 %tmp.502;
-            %tmp.504 = dup %tmp.498;
-            %tmp.505 = aputv %tmp.504 %tmp.500 %tmp.503;
-            %tmp.507 = const :locY;
-            symbol [ locY %tmp.507 45 132 136 const ];
-            %tmp.508 = 390;
-            %tmp.509 = 18;
-            %tmp.510 = 100.0;
-            %tmp.511 = div %tmp.509 %tmp.510;
-            %tmp.512 = mul %tmp.508 %tmp.511;
-            %tmp.513 = dup %tmp.505;
-            %tmp.514 = aputv %tmp.513 %tmp.507 %tmp.512;
-            %tmp.516 = const :justification;
-            symbol [ justification %tmp.516 45 161 174 const ];
-            symbol [ Graphics %tmp.517 45 176 184 ];
-            %tmp.517 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.518 45 185 204 ];
-            %tmp.518 = getv %tmp.517 :TEXT_JUSTIFY_CENTER;
-            %tmp.519 = dup %tmp.514;
-            %tmp.520 = aputv %tmp.519 %tmp.516 %tmp.518;
-            %tmp.522 = const :font;
-            symbol [ font %tmp.522 45 207 211 const ];
-            %tmp.523 = lgetv %local_Rez_Fonts_futuraXsmall.1;
-            symbol [ local_Rez_Fonts_futuraXsmall %tmp.523 45 213 241 ];
-            %tmp.524 = dup %tmp.520;
-            %tmp.525 = aputv %tmp.524 %tmp.522 %tmp.523;
-            %tmp.484 = newc %tmp.487 (%tmp.525);
-            lputv %rez_cmp_local_text_StepsLabel.15 %tmp.484;
+            symbol [ WatchUi %tmp.468 45 52 59 ];
+            %tmp.468 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.469 45 60 64 ];
+            %tmp.469 = getv function ? %tmp.468 :Text;
+            %tmp.470 = newd 6;
+            %tmp.472 = const :identifier;
+            symbol [ identifier %tmp.472 45 67 77 const ];
+            %tmp.473 = "StepsLabel";
+            %tmp.474 = dup %tmp.470;
+            %tmp.475 = aputv %tmp.474 %tmp.472 %tmp.473;
+            %tmp.477 = const :color;
+            symbol [ color %tmp.477 45 94 99 const ];
+            %tmp.478 = 0xa6e3a8;
+            %tmp.479 = dup %tmp.475;
+            %tmp.480 = aputv %tmp.479 %tmp.477 %tmp.478;
+            %tmp.482 = const :locX;
+            symbol [ locX %tmp.482 45 112 116 const ];
+            %tmp.483 = 390;
+            %tmp.484 = 0.5;
+            %tmp.485 = mul %tmp.483 %tmp.484;
+            %tmp.486 = dup %tmp.480;
+            %tmp.487 = aputv %tmp.486 %tmp.482 %tmp.485;
+            %tmp.489 = const :locY;
+            symbol [ locY %tmp.489 45 132 136 const ];
+            %tmp.490 = 390;
+            %tmp.491 = 18;
+            %tmp.492 = 100.0;
+            %tmp.493 = div %tmp.491 %tmp.492;
+            %tmp.494 = mul %tmp.490 %tmp.493;
+            %tmp.495 = dup %tmp.487;
+            %tmp.496 = aputv %tmp.495 %tmp.489 %tmp.494;
+            %tmp.498 = const :justification;
+            symbol [ justification %tmp.498 45 161 174 const ];
+            symbol [ Graphics %tmp.499 45 176 184 ];
+            %tmp.499 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.500 45 185 204 ];
+            %tmp.500 = getv %tmp.499 :TEXT_JUSTIFY_CENTER;
+            %tmp.501 = dup %tmp.496;
+            %tmp.502 = aputv %tmp.501 %tmp.498 %tmp.500;
+            %tmp.504 = const :font;
+            symbol [ font %tmp.504 45 207 211 const ];
+            %tmp.505 = lgetv %local_Rez_Fonts_futuraXsmall.1;
+            symbol [ local_Rez_Fonts_futuraXsmall %tmp.505 45 213 241 ];
+            %tmp.506 = dup %tmp.502;
+            %tmp.507 = aputv %tmp.506 %tmp.504 %tmp.505;
+            %tmp.466 = newc %tmp.469 (%tmp.507);
+            lputv %rez_cmp_local_text_StepsLabel.15 %tmp.466;
             symbol [ rez_cmp_local_text_StepsLabel %rez_cmp_local_text_StepsLabel.15 45 16 45 ];
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 47 12 ]
             [ "_home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_Rez_mcgen_20_73_58_8_start" "_home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_Rez_mcgen_20_73_58_8_stop" ]
             %rez_cmp_local_text_RunIcon.16 = local;
             symbol [ rez_cmp_local_text_RunIcon %rez_cmp_local_text_RunIcon.16 47 16 42 ];
-            symbol [ WatchUi %tmp.528 47 49 56 ];
-            %tmp.528 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.529 47 57 61 ];
-            %tmp.529 = getv function ? %tmp.528 :Text;
-            %tmp.530 = newd 7;
-            %tmp.532 = const :identifier;
-            symbol [ identifier %tmp.532 47 64 74 const ];
-            %tmp.533 = "RunIcon";
-            %tmp.534 = dup %tmp.530;
-            %tmp.535 = aputv %tmp.534 %tmp.532 %tmp.533;
-            %tmp.537 = const :color;
-            symbol [ color %tmp.537 47 88 93 const ];
-            %tmp.538 = 0xcba6f7;
-            %tmp.539 = dup %tmp.535;
-            %tmp.540 = aputv %tmp.539 %tmp.537 %tmp.538;
-            %tmp.542 = const :locX;
-            symbol [ locX %tmp.542 47 106 110 const ];
-            %tmp.543 = 390;
-            %tmp.544 = 27;
-            %tmp.545 = 100.0;
-            %tmp.546 = div %tmp.544 %tmp.545;
-            %tmp.547 = mul %tmp.543 %tmp.546;
-            %tmp.548 = dup %tmp.540;
-            %tmp.549 = aputv %tmp.548 %tmp.542 %tmp.547;
-            %tmp.551 = const :locY;
-            symbol [ locY %tmp.551 47 135 139 const ];
-            %tmp.552 = 390;
-            %tmp.553 = 85;
-            %tmp.554 = 100.0;
-            %tmp.555 = div %tmp.553 %tmp.554;
-            %tmp.556 = mul %tmp.552 %tmp.555;
-            %tmp.557 = dup %tmp.549;
-            %tmp.558 = aputv %tmp.557 %tmp.551 %tmp.556;
-            %tmp.560 = const :text;
-            symbol [ text %tmp.560 47 164 168 const ];
-            %tmp.561 = "%";
-            %tmp.562 = dup %tmp.558;
-            %tmp.563 = aputv %tmp.562 %tmp.560 %tmp.561;
-            %tmp.565 = const :justification;
-            symbol [ justification %tmp.565 47 176 189 const ];
-            symbol [ Graphics %tmp.566 47 191 199 ];
-            %tmp.566 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.567 47 200 219 ];
-            %tmp.567 = getv %tmp.566 :TEXT_JUSTIFY_CENTER;
-            %tmp.568 = dup %tmp.563;
-            %tmp.569 = aputv %tmp.568 %tmp.565 %tmp.567;
-            %tmp.571 = const :font;
-            symbol [ font %tmp.571 47 222 226 const ];
-            %tmp.572 = lgetv %local_Rez_Fonts_iconFont.4;
-            symbol [ local_Rez_Fonts_iconFont %tmp.572 47 228 252 ];
-            %tmp.573 = dup %tmp.569;
-            %tmp.574 = aputv %tmp.573 %tmp.571 %tmp.572;
-            %tmp.526 = newc %tmp.529 (%tmp.574);
-            lputv %rez_cmp_local_text_RunIcon.16 %tmp.526;
+            symbol [ WatchUi %tmp.510 47 49 56 ];
+            %tmp.510 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.511 47 57 61 ];
+            %tmp.511 = getv function ? %tmp.510 :Text;
+            %tmp.512 = newd 5;
+            %tmp.514 = const :identifier;
+            symbol [ identifier %tmp.514 47 64 74 const ];
+            %tmp.515 = "RunIcon";
+            %tmp.516 = dup %tmp.512;
+            %tmp.517 = aputv %tmp.516 %tmp.514 %tmp.515;
+            %tmp.519 = const :color;
+            symbol [ color %tmp.519 47 88 93 const ];
+            %tmp.520 = 0xcba6f7;
+            %tmp.521 = dup %tmp.517;
+            %tmp.522 = aputv %tmp.521 %tmp.519 %tmp.520;
+            %tmp.524 = const :text;
+            symbol [ text %tmp.524 47 106 110 const ];
+            %tmp.525 = "%";
+            %tmp.526 = dup %tmp.522;
+            %tmp.527 = aputv %tmp.526 %tmp.524 %tmp.525;
+            %tmp.529 = const :justification;
+            symbol [ justification %tmp.529 47 118 131 const ];
+            symbol [ Graphics %tmp.530 47 133 141 ];
+            %tmp.530 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.531 47 142 161 ];
+            %tmp.531 = getv %tmp.530 :TEXT_JUSTIFY_CENTER;
+            %tmp.532 = dup %tmp.527;
+            %tmp.533 = aputv %tmp.532 %tmp.529 %tmp.531;
+            %tmp.535 = const :font;
+            symbol [ font %tmp.535 47 164 168 const ];
+            %tmp.536 = lgetv %local_Rez_Fonts_iconFont.4;
+            symbol [ local_Rez_Fonts_iconFont %tmp.536 47 170 194 ];
+            %tmp.537 = dup %tmp.533;
+            %tmp.538 = aputv %tmp.537 %tmp.535 %tmp.536;
+            %tmp.508 = newc %tmp.511 (%tmp.538);
+            lputv %rez_cmp_local_text_RunIcon.16 %tmp.508;
             symbol [ rez_cmp_local_text_RunIcon %rez_cmp_local_text_RunIcon.16 47 16 42 ];
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 49 12 ]
             [ "_home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_Rez_mcgen_20_73_58_8_start" "_home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_Rez_mcgen_20_73_58_8_stop" ]
             %rez_cmp_local_text_WeeklyMiles.17 = local;
             symbol [ rez_cmp_local_text_WeeklyMiles %rez_cmp_local_text_WeeklyMiles.17 49 16 46 ];
-            symbol [ WatchUi %tmp.577 49 53 60 ];
-            %tmp.577 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.578 49 61 65 ];
-            %tmp.578 = getv function ? %tmp.577 :Text;
-            %tmp.579 = newd 6;
-            %tmp.581 = const :identifier;
-            symbol [ identifier %tmp.581 49 68 78 const ];
-            %tmp.582 = "WeeklyMiles";
-            %tmp.583 = dup %tmp.579;
-            %tmp.584 = aputv %tmp.583 %tmp.581 %tmp.582;
-            %tmp.586 = const :color;
-            symbol [ color %tmp.586 49 96 101 const ];
-            %tmp.587 = 0xcba6f7;
-            %tmp.588 = dup %tmp.584;
-            %tmp.589 = aputv %tmp.588 %tmp.586 %tmp.587;
-            %tmp.591 = const :locX;
-            symbol [ locX %tmp.591 49 114 118 const ];
-            %tmp.592 = 390;
-            %tmp.593 = 0.5;
-            %tmp.594 = mul %tmp.592 %tmp.593;
-            %tmp.595 = dup %tmp.589;
-            %tmp.596 = aputv %tmp.595 %tmp.591 %tmp.594;
-            %tmp.598 = const :locY;
-            symbol [ locY %tmp.598 49 134 138 const ];
-            %tmp.599 = 390;
-            %tmp.600 = 85;
-            %tmp.601 = 100.0;
-            %tmp.602 = div %tmp.600 %tmp.601;
-            %tmp.603 = mul %tmp.599 %tmp.602;
-            %tmp.604 = dup %tmp.596;
-            %tmp.605 = aputv %tmp.604 %tmp.598 %tmp.603;
-            %tmp.607 = const :justification;
-            symbol [ justification %tmp.607 49 163 176 const ];
-            symbol [ Graphics %tmp.608 49 178 186 ];
-            %tmp.608 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.609 49 187 206 ];
-            %tmp.609 = getv %tmp.608 :TEXT_JUSTIFY_CENTER;
-            %tmp.610 = dup %tmp.605;
-            %tmp.611 = aputv %tmp.610 %tmp.607 %tmp.609;
-            %tmp.613 = const :font;
-            symbol [ font %tmp.613 49 209 213 const ];
-            %tmp.614 = lgetv %local_Rez_Fonts_futuraSmallFull.2;
-            symbol [ local_Rez_Fonts_futuraSmallFull %tmp.614 49 215 246 ];
-            %tmp.615 = dup %tmp.611;
-            %tmp.616 = aputv %tmp.615 %tmp.613 %tmp.614;
-            %tmp.575 = newc %tmp.578 (%tmp.616);
-            lputv %rez_cmp_local_text_WeeklyMiles.17 %tmp.575;
+            symbol [ WatchUi %tmp.541 49 53 60 ];
+            %tmp.541 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.542 49 61 65 ];
+            %tmp.542 = getv function ? %tmp.541 :Text;
+            %tmp.543 = newd 6;
+            %tmp.545 = const :identifier;
+            symbol [ identifier %tmp.545 49 68 78 const ];
+            %tmp.546 = "WeeklyMiles";
+            %tmp.547 = dup %tmp.543;
+            %tmp.548 = aputv %tmp.547 %tmp.545 %tmp.546;
+            %tmp.550 = const :color;
+            symbol [ color %tmp.550 49 96 101 const ];
+            %tmp.551 = 0xcba6f7;
+            %tmp.552 = dup %tmp.548;
+            %tmp.553 = aputv %tmp.552 %tmp.550 %tmp.551;
+            %tmp.555 = const :locX;
+            symbol [ locX %tmp.555 49 114 118 const ];
+            %tmp.556 = 390;
+            %tmp.557 = 0.5;
+            %tmp.558 = mul %tmp.556 %tmp.557;
+            %tmp.559 = dup %tmp.553;
+            %tmp.560 = aputv %tmp.559 %tmp.555 %tmp.558;
+            %tmp.562 = const :locY;
+            symbol [ locY %tmp.562 49 134 138 const ];
+            %tmp.563 = 390;
+            %tmp.564 = 85;
+            %tmp.565 = 100.0;
+            %tmp.566 = div %tmp.564 %tmp.565;
+            %tmp.567 = mul %tmp.563 %tmp.566;
+            %tmp.568 = dup %tmp.560;
+            %tmp.569 = aputv %tmp.568 %tmp.562 %tmp.567;
+            %tmp.571 = const :justification;
+            symbol [ justification %tmp.571 49 163 176 const ];
+            symbol [ Graphics %tmp.572 49 178 186 ];
+            %tmp.572 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.573 49 187 206 ];
+            %tmp.573 = getv %tmp.572 :TEXT_JUSTIFY_CENTER;
+            %tmp.574 = dup %tmp.569;
+            %tmp.575 = aputv %tmp.574 %tmp.571 %tmp.573;
+            %tmp.577 = const :font;
+            symbol [ font %tmp.577 49 209 213 const ];
+            %tmp.578 = lgetv %local_Rez_Fonts_futuraSmallFull.2;
+            symbol [ local_Rez_Fonts_futuraSmallFull %tmp.578 49 215 246 ];
+            %tmp.579 = dup %tmp.575;
+            %tmp.580 = aputv %tmp.579 %tmp.577 %tmp.578;
+            %tmp.539 = newc %tmp.542 (%tmp.580);
+            lputv %rez_cmp_local_text_WeeklyMiles.17 %tmp.539;
             symbol [ rez_cmp_local_text_WeeklyMiles %rez_cmp_local_text_WeeklyMiles.17 49 16 46 ];
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 51 12 ]
             [ "_home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_Rez_mcgen_20_73_58_8_start" "_home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_Rez_mcgen_20_73_58_8_stop" ]
             %rez_cmp_local_text_NotificationsIcon.18 = local;
             symbol [ rez_cmp_local_text_NotificationsIcon %rez_cmp_local_text_NotificationsIcon.18 51 16 52 ];
-            symbol [ WatchUi %tmp.619 51 59 66 ];
-            %tmp.619 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.620 51 67 71 ];
-            %tmp.620 = getv function ? %tmp.619 :Text;
-            %tmp.621 = newd 4;
-            %tmp.623 = const :identifier;
-            symbol [ identifier %tmp.623 51 74 84 const ];
-            %tmp.624 = "NotificationsIcon";
-            %tmp.625 = dup %tmp.621;
-            %tmp.626 = aputv %tmp.625 %tmp.623 %tmp.624;
-            %tmp.628 = const :color;
-            symbol [ color %tmp.628 51 108 113 const ];
-            %tmp.629 = 0xf9e2af;
-            %tmp.630 = dup %tmp.626;
-            %tmp.631 = aputv %tmp.630 %tmp.628 %tmp.629;
-            %tmp.633 = const :justification;
-            symbol [ justification %tmp.633 51 126 139 const ];
-            symbol [ Graphics %tmp.634 51 141 149 ];
-            %tmp.634 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.635 51 150 169 ];
-            %tmp.635 = getv %tmp.634 :TEXT_JUSTIFY_CENTER;
-            %tmp.636 = dup %tmp.631;
-            %tmp.637 = aputv %tmp.636 %tmp.633 %tmp.635;
-            %tmp.639 = const :font;
-            symbol [ font %tmp.639 51 172 176 const ];
-            %tmp.640 = lgetv %local_Rez_Fonts_iconFont.4;
-            symbol [ local_Rez_Fonts_iconFont %tmp.640 51 178 202 ];
-            %tmp.641 = dup %tmp.637;
-            %tmp.642 = aputv %tmp.641 %tmp.639 %tmp.640;
-            %tmp.617 = newc %tmp.620 (%tmp.642);
-            lputv %rez_cmp_local_text_NotificationsIcon.18 %tmp.617;
+            symbol [ WatchUi %tmp.583 51 59 66 ];
+            %tmp.583 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.584 51 67 71 ];
+            %tmp.584 = getv function ? %tmp.583 :Text;
+            %tmp.585 = newd 4;
+            %tmp.587 = const :identifier;
+            symbol [ identifier %tmp.587 51 74 84 const ];
+            %tmp.588 = "NotificationsIcon";
+            %tmp.589 = dup %tmp.585;
+            %tmp.590 = aputv %tmp.589 %tmp.587 %tmp.588;
+            %tmp.592 = const :color;
+            symbol [ color %tmp.592 51 108 113 const ];
+            %tmp.593 = 0xf9e2af;
+            %tmp.594 = dup %tmp.590;
+            %tmp.595 = aputv %tmp.594 %tmp.592 %tmp.593;
+            %tmp.597 = const :justification;
+            symbol [ justification %tmp.597 51 126 139 const ];
+            symbol [ Graphics %tmp.598 51 141 149 ];
+            %tmp.598 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.599 51 150 169 ];
+            %tmp.599 = getv %tmp.598 :TEXT_JUSTIFY_CENTER;
+            %tmp.600 = dup %tmp.595;
+            %tmp.601 = aputv %tmp.600 %tmp.597 %tmp.599;
+            %tmp.603 = const :font;
+            symbol [ font %tmp.603 51 172 176 const ];
+            %tmp.604 = lgetv %local_Rez_Fonts_iconFont.4;
+            symbol [ local_Rez_Fonts_iconFont %tmp.604 51 178 202 ];
+            %tmp.605 = dup %tmp.601;
+            %tmp.606 = aputv %tmp.605 %tmp.603 %tmp.604;
+            %tmp.581 = newc %tmp.584 (%tmp.606);
+            lputv %rez_cmp_local_text_NotificationsIcon.18 %tmp.581;
             symbol [ rez_cmp_local_text_NotificationsIcon %rez_cmp_local_text_NotificationsIcon.18 51 16 52 ];
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 53 12 ]
             [ "_home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_Rez_mcgen_20_73_58_8_start" "_home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_Rez_mcgen_20_73_58_8_stop" ]
             %rez_cmp_local_text_BluetoothIcon.19 = local;
             symbol [ rez_cmp_local_text_BluetoothIcon %rez_cmp_local_text_BluetoothIcon.19 53 16 48 ];
-            symbol [ WatchUi %tmp.645 53 55 62 ];
-            %tmp.645 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.646 53 63 67 ];
-            %tmp.646 = getv function ? %tmp.645 :Text;
-            %tmp.647 = newd 5;
-            %tmp.649 = const :identifier;
-            symbol [ identifier %tmp.649 53 70 80 const ];
-            %tmp.650 = "BluetoothIcon";
-            %tmp.651 = dup %tmp.647;
-            %tmp.652 = aputv %tmp.651 %tmp.649 %tmp.650;
-            %tmp.654 = const :color;
-            symbol [ color %tmp.654 53 100 105 const ];
-            %tmp.655 = 0x89dceb;
-            %tmp.656 = dup %tmp.652;
-            %tmp.657 = aputv %tmp.656 %tmp.654 %tmp.655;
-            %tmp.659 = const :text;
-            symbol [ text %tmp.659 53 118 122 const ];
-            %tmp.660 = "~";
-            %tmp.661 = dup %tmp.657;
-            %tmp.662 = aputv %tmp.661 %tmp.659 %tmp.660;
-            %tmp.664 = const :justification;
-            symbol [ justification %tmp.664 53 130 143 const ];
-            symbol [ Graphics %tmp.665 53 145 153 ];
-            %tmp.665 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.666 53 154 173 ];
-            %tmp.666 = getv %tmp.665 :TEXT_JUSTIFY_CENTER;
-            %tmp.667 = dup %tmp.662;
-            %tmp.668 = aputv %tmp.667 %tmp.664 %tmp.666;
-            %tmp.670 = const :font;
-            symbol [ font %tmp.670 53 176 180 const ];
-            %tmp.671 = lgetv %local_Rez_Fonts_iconFont.4;
-            symbol [ local_Rez_Fonts_iconFont %tmp.671 53 182 206 ];
-            %tmp.672 = dup %tmp.668;
-            %tmp.673 = aputv %tmp.672 %tmp.670 %tmp.671;
-            %tmp.643 = newc %tmp.646 (%tmp.673);
-            lputv %rez_cmp_local_text_BluetoothIcon.19 %tmp.643;
+            symbol [ WatchUi %tmp.609 53 55 62 ];
+            %tmp.609 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.610 53 63 67 ];
+            %tmp.610 = getv function ? %tmp.609 :Text;
+            %tmp.611 = newd 5;
+            %tmp.613 = const :identifier;
+            symbol [ identifier %tmp.613 53 70 80 const ];
+            %tmp.614 = "BluetoothIcon";
+            %tmp.615 = dup %tmp.611;
+            %tmp.616 = aputv %tmp.615 %tmp.613 %tmp.614;
+            %tmp.618 = const :color;
+            symbol [ color %tmp.618 53 100 105 const ];
+            %tmp.619 = 0x89dceb;
+            %tmp.620 = dup %tmp.616;
+            %tmp.621 = aputv %tmp.620 %tmp.618 %tmp.619;
+            %tmp.623 = const :text;
+            symbol [ text %tmp.623 53 118 122 const ];
+            %tmp.624 = "~";
+            %tmp.625 = dup %tmp.621;
+            %tmp.626 = aputv %tmp.625 %tmp.623 %tmp.624;
+            %tmp.628 = const :justification;
+            symbol [ justification %tmp.628 53 130 143 const ];
+            symbol [ Graphics %tmp.629 53 145 153 ];
+            %tmp.629 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.630 53 154 173 ];
+            %tmp.630 = getv %tmp.629 :TEXT_JUSTIFY_CENTER;
+            %tmp.631 = dup %tmp.626;
+            %tmp.632 = aputv %tmp.631 %tmp.628 %tmp.630;
+            %tmp.634 = const :font;
+            symbol [ font %tmp.634 53 176 180 const ];
+            %tmp.635 = lgetv %local_Rez_Fonts_iconFont.4;
+            symbol [ local_Rez_Fonts_iconFont %tmp.635 53 182 206 ];
+            %tmp.636 = dup %tmp.632;
+            %tmp.637 = aputv %tmp.636 %tmp.634 %tmp.635;
+            %tmp.607 = newc %tmp.610 (%tmp.637);
+            lputv %rez_cmp_local_text_BluetoothIcon.19 %tmp.607;
             symbol [ rez_cmp_local_text_BluetoothIcon %rez_cmp_local_text_BluetoothIcon.19 53 16 48 ];
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 55 12 ]
             [ "_home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_Rez_mcgen_20_73_58_8_start" "_home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_Rez_mcgen_20_73_58_8_stop" ]
             %rez_cmp_local_text_DoNotDisturbIcon.20 = local;
             symbol [ rez_cmp_local_text_DoNotDisturbIcon %rez_cmp_local_text_DoNotDisturbIcon.20 55 16 51 ];
-            symbol [ WatchUi %tmp.676 55 58 65 ];
-            %tmp.676 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.677 55 66 70 ];
-            %tmp.677 = getv function ? %tmp.676 :Text;
-            %tmp.678 = newd 5;
-            %tmp.680 = const :identifier;
-            symbol [ identifier %tmp.680 55 73 83 const ];
-            %tmp.681 = "DoNotDisturbIcon";
-            %tmp.682 = dup %tmp.678;
-            %tmp.683 = aputv %tmp.682 %tmp.680 %tmp.681;
-            %tmp.685 = const :color;
-            symbol [ color %tmp.685 55 106 111 const ];
-            %tmp.686 = 0xf38ba8;
-            %tmp.687 = dup %tmp.683;
-            %tmp.688 = aputv %tmp.687 %tmp.685 %tmp.686;
-            %tmp.690 = const :text;
-            symbol [ text %tmp.690 55 124 128 const ];
-            %tmp.691 = "?";
-            %tmp.692 = dup %tmp.688;
-            %tmp.693 = aputv %tmp.692 %tmp.690 %tmp.691;
-            %tmp.695 = const :justification;
-            symbol [ justification %tmp.695 55 136 149 const ];
-            symbol [ Graphics %tmp.696 55 151 159 ];
-            %tmp.696 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.697 55 160 179 ];
-            %tmp.697 = getv %tmp.696 :TEXT_JUSTIFY_CENTER;
-            %tmp.698 = dup %tmp.693;
-            %tmp.699 = aputv %tmp.698 %tmp.695 %tmp.697;
-            %tmp.701 = const :font;
-            symbol [ font %tmp.701 55 182 186 const ];
-            %tmp.702 = lgetv %local_Rez_Fonts_iconFont.4;
-            symbol [ local_Rez_Fonts_iconFont %tmp.702 55 188 212 ];
-            %tmp.703 = dup %tmp.699;
-            %tmp.704 = aputv %tmp.703 %tmp.701 %tmp.702;
-            %tmp.674 = newc %tmp.677 (%tmp.704);
-            lputv %rez_cmp_local_text_DoNotDisturbIcon.20 %tmp.674;
+            symbol [ WatchUi %tmp.640 55 58 65 ];
+            %tmp.640 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.641 55 66 70 ];
+            %tmp.641 = getv function ? %tmp.640 :Text;
+            %tmp.642 = newd 5;
+            %tmp.644 = const :identifier;
+            symbol [ identifier %tmp.644 55 73 83 const ];
+            %tmp.645 = "DoNotDisturbIcon";
+            %tmp.646 = dup %tmp.642;
+            %tmp.647 = aputv %tmp.646 %tmp.644 %tmp.645;
+            %tmp.649 = const :color;
+            symbol [ color %tmp.649 55 106 111 const ];
+            %tmp.650 = 0xf38ba8;
+            %tmp.651 = dup %tmp.647;
+            %tmp.652 = aputv %tmp.651 %tmp.649 %tmp.650;
+            %tmp.654 = const :text;
+            symbol [ text %tmp.654 55 124 128 const ];
+            %tmp.655 = "?";
+            %tmp.656 = dup %tmp.652;
+            %tmp.657 = aputv %tmp.656 %tmp.654 %tmp.655;
+            %tmp.659 = const :justification;
+            symbol [ justification %tmp.659 55 136 149 const ];
+            symbol [ Graphics %tmp.660 55 151 159 ];
+            %tmp.660 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.661 55 160 179 ];
+            %tmp.661 = getv %tmp.660 :TEXT_JUSTIFY_CENTER;
+            %tmp.662 = dup %tmp.657;
+            %tmp.663 = aputv %tmp.662 %tmp.659 %tmp.661;
+            %tmp.665 = const :font;
+            symbol [ font %tmp.665 55 182 186 const ];
+            %tmp.666 = lgetv %local_Rez_Fonts_iconFont.4;
+            symbol [ local_Rez_Fonts_iconFont %tmp.666 55 188 212 ];
+            %tmp.667 = dup %tmp.663;
+            %tmp.668 = aputv %tmp.667 %tmp.665 %tmp.666;
+            %tmp.638 = newc %tmp.641 (%tmp.668);
+            lputv %rez_cmp_local_text_DoNotDisturbIcon.20 %tmp.638;
             symbol [ rez_cmp_local_text_DoNotDisturbIcon %rez_cmp_local_text_DoNotDisturbIcon.20 55 16 51 ];
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 57 12 ]
-            %tmp.705 = newa 16 Array<WatchUi.Drawable>;
-            symbol [ Array %tmp.705 57 538 543 ];
-            symbol [ WatchUi %tmp.705 57 544 551 ];
-            symbol [ Drawable %tmp.705 57 552 560 ];
-            %tmp.706 = lgetv %rez_cmp_local_text_TimeLabel.5;
-            symbol [ rez_cmp_local_text_TimeLabel %tmp.706 57 20 48 ];
+            %tmp.669 = newa 16 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.669 57 538 543 ];
+            symbol [ WatchUi %tmp.669 57 544 551 ];
+            symbol [ Drawable %tmp.669 57 552 560 ];
+            %tmp.670 = lgetv %rez_cmp_local_text_TimeLabel.5;
+            symbol [ rez_cmp_local_text_TimeLabel %tmp.670 57 20 48 ];
+            %tmp.671 = dup %tmp.669;
+            %tmp.672 = aputv %tmp.671 0 %tmp.670;
+            %tmp.673 = lgetv %rez_cmp_local_text_PmLabel.6;
+            symbol [ rez_cmp_local_text_PmLabel %tmp.673 57 50 76 ];
+            %tmp.674 = dup %tmp.672;
+            %tmp.675 = aputv %tmp.674 1 %tmp.673;
+            %tmp.676 = lgetv %rez_cmp_local_text_DateLabel.7;
+            symbol [ rez_cmp_local_text_DateLabel %tmp.676 57 78 106 ];
+            %tmp.677 = dup %tmp.675;
+            %tmp.678 = aputv %tmp.677 2 %tmp.676;
+            %tmp.679 = lgetv %rez_cmp_local_text_HeartIcon.8;
+            symbol [ rez_cmp_local_text_HeartIcon %tmp.679 57 108 136 ];
+            %tmp.680 = dup %tmp.678;
+            %tmp.681 = aputv %tmp.680 3 %tmp.679;
+            %tmp.682 = lgetv %rez_cmp_local_text_HeartRateLabel.9;
+            symbol [ rez_cmp_local_text_HeartRateLabel %tmp.682 57 138 171 ];
+            %tmp.683 = dup %tmp.681;
+            %tmp.684 = aputv %tmp.683 4 %tmp.682;
+            %tmp.685 = lgetv %rez_cmp_local_text_CaloriesIcon.10;
+            symbol [ rez_cmp_local_text_CaloriesIcon %tmp.685 57 173 204 ];
+            %tmp.686 = dup %tmp.684;
+            %tmp.687 = aputv %tmp.686 5 %tmp.685;
+            %tmp.688 = lgetv %rez_cmp_local_text_CaloriesLabel.11;
+            symbol [ rez_cmp_local_text_CaloriesLabel %tmp.688 57 206 238 ];
+            %tmp.689 = dup %tmp.687;
+            %tmp.690 = aputv %tmp.689 6 %tmp.688;
+            %tmp.691 = lgetv %rez_cmp_local_text_BatteryIcon.12;
+            symbol [ rez_cmp_local_text_BatteryIcon %tmp.691 57 240 270 ];
+            %tmp.692 = dup %tmp.690;
+            %tmp.693 = aputv %tmp.692 7 %tmp.691;
+            %tmp.694 = lgetv %rez_cmp_local_text_BatteryLabel.13;
+            symbol [ rez_cmp_local_text_BatteryLabel %tmp.694 57 272 303 ];
+            %tmp.695 = dup %tmp.693;
+            %tmp.696 = aputv %tmp.695 8 %tmp.694;
+            %tmp.697 = lgetv %rez_cmp_local_text_StepsIcon.14;
+            symbol [ rez_cmp_local_text_StepsIcon %tmp.697 57 305 333 ];
+            %tmp.698 = dup %tmp.696;
+            %tmp.699 = aputv %tmp.698 9 %tmp.697;
+            %tmp.700 = lgetv %rez_cmp_local_text_StepsLabel.15;
+            symbol [ rez_cmp_local_text_StepsLabel %tmp.700 57 335 364 ];
+            %tmp.701 = dup %tmp.699;
+            %tmp.702 = aputv %tmp.701 10 %tmp.700;
+            %tmp.703 = lgetv %rez_cmp_local_text_RunIcon.16;
+            symbol [ rez_cmp_local_text_RunIcon %tmp.703 57 366 392 ];
+            %tmp.704 = dup %tmp.702;
+            %tmp.705 = aputv %tmp.704 11 %tmp.703;
+            %tmp.706 = lgetv %rez_cmp_local_text_WeeklyMiles.17;
+            symbol [ rez_cmp_local_text_WeeklyMiles %tmp.706 57 394 424 ];
             %tmp.707 = dup %tmp.705;
-            %tmp.708 = aputv %tmp.707 0 %tmp.706;
-            %tmp.709 = lgetv %rez_cmp_local_text_PmLabel.6;
-            symbol [ rez_cmp_local_text_PmLabel %tmp.709 57 50 76 ];
+            %tmp.708 = aputv %tmp.707 12 %tmp.706;
+            %tmp.709 = lgetv %rez_cmp_local_text_NotificationsIcon.18;
+            symbol [ rez_cmp_local_text_NotificationsIcon %tmp.709 57 426 462 ];
             %tmp.710 = dup %tmp.708;
-            %tmp.711 = aputv %tmp.710 1 %tmp.709;
-            %tmp.712 = lgetv %rez_cmp_local_text_DateLabel.7;
-            symbol [ rez_cmp_local_text_DateLabel %tmp.712 57 78 106 ];
+            %tmp.711 = aputv %tmp.710 13 %tmp.709;
+            %tmp.712 = lgetv %rez_cmp_local_text_BluetoothIcon.19;
+            symbol [ rez_cmp_local_text_BluetoothIcon %tmp.712 57 464 496 ];
             %tmp.713 = dup %tmp.711;
-            %tmp.714 = aputv %tmp.713 2 %tmp.712;
-            %tmp.715 = lgetv %rez_cmp_local_text_HeartIcon.8;
-            symbol [ rez_cmp_local_text_HeartIcon %tmp.715 57 108 136 ];
+            %tmp.714 = aputv %tmp.713 14 %tmp.712;
+            %tmp.715 = lgetv %rez_cmp_local_text_DoNotDisturbIcon.20;
+            symbol [ rez_cmp_local_text_DoNotDisturbIcon %tmp.715 57 498 533 ];
             %tmp.716 = dup %tmp.714;
-            %tmp.717 = aputv %tmp.716 3 %tmp.715;
-            %tmp.718 = lgetv %rez_cmp_local_text_HeartRateLabel.9;
-            symbol [ rez_cmp_local_text_HeartRateLabel %tmp.718 57 138 171 ];
-            %tmp.719 = dup %tmp.717;
-            %tmp.720 = aputv %tmp.719 4 %tmp.718;
-            %tmp.721 = lgetv %rez_cmp_local_text_CaloriesIcon.10;
-            symbol [ rez_cmp_local_text_CaloriesIcon %tmp.721 57 173 204 ];
-            %tmp.722 = dup %tmp.720;
-            %tmp.723 = aputv %tmp.722 5 %tmp.721;
-            %tmp.724 = lgetv %rez_cmp_local_text_CaloriesLabel.11;
-            symbol [ rez_cmp_local_text_CaloriesLabel %tmp.724 57 206 238 ];
-            %tmp.725 = dup %tmp.723;
-            %tmp.726 = aputv %tmp.725 6 %tmp.724;
-            %tmp.727 = lgetv %rez_cmp_local_text_BatteryIcon.12;
-            symbol [ rez_cmp_local_text_BatteryIcon %tmp.727 57 240 270 ];
-            %tmp.728 = dup %tmp.726;
-            %tmp.729 = aputv %tmp.728 7 %tmp.727;
-            %tmp.730 = lgetv %rez_cmp_local_text_BatteryLabel.13;
-            symbol [ rez_cmp_local_text_BatteryLabel %tmp.730 57 272 303 ];
-            %tmp.731 = dup %tmp.729;
-            %tmp.732 = aputv %tmp.731 8 %tmp.730;
-            %tmp.733 = lgetv %rez_cmp_local_text_StepsIcon.14;
-            symbol [ rez_cmp_local_text_StepsIcon %tmp.733 57 305 333 ];
-            %tmp.734 = dup %tmp.732;
-            %tmp.735 = aputv %tmp.734 9 %tmp.733;
-            %tmp.736 = lgetv %rez_cmp_local_text_StepsLabel.15;
-            symbol [ rez_cmp_local_text_StepsLabel %tmp.736 57 335 364 ];
-            %tmp.737 = dup %tmp.735;
-            %tmp.738 = aputv %tmp.737 10 %tmp.736;
-            %tmp.739 = lgetv %rez_cmp_local_text_RunIcon.16;
-            symbol [ rez_cmp_local_text_RunIcon %tmp.739 57 366 392 ];
-            %tmp.740 = dup %tmp.738;
-            %tmp.741 = aputv %tmp.740 11 %tmp.739;
-            %tmp.742 = lgetv %rez_cmp_local_text_WeeklyMiles.17;
-            symbol [ rez_cmp_local_text_WeeklyMiles %tmp.742 57 394 424 ];
-            %tmp.743 = dup %tmp.741;
-            %tmp.744 = aputv %tmp.743 12 %tmp.742;
-            %tmp.745 = lgetv %rez_cmp_local_text_NotificationsIcon.18;
-            symbol [ rez_cmp_local_text_NotificationsIcon %tmp.745 57 426 462 ];
-            %tmp.746 = dup %tmp.744;
-            %tmp.747 = aputv %tmp.746 13 %tmp.745;
-            %tmp.748 = lgetv %rez_cmp_local_text_BluetoothIcon.19;
-            symbol [ rez_cmp_local_text_BluetoothIcon %tmp.748 57 464 496 ];
-            %tmp.749 = dup %tmp.747;
-            %tmp.750 = aputv %tmp.749 14 %tmp.748;
-            %tmp.751 = lgetv %rez_cmp_local_text_DoNotDisturbIcon.20;
-            symbol [ rez_cmp_local_text_DoNotDisturbIcon %tmp.751 57 498 533 ];
-            %tmp.752 = dup %tmp.750;
-            %tmp.753 = aputv %tmp.752 15 %tmp.751;
-            ret %tmp.753;
+            %tmp.717 = aputv %tmp.716 15 %tmp.715;
+            ret %tmp.717;
 _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_Rez_mcgen_20_73_58_8_stop:
         }
     }
@@ -1154,22 +1118,22 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 116; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 117 18 ]
-                symbol [ Graphics %tmp.754 117 34 42 ];
-                %tmp.754 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_CENTER %tmp.755 117 43 62 ];
-                %tmp.755 = getv %tmp.754 :TEXT_JUSTIFY_CENTER;
-                symbol [ Graphics %tmp.756 117 63 71 ];
-                %tmp.756 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_VCENTER %tmp.757 117 72 92 ];
-                %tmp.757 = getv %tmp.756 :TEXT_JUSTIFY_VCENTER;
-                %tmp.758 = bitor %tmp.755 %tmp.757;
-                putv self :justification %tmp.758;
+                symbol [ Graphics %tmp.718 117 34 42 ];
+                %tmp.718 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.719 117 43 62 ];
+                %tmp.719 = getv %tmp.718 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.720 117 63 71 ];
+                %tmp.720 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.721 117 72 92 ];
+                %tmp.721 = getv %tmp.720 :TEXT_JUSTIFY_VCENTER;
+                %tmp.722 = bitor %tmp.719 %tmp.721;
+                putv self :justification %tmp.722;
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 118 18 ]
-                symbol [ Graphics %tmp.759 118 25 33 ];
-                %tmp.759 = getm $.Toybox.Graphics;
-                symbol [ FONT_TINY %tmp.760 118 34 43 ];
-                %tmp.760 = getv %tmp.759 :FONT_TINY;
-                putv self :font %tmp.760;
+                symbol [ Graphics %tmp.723 118 25 33 ];
+                %tmp.723 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.724 118 34 43 ];
+                %tmp.724 = getv %tmp.723 :FONT_TINY;
+                putv self :font %tmp.724;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 117; @position = 18; @symbol_constdef = [justification,117,18,31]; ]
             const justification;
@@ -1205,11 +1169,11 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 133; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 135 18 ]
-                symbol [ Graphics %tmp.761 135 31 39 ];
-                %tmp.761 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.762 135 40 57 ];
-                %tmp.762 = getv %tmp.761 :COLOR_TRANSPARENT;
-                putv self :background %tmp.762;
+                symbol [ Graphics %tmp.725 135 31 39 ];
+                %tmp.725 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.726 135 40 57 ];
+                %tmp.726 = getv %tmp.725 :COLOR_TRANSPARENT;
+                putv self :background %tmp.726;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 134; @position = 18; @symbol_constdef = [color,134,18,23]; @symbol_type<0> = [Number,134,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -1251,22 +1215,22 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 153; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 154 18 ]
-                symbol [ Graphics %tmp.763 154 34 42 ];
-                %tmp.763 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_CENTER %tmp.764 154 43 62 ];
-                %tmp.764 = getv %tmp.763 :TEXT_JUSTIFY_CENTER;
-                symbol [ Graphics %tmp.765 154 63 71 ];
-                %tmp.765 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_VCENTER %tmp.766 154 72 92 ];
-                %tmp.766 = getv %tmp.765 :TEXT_JUSTIFY_VCENTER;
-                %tmp.767 = bitor %tmp.764 %tmp.766;
-                putv self :justification %tmp.767;
+                symbol [ Graphics %tmp.727 154 34 42 ];
+                %tmp.727 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.728 154 43 62 ];
+                %tmp.728 = getv %tmp.727 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.729 154 63 71 ];
+                %tmp.729 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.730 154 72 92 ];
+                %tmp.730 = getv %tmp.729 :TEXT_JUSTIFY_VCENTER;
+                %tmp.731 = bitor %tmp.728 %tmp.730;
+                putv self :justification %tmp.731;
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 155 18 ]
-                symbol [ Graphics %tmp.768 155 25 33 ];
-                %tmp.768 = getm $.Toybox.Graphics;
-                symbol [ FONT_TINY %tmp.769 155 34 43 ];
-                %tmp.769 = getv %tmp.768 :FONT_TINY;
-                putv self :font %tmp.769;
+                symbol [ Graphics %tmp.732 155 25 33 ];
+                %tmp.732 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.733 155 34 43 ];
+                %tmp.733 = getv %tmp.732 :FONT_TINY;
+                putv self :font %tmp.733;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 154; @position = 18; @symbol_constdef = [justification,154,18,31]; ]
             const justification;
@@ -1308,11 +1272,11 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 173; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 174 18 ]
-                symbol [ WatchUi %tmp.770 174 27 34 ];
-                %tmp.770 = getm $.Toybox.WatchUi;
-                symbol [ KEY_ENTER %tmp.771 174 35 44 ];
-                %tmp.771 = getv %tmp.770 :KEY_ENTER;
-                putv self :button %tmp.771;
+                symbol [ WatchUi %tmp.734 174 27 34 ];
+                %tmp.734 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.735 174 35 44 ];
+                %tmp.735 = getv %tmp.734 :KEY_ENTER;
+                putv self :button %tmp.735;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 174; @position = 18; @symbol_constdef = [button,174,18,24]; ]
             const button;
@@ -1322,17 +1286,17 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 177; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 178 18 ]
-                symbol [ Graphics %tmp.772 178 34 42 ];
-                %tmp.772 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_CENTER %tmp.773 178 43 62 ];
-                %tmp.773 = getv %tmp.772 :TEXT_JUSTIFY_CENTER;
-                putv self :justification %tmp.773;
+                symbol [ Graphics %tmp.736 178 34 42 ];
+                %tmp.736 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.737 178 43 62 ];
+                %tmp.737 = getv %tmp.736 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.737;
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 179 18 ]
-                symbol [ Graphics %tmp.774 179 25 33 ];
-                %tmp.774 = getm $.Toybox.Graphics;
-                symbol [ FONT_XTINY %tmp.775 179 34 44 ];
-                %tmp.775 = getv %tmp.774 :FONT_XTINY;
-                putv self :font %tmp.775;
+                symbol [ Graphics %tmp.738 179 25 33 ];
+                %tmp.738 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.739 179 34 44 ];
+                %tmp.739 = getv %tmp.738 :FONT_XTINY;
+                putv self :font %tmp.739;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [justification,178,18,31]; ]
             const justification;
@@ -1442,11 +1406,11 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 231; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 232 18 ]
-                symbol [ WatchUi %tmp.776 232 27 34 ];
-                %tmp.776 = getm $.Toybox.WatchUi;
-                symbol [ KEY_DOWN %tmp.777 232 35 43 ];
-                %tmp.777 = getv %tmp.776 :KEY_DOWN;
-                putv self :button %tmp.777;
+                symbol [ WatchUi %tmp.740 232 27 34 ];
+                %tmp.740 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.741 232 35 43 ];
+                %tmp.741 = getv %tmp.740 :KEY_DOWN;
+                putv self :button %tmp.741;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 232; @position = 18; @symbol_constdef = [button,232,18,24]; ]
             const button;
@@ -1464,11 +1428,11 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 239; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 240 18 ]
-                symbol [ WatchUi %tmp.778 240 27 34 ];
-                %tmp.778 = getm $.Toybox.WatchUi;
-                symbol [ KEY_ENTER %tmp.779 240 35 44 ];
-                %tmp.779 = getv %tmp.778 :KEY_ENTER;
-                putv self :button %tmp.779;
+                symbol [ WatchUi %tmp.742 240 27 34 ];
+                %tmp.742 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.743 240 35 44 ];
+                %tmp.743 = getv %tmp.742 :KEY_ENTER;
+                putv self :button %tmp.743;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 240; @position = 18; @symbol_constdef = [button,240,18,24]; ]
             const button;
@@ -1492,11 +1456,11 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 250; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 252 18 ]
-                symbol [ Graphics %tmp.780 252 31 39 ];
-                %tmp.780 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.781 252 40 57 ];
-                %tmp.781 = getv %tmp.780 :COLOR_TRANSPARENT;
-                putv self :background %tmp.781;
+                symbol [ Graphics %tmp.744 252 31 39 ];
+                %tmp.744 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.745 252 40 57 ];
+                %tmp.745 = getv %tmp.744 :COLOR_TRANSPARENT;
+                putv self :background %tmp.745;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [color,251,18,23]; @symbol_type<0> = [Number,251,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -1530,11 +1494,11 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 266; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 268 18 ]
-                symbol [ Graphics %tmp.782 268 31 39 ];
-                %tmp.782 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.783 268 40 57 ];
-                %tmp.783 = getv %tmp.782 :COLOR_TRANSPARENT;
-                putv self :background %tmp.783;
+                symbol [ Graphics %tmp.746 268 31 39 ];
+                %tmp.746 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.747 268 40 57 ];
+                %tmp.747 = getv %tmp.746 :COLOR_TRANSPARENT;
+                putv self :background %tmp.747;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 267; @position = 18; @symbol_constdef = [color,267,18,23]; @symbol_type<0> = [Number,267,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -1626,11 +1590,11 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 311; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 313 18 ]
-                symbol [ Graphics %tmp.784 313 31 39 ];
-                %tmp.784 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.785 313 40 57 ];
-                %tmp.785 = getv %tmp.784 :COLOR_TRANSPARENT;
-                putv self :background %tmp.785;
+                symbol [ Graphics %tmp.748 313 31 39 ];
+                %tmp.748 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.749 313 40 57 ];
+                %tmp.749 = getv %tmp.748 :COLOR_TRANSPARENT;
+                putv self :background %tmp.749;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 312; @position = 18; @symbol_constdef = [color,312,18,23]; @symbol_type<0> = [Number,312,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -1642,11 +1606,11 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 316; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 317 18 ]
-                symbol [ WatchUi %tmp.786 317 27 34 ];
-                %tmp.786 = getm $.Toybox.WatchUi;
-                symbol [ KEY_ESC %tmp.787 317 35 42 ];
-                %tmp.787 = getv %tmp.786 :KEY_ESC;
-                putv self :button %tmp.787;
+                symbol [ WatchUi %tmp.750 317 27 34 ];
+                %tmp.750 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ESC %tmp.751 317 35 42 ];
+                %tmp.751 = getv %tmp.750 :KEY_ESC;
+                putv self :button %tmp.751;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 317; @position = 18; @symbol_constdef = [button,317,18,24]; ]
             const button;
@@ -1680,11 +1644,11 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 332; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 334 18 ]
-                symbol [ Graphics %tmp.788 334 31 39 ];
-                %tmp.788 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.789 334 40 57 ];
-                %tmp.789 = getv %tmp.788 :COLOR_TRANSPARENT;
-                putv self :background %tmp.789;
+                symbol [ Graphics %tmp.752 334 31 39 ];
+                %tmp.752 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.753 334 40 57 ];
+                %tmp.753 = getv %tmp.752 :COLOR_TRANSPARENT;
+                putv self :background %tmp.753;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [color,333,18,23]; @symbol_type<0> = [Number,333,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -1782,11 +1746,11 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 380; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 382 18 ]
-                symbol [ Graphics %tmp.790 382 31 39 ];
-                %tmp.790 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.791 382 40 57 ];
-                %tmp.791 = getv %tmp.790 :COLOR_TRANSPARENT;
-                putv self :background %tmp.791;
+                symbol [ Graphics %tmp.754 382 31 39 ];
+                %tmp.754 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.755 382 40 57 ];
+                %tmp.755 = getv %tmp.754 :COLOR_TRANSPARENT;
+                putv self :background %tmp.755;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 381; @position = 18; @symbol_constdef = [color,381,18,23]; @symbol_type<0> = [Number,381,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -1808,11 +1772,11 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 390; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 392 18 ]
-                symbol [ Graphics %tmp.792 392 31 39 ];
-                %tmp.792 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.793 392 40 57 ];
-                %tmp.793 = getv %tmp.792 :COLOR_TRANSPARENT;
-                putv self :background %tmp.793;
+                symbol [ Graphics %tmp.756 392 31 39 ];
+                %tmp.756 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.757 392 40 57 ];
+                %tmp.757 = getv %tmp.756 :COLOR_TRANSPARENT;
+                putv self :background %tmp.757;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [color,391,18,23]; @symbol_type<0> = [Number,391,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -1862,11 +1826,11 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 414; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 416 18 ]
-                symbol [ Graphics %tmp.794 416 31 39 ];
-                %tmp.794 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.795 416 40 57 ];
-                %tmp.795 = getv %tmp.794 :COLOR_TRANSPARENT;
-                putv self :background %tmp.795;
+                symbol [ Graphics %tmp.758 416 31 39 ];
+                %tmp.758 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.759 416 40 57 ];
+                %tmp.759 = getv %tmp.758 :COLOR_TRANSPARENT;
+                putv self :background %tmp.759;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 415; @position = 18; @symbol_constdef = [color,415,18,23]; @symbol_type<0> = [Number,415,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -2116,11 +2080,11 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 538; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 540 18 ]
-                symbol [ Graphics %tmp.796 540 31 39 ];
-                %tmp.796 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.797 540 40 57 ];
-                %tmp.797 = getv %tmp.796 :COLOR_TRANSPARENT;
-                putv self :background %tmp.797;
+                symbol [ Graphics %tmp.760 540 31 39 ];
+                %tmp.760 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.761 540 40 57 ];
+                %tmp.761 = getv %tmp.760 :COLOR_TRANSPARENT;
+                putv self :background %tmp.761;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 539; @position = 18; @symbol_constdef = [color,539,18,23]; @symbol_type<0> = [Number,539,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -2146,11 +2110,11 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 550; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 551 18 ]
-                symbol [ WatchUi %tmp.798 551 27 34 ];
-                %tmp.798 = getm $.Toybox.WatchUi;
-                symbol [ KEY_DOWN %tmp.799 551 35 43 ];
-                %tmp.799 = getv %tmp.798 :KEY_DOWN;
-                putv self :button %tmp.799;
+                symbol [ WatchUi %tmp.762 551 27 34 ];
+                %tmp.762 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.763 551 35 43 ];
+                %tmp.763 = getv %tmp.762 :KEY_DOWN;
+                putv self :button %tmp.763;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 551; @position = 18; @symbol_constdef = [button,551,18,24]; ]
             const button;
@@ -2326,13 +2290,13 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 637; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 639 18 ]
-                symbol [ Toybox %tmp.801 639 32 38 ];
-                %tmp.801 = getv ? :Toybox;
-                symbol [ System %tmp.802 639 39 45 ];
-                %tmp.802 = getv %tmp.801 :System;
-                symbol [ SCREEN_SHAPE_ROUND %tmp.803 639 46 64 ];
-                %tmp.803 = getv %tmp.802 :SCREEN_SHAPE_ROUND;
-                putv self :screenShape %tmp.803;
+                symbol [ Toybox %tmp.765 639 32 38 ];
+                %tmp.765 = getv ? :Toybox;
+                symbol [ System %tmp.766 639 39 45 ];
+                %tmp.766 = getv %tmp.765 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.767 639 46 64 ];
+                %tmp.767 = getv %tmp.766 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.767;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 638; @position = 18; @symbol_constdef = [screenWidth,638,18,29]; @symbol_type<0> = [Number,638,33,39]; ]
             const screenWidth as Number = 390;
@@ -2364,22 +2328,22 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 652; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 653 18 ]
-                symbol [ Graphics %tmp.804 653 34 42 ];
-                %tmp.804 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_CENTER %tmp.805 653 43 62 ];
-                %tmp.805 = getv %tmp.804 :TEXT_JUSTIFY_CENTER;
-                symbol [ Graphics %tmp.806 653 63 71 ];
-                %tmp.806 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_VCENTER %tmp.807 653 72 92 ];
-                %tmp.807 = getv %tmp.806 :TEXT_JUSTIFY_VCENTER;
-                %tmp.808 = bitor %tmp.805 %tmp.807;
-                putv self :justification %tmp.808;
+                symbol [ Graphics %tmp.768 653 34 42 ];
+                %tmp.768 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.769 653 43 62 ];
+                %tmp.769 = getv %tmp.768 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.770 653 63 71 ];
+                %tmp.770 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.771 653 72 92 ];
+                %tmp.771 = getv %tmp.770 :TEXT_JUSTIFY_VCENTER;
+                %tmp.772 = bitor %tmp.769 %tmp.771;
+                putv self :justification %tmp.772;
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 654 18 ]
-                symbol [ Graphics %tmp.809 654 25 33 ];
-                %tmp.809 = getm $.Toybox.Graphics;
-                symbol [ FONT_XTINY %tmp.810 654 34 44 ];
-                %tmp.810 = getv %tmp.809 :FONT_XTINY;
-                putv self :font %tmp.810;
+                symbol [ Graphics %tmp.773 654 25 33 ];
+                %tmp.773 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.774 654 34 44 ];
+                %tmp.774 = getv %tmp.773 :FONT_XTINY;
+                putv self :font %tmp.774;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 653; @position = 18; @symbol_constdef = [justification,653,18,31]; ]
             const justification;
@@ -2437,11 +2401,11 @@ _home_ry_development_garmin_watchface_g_face_g_face_bin_gen_006_B4433_00_source_
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 680; ]
             <init> {
 [ "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" 682 18 ]
-                symbol [ Graphics %tmp.811 682 31 39 ];
-                %tmp.811 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.812 682 40 57 ];
-                %tmp.812 = getv %tmp.811 :COLOR_TRANSPARENT;
-                putv self :background %tmp.812;
+                symbol [ Graphics %tmp.775 682 31 39 ];
+                %tmp.775 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.776 682 40 57 ];
+                %tmp.776 = getv %tmp.775 :COLOR_TRANSPARENT;
+                putv self :background %tmp.776;
             }
             [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen"; @line = 681; @position = 18; @symbol_constdef = [color,681,18,23]; @symbol_type<0> = [Number,681,27,33]; ]
             const color as Number = 0xFFFFFF;
