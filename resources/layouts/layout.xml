@@ -1,0 +1,45 @@
+<layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+   <!-- <drawable class="Background" /> -->
+   <!-- Colors:
+        yellow: #f9e2af
+        red: #f38ba8
+        green: #a6e3a8
+        blue: #89dceb
+        purple: #cba6f7 -->
+    <!-- Time -->
+    <label id="TimeLabel" x="center" y="center" font="@Fonts.futuraLarge" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f9e2af" />
+    <label id="PmLabel" x="85%" y="53%" font="@Fonts.futuraSmallFull" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f9e2af" />
+
+    <!-- Date -->
+    <label id="DateLabel" x="center" y="30%" font="@Fonts.futuraSmallFull" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#cba6f7" /> 
+    
+    <!-- Heart Rate (iconFont "!") -->
+    <label id="HeartIcon" x="75%" y="65%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f38ba8" text="!" />
+    <label id="HeartRateLabel" x="75%" y="75%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f38ba8" />
+    
+    <!-- Calories (iconFont "$") -->
+    <label id="CaloriesIcon" x="50%" y="65%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#89dceb" text="$" />
+    <label id="CaloriesLabel" x="50%" y="75%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#89dceb" />
+
+    <!-- Battery (iconFont ",-.:=")-->
+    <label id="BatteryIcon" x="25%" y="65%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#a6e3a8" />
+    <label id="BatteryLabel" x="25.5%" y="75%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#a6e3a8" />
+
+    <!-- Steps (iconFont "#") -->
+    <label id="StepsIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#a6e3a8" text="#" />
+    <label id="StepsLabel" x="center" y="18%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#a6e3a8" />
+    
+    <!-- Run Distance (iconFont "%") -->
+    <!-- Color -->
+    <label id="RunIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#cba6f7" text="%" />
+    <label id="WeeklyMiles" x="center" y="85%" font="@Fonts.futuraSmallFull" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#cba6f7" />
+
+    <!-- Notifications (iconFont "@") (change this to ",") -->
+    <label id="NotificationsIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f9e2af" />
+    
+    <!-- Bluetooth (iconFont "~") -->
+    <label id="BluetoothIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#89dceb" text="~" /> 
+
+    <!-- Do not disturb (iconFont "?") -->
+    <label id="DoNotDisturbIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f38ba8" text="?" />
+</layout>

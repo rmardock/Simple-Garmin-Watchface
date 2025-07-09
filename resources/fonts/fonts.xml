@@ -1,0 +1,7 @@
+<fonts>
+    <!-- Full filter: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!#$%{@}=: ^()[?]_%.,- -->
+    <font id = "futuraLarge" filename = "futura-large.fnt" filter = "1234567890:" />
+    <font id = "futuraSmallFull" filename = "futura-small-full.fnt" filter = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!#$%{@}=: ^()[?]_%.,-" />
+    <font id = "futuraXsmall" filename = "futura-xsmall.fnt" filter = "0123456789:%AMP " />
+    <font id = "iconFont" filename = "garmin-iconpack-1.2.fnt" filter = " !#$%()*+,-.:=?@~" />
+</fonts>
