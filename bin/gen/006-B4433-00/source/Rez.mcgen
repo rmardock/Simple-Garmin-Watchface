@@ -22,37 +22,37 @@ module Rez {
             var local_Rez_Fonts_futuraSmallFull = (WatchUi.loadResource($.Rez.Fonts.futuraSmallFull) as Graphics.FontReference);
             var local_Rez_Fonts_futuraLarge = (WatchUi.loadResource($.Rez.Fonts.futuraLarge) as Graphics.FontReference);
             var local_Rez_Fonts_iconFont = (WatchUi.loadResource($.Rez.Fonts.iconFont) as Graphics.FontReference);
-            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>0xf9e2af, :locX=>(390 * 0.5), :locY=>((390 - 65) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraLarge});
+            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(390 * 0.5), :locY=>((390 - 65) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraLarge});
 
-            var rez_cmp_local_text_PmLabel = new WatchUi.Text({:identifier=>"PmLabel", :color=>0xf9e2af, :locX=>(390 * (85 / 100.0)), :locY=>(390 * (53 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraSmallFull});
+            var rez_cmp_local_text_PmLabel = new WatchUi.Text({:identifier=>"PmLabel", :color=>Graphics.COLOR_BLUE, :locX=>(390 * (85 / 100.0)), :locY=>(390 * (53 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraSmallFull});
 
-            var rez_cmp_local_text_DateLabel = new WatchUi.Text({:identifier=>"DateLabel", :color=>0xcba6f7, :locX=>(390 * 0.5), :locY=>(390 * (30 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraSmallFull});
+            var rez_cmp_local_text_DateLabel = new WatchUi.Text({:identifier=>"DateLabel", :color=>Graphics.COLOR_BLUE, :locX=>(390 * 0.5), :locY=>(390 * (30 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraSmallFull});
 
-            var rez_cmp_local_text_HeartIcon = new WatchUi.Text({:identifier=>"HeartIcon", :color=>0xf38ba8, :locX=>(390 * (75 / 100.0)), :locY=>(390 * (65 / 100.0)), :text=>"!", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
+            var rez_cmp_local_text_HeartIcon = new WatchUi.Text({:identifier=>"HeartIcon", :color=>Graphics.COLOR_WHITE, :locX=>(390 * (75 / 100.0)), :locY=>(390 * (65 / 100.0)), :text=>"!", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
 
-            var rez_cmp_local_text_HeartRateLabel = new WatchUi.Text({:identifier=>"HeartRateLabel", :color=>0xf38ba8, :locX=>(390 * (75 / 100.0)), :locY=>(390 * (75 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraXsmall});
+            var rez_cmp_local_text_HeartRateLabel = new WatchUi.Text({:identifier=>"HeartRateLabel", :color=>Graphics.COLOR_WHITE, :locX=>(390 * (75 / 100.0)), :locY=>(390 * (75 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraXsmall});
 
-            var rez_cmp_local_text_CaloriesIcon = new WatchUi.Text({:identifier=>"CaloriesIcon", :color=>0x89dceb, :locX=>(390 * (50 / 100.0)), :locY=>(390 * (65 / 100.0)), :text=>"$", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
+            var rez_cmp_local_text_CaloriesIcon = new WatchUi.Text({:identifier=>"CaloriesIcon", :color=>Graphics.COLOR_WHITE, :locX=>(390 * (50 / 100.0)), :locY=>(390 * (65 / 100.0)), :text=>"$", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
 
-            var rez_cmp_local_text_CaloriesLabel = new WatchUi.Text({:identifier=>"CaloriesLabel", :color=>0x89dceb, :locX=>(390 * (50 / 100.0)), :locY=>(390 * (75 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraXsmall});
+            var rez_cmp_local_text_CaloriesLabel = new WatchUi.Text({:identifier=>"CaloriesLabel", :color=>Graphics.COLOR_WHITE, :locX=>(390 * (50 / 100.0)), :locY=>(390 * (75 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraXsmall});
 
-            var rez_cmp_local_text_BatteryIcon = new WatchUi.Text({:identifier=>"BatteryIcon", :color=>0xa6e3a8, :locX=>(390 * (25 / 100.0)), :locY=>(390 * (65 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
+            var rez_cmp_local_text_BatteryIcon = new WatchUi.Text({:identifier=>"BatteryIcon", :color=>Graphics.COLOR_WHITE, :locX=>(390 * (25 / 100.0)), :locY=>(390 * (65 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
 
-            var rez_cmp_local_text_BatteryLabel = new WatchUi.Text({:identifier=>"BatteryLabel", :color=>0xa6e3a8, :locX=>(390 * (25.5 / 100.0)), :locY=>(390 * (75 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraXsmall});
+            var rez_cmp_local_text_BatteryLabel = new WatchUi.Text({:identifier=>"BatteryLabel", :color=>Graphics.COLOR_WHITE, :locX=>(390 * (25.5 / 100.0)), :locY=>(390 * (75 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraXsmall});
 
-            var rez_cmp_local_text_StepsIcon = new WatchUi.Text({:identifier=>"StepsIcon", :color=>0xa6e3a8, :text=>"#", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
+            var rez_cmp_local_text_StepsIcon = new WatchUi.Text({:identifier=>"StepsIcon", :color=>Graphics.COLOR_GREEN, :text=>"#", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
 
-            var rez_cmp_local_text_StepsLabel = new WatchUi.Text({:identifier=>"StepsLabel", :color=>0xa6e3a8, :locX=>(390 * 0.5), :locY=>(390 * (18 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraXsmall});
+            var rez_cmp_local_text_StepsLabel = new WatchUi.Text({:identifier=>"StepsLabel", :color=>Graphics.COLOR_GREEN, :locX=>(390 * 0.5), :locY=>(390 * (18 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraXsmall});
 
-            var rez_cmp_local_text_RunIcon = new WatchUi.Text({:identifier=>"RunIcon", :color=>0xcba6f7, :text=>"%", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
+            var rez_cmp_local_text_RunIcon = new WatchUi.Text({:identifier=>"RunIcon", :color=>Graphics.COLOR_GREEN, :text=>"%", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
 
-            var rez_cmp_local_text_WeeklyMiles = new WatchUi.Text({:identifier=>"WeeklyMiles", :color=>0xcba6f7, :locX=>(390 * 0.5), :locY=>(390 * (85 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraSmallFull});
+            var rez_cmp_local_text_WeeklyMiles = new WatchUi.Text({:identifier=>"WeeklyMiles", :color=>Graphics.COLOR_GREEN, :locX=>(390 * 0.5), :locY=>(390 * (85 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraSmallFull});
 
-            var rez_cmp_local_text_NotificationsIcon = new WatchUi.Text({:identifier=>"NotificationsIcon", :color=>0xf9e2af, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
+            var rez_cmp_local_text_NotificationsIcon = new WatchUi.Text({:identifier=>"NotificationsIcon", :color=>Graphics.COLOR_WHITE, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
 
-            var rez_cmp_local_text_BluetoothIcon = new WatchUi.Text({:identifier=>"BluetoothIcon", :color=>0x89dceb, :text=>"~", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
+            var rez_cmp_local_text_BluetoothIcon = new WatchUi.Text({:identifier=>"BluetoothIcon", :color=>Graphics.COLOR_WHITE, :text=>"~", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
 
-            var rez_cmp_local_text_DoNotDisturbIcon = new WatchUi.Text({:identifier=>"DoNotDisturbIcon", :color=>0xf38ba8, :text=>"?", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
+            var rez_cmp_local_text_DoNotDisturbIcon = new WatchUi.Text({:identifier=>"DoNotDisturbIcon", :color=>Graphics.COLOR_WHITE, :text=>"?", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
 
             return [rez_cmp_local_text_TimeLabel, rez_cmp_local_text_PmLabel, rez_cmp_local_text_DateLabel, rez_cmp_local_text_HeartIcon, rez_cmp_local_text_HeartRateLabel, rez_cmp_local_text_CaloriesIcon, rez_cmp_local_text_CaloriesLabel, rez_cmp_local_text_BatteryIcon, rez_cmp_local_text_BatteryLabel, rez_cmp_local_text_StepsIcon, rez_cmp_local_text_StepsLabel, rez_cmp_local_text_RunIcon, rez_cmp_local_text_WeeklyMiles, rez_cmp_local_text_NotificationsIcon, rez_cmp_local_text_BluetoothIcon, rez_cmp_local_text_DoNotDisturbIcon] as Array<WatchUi.Drawable>;
         }

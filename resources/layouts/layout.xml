@@ -7,39 +7,39 @@
         blue: #89dceb
         purple: #cba6f7 -->
     <!-- Time -->
-    <label id="TimeLabel" x="center" y="center" font="@Fonts.futuraLarge" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f9e2af" />
-    <label id="PmLabel" x="85%" y="53%" font="@Fonts.futuraSmallFull" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f9e2af" />
+    <label id="TimeLabel" x="center" y="center" font="@Fonts.futuraLarge" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label id="PmLabel" x="85%" y="53%" font="@Fonts.futuraSmallFull" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
 
     <!-- Date -->
-    <label id="DateLabel" x="center" y="30%" font="@Fonts.futuraSmallFull" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#cba6f7" /> 
+    <label id="DateLabel" x="center" y="30%" font="@Fonts.futuraSmallFull" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" /> 
     
     <!-- Heart Rate (iconFont "!") -->
-    <label id="HeartIcon" x="75%" y="65%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f38ba8" text="!" />
-    <label id="HeartRateLabel" x="75%" y="75%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f38ba8" />
+    <label id="HeartIcon" x="75%" y="65%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" text="!" />
+    <label id="HeartRateLabel" x="75%" y="75%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     
     <!-- Calories (iconFont "$") -->
-    <label id="CaloriesIcon" x="50%" y="65%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#89dceb" text="$" />
-    <label id="CaloriesLabel" x="50%" y="75%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#89dceb" />
+    <label id="CaloriesIcon" x="50%" y="65%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" text="$" />
+    <label id="CaloriesLabel" x="50%" y="75%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
 
     <!-- Battery (iconFont ",-.:=")-->
-    <label id="BatteryIcon" x="25%" y="65%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#a6e3a8" />
-    <label id="BatteryLabel" x="25.5%" y="75%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#a6e3a8" />
+    <label id="BatteryIcon" x="25%" y="65%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="BatteryLabel" x="25.5%" y="75%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
 
     <!-- Steps (iconFont "#") -->
-    <label id="StepsIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#a6e3a8" text="#" />
-    <label id="StepsLabel" x="center" y="18%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#a6e3a8" />
+    <label id="StepsIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" text="#" />
+    <label id="StepsLabel" x="center" y="18%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
     
     <!-- Run Distance (iconFont "%") -->
     <!-- Color -->
-    <label id="RunIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#cba6f7" text="%" />
-    <label id="WeeklyMiles" x="center" y="85%" font="@Fonts.futuraSmallFull" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#cba6f7" />
+    <label id="RunIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" text="%" />
+    <label id="WeeklyMiles" x="center" y="85%" font="@Fonts.futuraSmallFull" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
 
     <!-- Notifications (iconFont "@") (change this to ",") -->
-    <label id="NotificationsIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f9e2af" />
+    <label id="NotificationsIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     
     <!-- Bluetooth (iconFont "~") -->
-    <label id="BluetoothIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#89dceb" text="~" /> 
+    <label id="BluetoothIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" text="~" /> 
 
     <!-- Do not disturb (iconFont "?") -->
-    <label id="DoNotDisturbIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#f38ba8" text="?" />
+    <label id="DoNotDisturbIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" text="?" />
 </layout>
