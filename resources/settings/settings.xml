@@ -1,24 +1,114 @@
 <settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
 
-    <setting propertyKey="@Properties.BackgroundColor" title="@Strings.BackgroundColorTitle">
+    <!-- Element Colors -->
+
+    <setting propertyKey="@Properties.NotificationsColor" title="@Strings.NotificationsColor">
         <settingConfig type="list">
-            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
-            <listEntry value="0x555555">@Strings.ColorDarkGray</listEntry>
-            <listEntry value="0xAAAAAA">@Strings.ColorLightGray</listEntry>
-            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+            <listEntry value="0xf932af">@Strings.CatppuccinYellow</listEntry>
+            <listEntry value="0xf38ba8">@Strings.CatppuccinRed</listEntry>
+            <listEntry value="0xa6e3a8">@Strings.CatppuccinGreen</listEntry>
+            <listEntry value="0x89dceb">@Strings.CatppuccinBlue</listEntry>
+            <listEntry value="0xcba6f7">@Strings.CatppuccinPurple</listEntry>
+            <listEntry value="0xffffff">@Strings.ColorWhite</listEntry>
+            <listEntry value="0x00aaff">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x00ff00">@Strings.ColorGreen</listEntry>
         </settingConfig>
     </setting>
 
-    <setting propertyKey="@Properties.ForegroundColor" title="@Strings.ForegroundColorTitle">
+    <setting propertyKey="@Properties.StepsColor" title="@Strings.StepsColor">
         <settingConfig type="list">
-            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
-            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
-            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
-            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+            <listEntry value="0xf932af">@Strings.CatppuccinYellow</listEntry>
+            <listEntry value="0xf38ba8">@Strings.CatppuccinRed</listEntry>
+            <listEntry value="0xa6e3a8">@Strings.CatppuccinGreen</listEntry>
+            <listEntry value="0x89dceb">@Strings.CatppuccinBlue</listEntry>
+            <listEntry value="0xcba6f7">@Strings.CatppuccinPurple</listEntry>
+            <listEntry value="0xffffff">@Strings.ColorWhite</listEntry>
+            <listEntry value="0x00aaff">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x00ff00">@Strings.ColorGreen</listEntry>
         </settingConfig>
     </setting>
 
-    <setting propertyKey="@Properties.UseMilitaryFormat" title="@Strings.MilitaryFormatTitle">
+    <setting propertyKey="@Properties.DateColor" title="@Strings.DateColor">
+        <settingConfig type="list">
+            <listEntry value="0xf932af">@Strings.CatppuccinYellow</listEntry>
+            <listEntry value="0xf38ba8">@Strings.CatppuccinRed</listEntry>
+            <listEntry value="0xa6e3a8">@Strings.CatppuccinGreen</listEntry>
+            <listEntry value="0x89dceb">@Strings.CatppuccinBlue</listEntry>
+            <listEntry value="0xcba6f7">@Strings.CatppuccinPurple</listEntry>
+            <listEntry value="0xffffff">@Strings.ColorWhite</listEntry>
+            <listEntry value="0x00aaff">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x00ff00">@Strings.ColorGreen</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.TimeColor" title="@Strings.TimeColor">
+        <settingConfig type="list">
+            <listEntry value="0xf932af">@Strings.CatppuccinYellow</listEntry>
+            <listEntry value="0xf38ba8">@Strings.CatppuccinRed</listEntry>
+            <listEntry value="0xa6e3a8">@Strings.CatppuccinGreen</listEntry>
+            <listEntry value="0x89dceb">@Strings.CatppuccinBlue</listEntry>
+            <listEntry value="0xcba6f7">@Strings.CatppuccinPurple</listEntry>
+            <listEntry value="0xffffff">@Strings.ColorWhite</listEntry>
+            <listEntry value="0x00aaff">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x00ff00">@Strings.ColorGreen</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.BatteryColor" title="@Strings.BatteryColor">
+        <settingConfig type="list">
+            <listEntry value="0xf932af">@Strings.CatppuccinYellow</listEntry>
+            <listEntry value="0xf38ba8">@Strings.CatppuccinRed</listEntry>
+            <listEntry value="0xa6e3a8">@Strings.CatppuccinGreen</listEntry>
+            <listEntry value="0x89dceb">@Strings.CatppuccinBlue</listEntry>
+            <listEntry value="0xcba6f7">@Strings.CatppuccinPurple</listEntry>
+            <listEntry value="0xffffff">@Strings.ColorWhite</listEntry>
+            <listEntry value="0x00aaff">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x00ff00">@Strings.ColorGreen</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.CaloriesColor" title="@Strings.CaloriesColor">
+        <settingConfig type="list">
+            <listEntry value="0xf932af">@Strings.CatppuccinYellow</listEntry>
+            <listEntry value="0xf38ba8">@Strings.CatppuccinRed</listEntry>
+            <listEntry value="0xa6e3a8">@Strings.CatppuccinGreen</listEntry>
+            <listEntry value="0x89dceb">@Strings.CatppuccinBlue</listEntry>
+            <listEntry value="0xcba6f7">@Strings.CatppuccinPurple</listEntry>
+            <listEntry value="0xffffff">@Strings.ColorWhite</listEntry>
+            <listEntry value="0x00aaff">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x00ff00">@Strings.ColorGreen</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.HeartRateColor" title="@Strings.HeartRateColor">
+        <settingConfig type="list">
+            <listEntry value="0xf932af">@Strings.CatppuccinYellow</listEntry>
+            <listEntry value="0xf38ba8">@Strings.CatppuccinRed</listEntry>
+            <listEntry value="0xa6e3a8">@Strings.CatppuccinGreen</listEntry>
+            <listEntry value="0x89dceb">@Strings.CatppuccinBlue</listEntry>
+            <listEntry value="0xcba6f7">@Strings.CatppuccinPurple</listEntry>
+            <listEntry value="0xffffff">@Strings.ColorWhite</listEntry>
+            <listEntry value="0x00aaff">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x00ff00">@Strings.ColorGreen</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.WeeklyDistanceColor" title="@Strings.WeeklyDistanceColor">
+        <settingConfig type="list">
+            <listEntry value="0xf932af">@Strings.CatppuccinYellow</listEntry>
+            <listEntry value="0xf38ba8">@Strings.CatppuccinRed</listEntry>
+            <listEntry value="0xa6e3a8">@Strings.CatppuccinGreen</listEntry>
+            <listEntry value="0x89dceb">@Strings.CatppuccinBlue</listEntry>
+            <listEntry value="0xcba6f7">@Strings.CatppuccinPurple</listEntry>
+            <listEntry value="0xffffff">@Strings.ColorWhite</listEntry>
+            <listEntry value="0x00aaff">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x00ff00">@Strings.ColorGreen</listEntry>
+        </settingConfig>
+    </setting>
+
+    <!-- 24 Hour format -->
+
+    <setting propertyKey="@Properties.Use24HrFormat" title="@Strings.Use24HrFormat">
         <settingConfig type="boolean" />
     </setting>
 

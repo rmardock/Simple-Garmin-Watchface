@@ -1,16 +1,31 @@
 <strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
 
     <string id="AppName">g_face</string>
+    
+    <!-- Property Titles -->
+    <string id="NotificationsColor">Notifications Color</string>
+    <string id="StepsColor">Steps Color</string>
+    <string id="DateColor">Date Color</string>
+    <string id="TimeColor">Time Color</string>
+    <string id="BatteryColor">Battery Color</string>
+    <string id="CaloriesColor">Calories Color</string>
+    <string id="HeartRateColor">Heart Rate Color</string>
+    <string id="WeeklyDistanceColor">Distance Color</string>
+    <string id="Use24HrFormat">24 Hour Format</string>
 
-    <string id="BackgroundColorTitle">Background Color</string>
-    <string id="ForegroundColorTitle">Foreground Color</string>
-    <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
+    <!-- Color Titles (Catppuccin Mocha) -->
+    <string id="CatppuccinYellow">Catppuccin Yellow</string>
+    <string id="CatppuccinRed">Catppuccin Red</string>
+    <string id="CatppuccinGreen">Catppuccin Green</string>
+    <string id="CatppuccinBlue">Catppuccin Blue</string>
+    <string id="CatppuccinPurple">Catppuccin Purple</string>
 
-    <string id="ColorBlack">Black</string>
-    <string id="ColorDarkGray">Dark Gray</string>
-    <string id="ColorLightGray">Light Gray</string>
+    <!-- Color Titles (Simple) -->
     <string id="ColorWhite">White</string>
     <string id="ColorBlue">Blue</string>
-    <string id="ColorRed">Red</string>
+    <string id="ColorGreen">Green</string>
 
+    <!-- Menu Titles -->
+    <string id="SettingsMenuTitle">Settings</string>
+    <string id="SettingsSubMenuTitle">Color</string>
 </strings>

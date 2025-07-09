@@ -58,17 +58,57 @@ module Rez {
         }
     } // Layouts
 
+    module Menus {
+        class SettingsMenu extends WatchUi.Menu2 {
+            function initialize() {
+                Menu2.initialize({:title=>$.Rez.Strings.SettingsMenuTitle});
+                addItem(new WatchUi.MenuItem($.Rez.Strings.NotificationsColor, null, :NotificationsColor, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.StepsColor, null, :StepsColor, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.DateColor, null, :DateColor, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.TimeColor, null, :TimeColor, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.BatteryColor, null, :BatteryColor, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.CaloriesColor, null, :CaloriesColor, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.HeartRateColor, null, :HeartRateColor, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.WeeklyDistanceColor, null, :WeeklyDistanceColor, null));
+            }
+        }
+
+        class SettingsSubMenu extends WatchUi.Menu2 {
+            function initialize() {
+                Menu2.initialize({:title=>$.Rez.Strings.SettingsSubMenuTitle});
+                addItem(new WatchUi.MenuItem($.Rez.Strings.CatppuccinYellow, null, :CatppuccinYellow, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.CatppuccinRed, null, :CatppuccinRed, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.CatppuccinGreen, null, :CatppuccinGreen, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.CatppuccinBlue, null, :CatppuccinBlue, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.CatppuccinPurple, null, :CatppuccinPurple, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.ColorWhite, null, :ColorWhite, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.ColorBlue, null, :ColorBlue, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.ColorGreen, null, :ColorGreen, null));
+            }
+        }
+    } // Menus
+
     module Strings {
-        (:initialized) var ColorLightGray as ResourceId;
+        (:initialized) var CatppuccinBlue as ResourceId;
         (:initialized) var ColorBlue as ResourceId;
-        (:initialized) var ColorRed as ResourceId;
-        (:initialized) var ForegroundColorTitle as ResourceId;
-        (:initialized) var BackgroundColorTitle as ResourceId;
-        (:initialized) var ColorDarkGray as ResourceId;
-        (:initialized) var MilitaryFormatTitle as ResourceId;
-        (:initialized) var ColorBlack as ResourceId;
-        (:initialized) var ColorWhite as ResourceId;
+        (:initialized) var TimeColor as ResourceId;
+        (:initialized) var CaloriesColor as ResourceId;
+        (:initialized) var DateColor as ResourceId;
+        (:initialized) var CatppuccinRed as ResourceId;
+        (:initialized) var CatppuccinGreen as ResourceId;
+        (:initialized) var SettingsMenuTitle as ResourceId;
+        (:initialized) var NotificationsColor as ResourceId;
+        (:initialized) var Use24HrFormat as ResourceId;
         (:initialized) var AppName as ResourceId;
+        (:initialized) var BatteryColor as ResourceId;
+        (:initialized) var CatppuccinYellow as ResourceId;
+        (:initialized) var CatppuccinPurple as ResourceId;
+        (:initialized) var HeartRateColor as ResourceId;
+        (:initialized) var WeeklyDistanceColor as ResourceId;
+        (:initialized) var StepsColor as ResourceId;
+        (:initialized) var SettingsSubMenuTitle as ResourceId;
+        (:initialized) var ColorWhite as ResourceId;
+        (:initialized) var ColorGreen as ResourceId;
     } // Strings
 
     module Styles {

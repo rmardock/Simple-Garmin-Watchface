@@ -28,6 +28,8 @@ class g_faceView extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc as Dc) as Void {
 
+        //var prop = Properties.getValue("NotificationsColor");
+
         // Time
         var timeLabel = View.findDrawableById("TimeLabel") as Text;
         timeLabel.setText(getTimeString());
@@ -74,6 +76,7 @@ class g_faceView extends WatchUi.WatchFace {
         var notificationsIcon = View.findDrawableById("NotificationsIcon") as Text;
         notificationsIcon.setText("@");
         notificationsIcon.setVisible(getNotificationIcon());
+        //notificationsIcon.setColor(prop);
 
         // Bluetooth
         var bluetoothIcon = View.findDrawableById("BluetoothIcon") as Text;

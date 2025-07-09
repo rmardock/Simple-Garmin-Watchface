@@ -16,7 +16,12 @@ class g_faceApp extends Application.AppBase {
     function onStop(state as Dictionary?) as Void {
     }
 
-    // Return the initial view of your application here
+    // return settings view
+    // function getSettingsView() as [Views] or [Views, InputDelegates] or Null {
+    //     return [ new g_faceSettingsView() ];
+    // }
+
+    // // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
         return [ new g_faceView() ];
     }
