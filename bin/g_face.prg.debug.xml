@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/home/ry/development/garmin-watchface/g_face/g_face/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceApp.mc" id="1" lineNum="5" parent="globals/g_faceApp" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceApp.mc" id="2" lineNum="31" parent="globals" pc="268435472" symbol="getApp"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceApp.mc" id="2" lineNum="32" parent="globals" pc="268435482" symbol="getApp"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceBackground.mc" id="3" lineNum="6" parent="globals/Background" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="5" lineNum="11" parent="globals/g_faceView" pc="268435525" symbol="&lt;init&gt;"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceApp.mc" id="6" lineNum="12" parent="globals/g_faceApp" pc="268435537" symbol="onStart"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceApp.mc" id="7" lineNum="25" parent="globals/g_faceApp" pc="268435540" symbol="onSettingsChanged"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceApp.mc" id="7" lineNum="26" parent="globals/g_faceApp" pc="268435542" symbol="onSettingsChanged"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceApp.mc" id="8" lineNum="20" parent="globals/g_faceApp" pc="268435554" symbol="getInitialView"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceApp.mc" id="8" lineNum="21" parent="globals/g_faceApp" pc="268435556" symbol="getInitialView"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceApp.mc" id="9" lineNum="7" parent="globals/g_faceApp" pc="268435582" symbol="initialize"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceApp.mc" id="9" lineNum="8" parent="globals/g_faceApp" pc="268435584" symbol="initialize"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceApp.mc" id="10" lineNum="16" parent="globals/g_faceApp" pc="268435597" symbol="onStop"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceBackground.mc" id="11" lineNum="8" parent="globals/Background" pc="268435600" symbol="initialize"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceBackground.mc" id="11" lineNum="9" parent="globals/Background" pc="268435603" symbol="initialize"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceBackground.mc" id="11" lineNum="13" parent="globals/Background" pc="268435621" symbol="initialize"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceBackground.mc" id="12" lineNum="16" parent="globals/Background" pc="268435638" symbol="draw"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceBackground.mc" id="12" lineNum="18" parent="globals/Background" pc="268435640" symbol="draw"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceBackground.mc" id="12" lineNum="19" parent="globals/Background" pc="268435671" symbol="draw"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="13" lineNum="195" parent="globals/g_faceView" pc="268435680" symbol="getTime"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="13" lineNum="196" parent="globals/g_faceView" pc="268435683" symbol="getTime"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="13" lineNum="197" parent="globals/g_faceView" pc="268435695" symbol="getTime"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="14" lineNum="228" parent="globals/g_faceView" pc="268435698" symbol="getPM"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="14" lineNum="230" parent="globals/g_faceView" pc="268435701" symbol="getPM"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="14" lineNum="231" parent="globals/g_faceView" pc="268435714" symbol="getPM"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="14" lineNum="233" parent="globals/g_faceView" pc="268435722" symbol="getPM"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="14" lineNum="237" parent="globals/g_faceView" pc="268435731" symbol="getPM"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="15" lineNum="403" parent="globals/g_faceView" pc="268435738" symbol="getConnectionState"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="15" lineNum="404" parent="globals/g_faceView" pc="268435741" symbol="getConnectionState"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="15" lineNum="405" parent="globals/g_faceView" pc="268435753" symbol="getConnectionState"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="15" lineNum="407" parent="globals/g_faceView" pc="268435761" symbol="getConnectionState"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="15" lineNum="409" parent="globals/g_faceView" pc="268435766" symbol="getConnectionState"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="15" lineNum="413" parent="globals/g_faceView" pc="268435771" symbol="getConnectionState"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="16" lineNum="315" parent="globals/g_faceView" pc="268435774" symbol="getCaloriesString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="16" lineNum="316" parent="globals/g_faceView" pc="268435777" symbol="getCaloriesString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="16" lineNum="317" parent="globals/g_faceView" pc="268435785" symbol="getCaloriesString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="16" lineNum="318" parent="globals/g_faceView" pc="268435791" symbol="getCaloriesString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="16" lineNum="320" parent="globals/g_faceView" pc="268435800" symbol="getCaloriesString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="17" lineNum="242" parent="globals/g_faceView" pc="268435820" symbol="getHeartRate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="17" lineNum="243" parent="globals/g_faceView" pc="268435823" symbol="getHeartRate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="17" lineNum="244" parent="globals/g_faceView" pc="268435840" symbol="getHeartRate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="18" lineNum="378" parent="globals/g_faceView" pc="268435853" symbol="getDistanceLabel"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="18" lineNum="379" parent="globals/g_faceView" pc="268435856" symbol="getDistanceLabel"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="18" lineNum="380" parent="globals/g_faceView" pc="268435883" symbol="getDistanceLabel"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="19" lineNum="384" parent="globals/g_faceView" pc="268435886" symbol="getNotificationCount"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="19" lineNum="385" parent="globals/g_faceView" pc="268435889" symbol="getNotificationCount"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="19" lineNum="386" parent="globals/g_faceView" pc="268435901" symbol="getNotificationCount"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="20" lineNum="253" parent="globals/g_faceView" pc="268435908" symbol="getSteps"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="20" lineNum="254" parent="globals/g_faceView" pc="268435910" symbol="getSteps"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="21" lineNum="267" parent="globals/g_faceView" pc="268435926" symbol="getBattery"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="21" lineNum="268" parent="globals/g_faceView" pc="268435928" symbol="getBattery"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="22" lineNum="179" parent="globals/g_faceView" pc="268435944" symbol="getDate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="22" lineNum="181" parent="globals/g_faceView" pc="268435947" symbol="getDate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="22" lineNum="183" parent="globals/g_faceView" pc="268435973" symbol="getDate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="22" lineNum="191" parent="globals/g_faceView" pc="268436023" symbol="getDate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="23" lineNum="272" parent="globals/g_faceView" pc="268436026" symbol="getBatteryString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="23" lineNum="273" parent="globals/g_faceView" pc="268436028" symbol="getBatteryString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="24" lineNum="282" parent="globals/g_faceView" pc="268436054" symbol="getBatteryIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="24" lineNum="284" parent="globals/g_faceView" pc="268436056" symbol="getBatteryIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="24" lineNum="286" parent="globals/g_faceView" pc="268436065" symbol="getBatteryIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="24" lineNum="288" parent="globals/g_faceView" pc="268436074" symbol="getBatteryIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="24" lineNum="290" parent="globals/g_faceView" pc="268436086" symbol="getBatteryIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="24" lineNum="292" parent="globals/g_faceView" pc="268436095" symbol="getBatteryIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="24" lineNum="293" parent="globals/g_faceView" pc="268436119" symbol="getBatteryIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="24" lineNum="295" parent="globals/g_faceView" pc="268436128" symbol="getBatteryIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="24" lineNum="297" parent="globals/g_faceView" pc="268436152" symbol="getBatteryIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="24" lineNum="299" parent="globals/g_faceView" pc="268436161" symbol="getBatteryIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="24" lineNum="301" parent="globals/g_faceView" pc="268436173" symbol="getBatteryIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="24" lineNum="305" parent="globals/g_faceView" pc="268436182" symbol="getBatteryIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="25" lineNum="390" parent="globals/g_faceView" pc="268436189" symbol="getNotificationIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="25" lineNum="391" parent="globals/g_faceView" pc="268436192" symbol="getNotificationIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="25" lineNum="392" parent="globals/g_faceView" pc="268436200" symbol="getNotificationIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="25" lineNum="394" parent="globals/g_faceView" pc="268436207" symbol="getNotificationIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="25" lineNum="398" parent="globals/g_faceView" pc="268436212" symbol="getNotificationIcon"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="27" lineNum="324" parent="globals/g_faceView" pc="268436215" symbol="getWeekStart"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="27" lineNum="325" parent="globals/g_faceView" pc="268436218" symbol="getWeekStart"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="27" lineNum="326" parent="globals/g_faceView" pc="268436258" symbol="getWeekStart"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="27" lineNum="327" parent="globals/g_faceView" pc="268436275" symbol="getWeekStart"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="27" lineNum="329" parent="globals/g_faceView" pc="268436279" symbol="getWeekStart"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="27" lineNum="330" parent="globals/g_faceView" pc="268436291" symbol="getWeekStart"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="27" lineNum="332" parent="globals/g_faceView" pc="268436302" symbol="getWeekStart"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="27" lineNum="335" parent="globals/g_faceView" pc="268436314" symbol="getWeekStart"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="27" lineNum="336" parent="globals/g_faceView" pc="268436325" symbol="getWeekStart"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="27" lineNum="338" parent="globals/g_faceView" pc="268436332" symbol="getWeekStart"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="27" lineNum="341" parent="globals/g_faceView" pc="268436342" symbol="getWeekStart"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="30" lineNum="277" parent="globals/g_faceView" pc="268436381" symbol="getBatteryStatus"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="30" lineNum="278" parent="globals/g_faceView" pc="268436383" symbol="getBatteryStatus"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="31" lineNum="18" parent="globals/g_faceView" pc="268436399" symbol="onLayout"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="31" lineNum="19" parent="globals/g_faceView" pc="268436401" symbol="onLayout"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="32" lineNum="258" parent="globals/g_faceView" pc="268436435" symbol="getStepsString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="32" lineNum="259" parent="globals/g_faceView" pc="268436438" symbol="getStepsString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="32" lineNum="260" parent="globals/g_faceView" pc="268436446" symbol="getStepsString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="32" lineNum="261" parent="globals/g_faceView" pc="268436452" symbol="getStepsString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="32" lineNum="263" parent="globals/g_faceView" pc="268436461" symbol="getStepsString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="33" lineNum="372" parent="globals/g_faceView" pc="268436481" symbol="getWeeklyRunDistanceMiles"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="33" lineNum="373" parent="globals/g_faceView" pc="268436484" symbol="getWeeklyRunDistanceMiles"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="33" lineNum="374" parent="globals/g_faceView" pc="268436498" symbol="getWeeklyRunDistanceMiles"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="34" lineNum="248" parent="globals/g_faceView" pc="268436501" symbol="getHeartRateString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="34" lineNum="249" parent="globals/g_faceView" pc="268436503" symbol="getHeartRateString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="35" lineNum="310" parent="globals/g_faceView" pc="268436523" symbol="getCalories"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="35" lineNum="311" parent="globals/g_faceView" pc="268436525" symbol="getCalories"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="37" lineNum="418" parent="globals/g_faceView" pc="268436541" symbol="getDoNotDisturb"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="37" lineNum="419" parent="globals/g_faceView" pc="268436544" symbol="getDoNotDisturb"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="37" lineNum="420" parent="globals/g_faceView" pc="268436556" symbol="getDoNotDisturb"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="37" lineNum="422" parent="globals/g_faceView" pc="268436567" symbol="getDoNotDisturb"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="37" lineNum="423" parent="globals/g_faceView" pc="268436576" symbol="getDoNotDisturb"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="37" lineNum="425" parent="globals/g_faceView" pc="268436581" symbol="getDoNotDisturb"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="37" lineNum="429" parent="globals/g_faceView" pc="268436586" symbol="getDoNotDisturb"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="37" lineNum="434" parent="globals/g_faceView" pc="268436591" symbol="getDoNotDisturb"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="38" lineNum="345" parent="globals/g_faceView" pc="268436594" symbol="getWeeklyRunningDistance"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="38" lineNum="346" parent="globals/g_faceView" pc="268436597" symbol="getWeeklyRunningDistance"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="38" lineNum="347" parent="globals/g_faceView" pc="268436600" symbol="getWeeklyRunningDistance"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="38" lineNum="349" parent="globals/g_faceView" pc="268436615" symbol="getWeeklyRunningDistance"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="38" lineNum="350" parent="globals/g_faceView" pc="268436627" symbol="getWeeklyRunningDistance"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="38" lineNum="352" parent="globals/g_faceView" pc="268436633" symbol="getWeeklyRunningDistance"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="38" lineNum="353" parent="globals/g_faceView" pc="268436643" symbol="getWeeklyRunningDistance"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="38" lineNum="355" parent="globals/g_faceView" pc="268436651" symbol="getWeeklyRunningDistance"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="38" lineNum="357" parent="globals/g_faceView" pc="268436657" symbol="getWeeklyRunningDistance"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="38" lineNum="359" parent="globals/g_faceView" pc="268436681" symbol="getWeeklyRunningDistance"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="38" lineNum="361" parent="globals/g_faceView" pc="268436711" symbol="getWeeklyRunningDistance"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="38" lineNum="364" parent="globals/g_faceView" pc="268436729" symbol="getWeeklyRunningDistance"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="38" lineNum="368" parent="globals/g_faceView" pc="268436748" symbol="getWeeklyRunningDistance"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="39" lineNum="13" parent="globals/g_faceView" pc="268436751" symbol="initialize"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="39" lineNum="14" parent="globals/g_faceView" pc="268436753" symbol="initialize"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="29" parent="globals/g_faceView" pc="268436766" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="32" parent="globals/g_faceView" pc="268436769" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="33" parent="globals/g_faceView" pc="268436793" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="36" parent="globals/g_faceView" pc="268436809" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="37" parent="globals/g_faceView" pc="268436833" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="40" parent="globals/g_faceView" pc="268436849" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="41" parent="globals/g_faceView" pc="268436873" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="44" parent="globals/g_faceView" pc="268436889" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="45" parent="globals/g_faceView" pc="268436913" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="48" parent="globals/g_faceView" pc="268436929" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="49" parent="globals/g_faceView" pc="268436953" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="52" parent="globals/g_faceView" pc="268436969" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="53" parent="globals/g_faceView" pc="268436993" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="55" parent="globals/g_faceView" pc="268437009" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="56" parent="globals/g_faceView" pc="268437033" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="59" parent="globals/g_faceView" pc="268437049" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="60" parent="globals/g_faceView" pc="268437073" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="63" parent="globals/g_faceView" pc="268437089" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="66" parent="globals/g_faceView" pc="268437113" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="67" parent="globals/g_faceView" pc="268437137" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="70" parent="globals/g_faceView" pc="268437153" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="74" parent="globals/g_faceView" pc="268437177" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="75" parent="globals/g_faceView" pc="268437201" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="76" parent="globals/g_faceView" pc="268437216" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="79" parent="globals/g_faceView" pc="268437232" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="80" parent="globals/g_faceView" pc="268437256" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="83" parent="globals/g_faceView" pc="268437272" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="84" parent="globals/g_faceView" pc="268437296" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="87" parent="globals/g_faceView" pc="268437312" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="88" parent="globals/g_faceView" pc="268437321" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="92" parent="globals/g_faceView" pc="268437330" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="94" parent="globals/g_faceView" pc="268437397" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="98" parent="globals/g_faceView" pc="268437426" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="102" parent="globals/g_faceView" pc="268437452" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="104" parent="globals/g_faceView" pc="268437464" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="106" parent="globals/g_faceView" pc="268437493" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="108" parent="globals/g_faceView" pc="268437517" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="110" parent="globals/g_faceView" pc="268437546" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="112" parent="globals/g_faceView" pc="268437571" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="114" parent="globals/g_faceView" pc="268437600" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="116" parent="globals/g_faceView" pc="268437626" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="118" parent="globals/g_faceView" pc="268437655" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="120" parent="globals/g_faceView" pc="268437668" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="124" parent="globals/g_faceView" pc="268437697" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="126" parent="globals/g_faceView" pc="268437708" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="127" parent="globals/g_faceView" pc="268437723" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="129" parent="globals/g_faceView" pc="268437752" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="131" parent="globals/g_faceView" pc="268437775" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="133" parent="globals/g_faceView" pc="268437804" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="135" parent="globals/g_faceView" pc="268437828" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="140" parent="globals/g_faceView" pc="268437857" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="142" parent="globals/g_faceView" pc="268437884" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="143" parent="globals/g_faceView" pc="268437910" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="144" parent="globals/g_faceView" pc="268437936" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="146" parent="globals/g_faceView" pc="268437965" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="148" parent="globals/g_faceView" pc="268437993" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="149" parent="globals/g_faceView" pc="268438019" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="151" parent="globals/g_faceView" pc="268438048" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="153" parent="globals/g_faceView" pc="268438076" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="154" parent="globals/g_faceView" pc="268438102" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="156" parent="globals/g_faceView" pc="268438131" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="158" parent="globals/g_faceView" pc="268438159" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="159" parent="globals/g_faceView" pc="268438185" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="161" parent="globals/g_faceView" pc="268438214" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="163" parent="globals/g_faceView" pc="268438243" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="165" parent="globals/g_faceView" pc="268438272" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="167" parent="globals/g_faceView" pc="268438301" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="169" parent="globals/g_faceView" pc="268438330" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="171" parent="globals/g_faceView" pc="268438359" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="40" lineNum="175" parent="globals/g_faceView" pc="268438388" symbol="onUpdate"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="41" lineNum="201" parent="globals/g_faceView" pc="268438409" symbol="getTimeString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="41" lineNum="202" parent="globals/g_faceView" pc="268438412" symbol="getTimeString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="41" lineNum="203" parent="globals/g_faceView" pc="268438425" symbol="getTimeString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="41" lineNum="205" parent="globals/g_faceView" pc="268438438" symbol="getTimeString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="41" lineNum="207" parent="globals/g_faceView" pc="268438457" symbol="getTimeString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="41" lineNum="209" parent="globals/g_faceView" pc="268438465" symbol="getTimeString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="41" lineNum="211" parent="globals/g_faceView" pc="268438475" symbol="getTimeString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="41" lineNum="213" parent="globals/g_faceView" pc="268438482" symbol="getTimeString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="41" lineNum="217" parent="globals/g_faceView" pc="268438495" symbol="getTimeString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceView.mc" id="41" lineNum="224" parent="globals/g_faceView" pc="268438540" symbol="getTimeString"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="20" parent="globals/Rez/Layouts" pc="268438543" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="21" parent="globals/Rez/Layouts" pc="268438554" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="22" parent="globals/Rez/Layouts" pc="268438587" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="23" parent="globals/Rez/Layouts" pc="268438620" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="24" parent="globals/Rez/Layouts" pc="268438653" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="25" parent="globals/Rez/Layouts" pc="268438686" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="27" parent="globals/Rez/Layouts" pc="268438775" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="29" parent="globals/Rez/Layouts" pc="268438864" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="31" parent="globals/Rez/Layouts" pc="268438953" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="33" parent="globals/Rez/Layouts" pc="268439053" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="35" parent="globals/Rez/Layouts" pc="268439142" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="37" parent="globals/Rez/Layouts" pc="268439242" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="39" parent="globals/Rez/Layouts" pc="268439331" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="41" parent="globals/Rez/Layouts" pc="268439420" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="43" parent="globals/Rez/Layouts" pc="268439509" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="45" parent="globals/Rez/Layouts" pc="268439587" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="47" parent="globals/Rez/Layouts" pc="268439676" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="49" parent="globals/Rez/Layouts" pc="268439754" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="51" parent="globals/Rez/Layouts" pc="268439843" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="53" parent="globals/Rez/Layouts" pc="268439910" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="55" parent="globals/Rez/Layouts" pc="268439988" symbol="WatchFace"/>
+        <entry filename="/home/ry/development/garmin-watchface/g_face/g_face/bin/gen/006-B4433-00/source/Rez.mcgen" id="42" lineNum="57" parent="globals/Rez/Layouts" pc="268440066" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8389346" symbol="text"/>
+        <entry id="17" method="true" symbol="getDistanceLabel"/>
+        <entry id="14" method="true" symbol="getCaloriesString"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="11" method="true" symbol="getBatteryIcon"/>
+        <entry id="15" method="true" symbol="getConnectionState"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="42" symbol="ColorRed"/>
+        <entry id="27" method="true" symbol="getTimeString"/>
+        <entry field="true" id="8389795" symbol="doNotDisturb"/>
+        <entry id="28" method="true" symbol="getWeekStart"/>
+        <entry field="true" id="45" symbol="MilitaryFormatTitle"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry id="24" method="true" symbol="getSteps"/>
+        <entry field="true" id="33" symbol="futuraSmallFull"/>
+        <entry id="8388647" module="true" symbol="UserProfile"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="10" method="true" symbol="getBattery"/>
+        <entry field="true" id="39" symbol="ColorBlue"/>
+        <entry field="true" id="36" symbol="AppName"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8390027" method="true" symbol="getBatteryStatus"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="19" method="true" symbol="getHeartRate"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="30" method="true" symbol="getWeeklyRunningDistance"/>
+        <entry id="25" method="true" symbol="getStepsString"/>
+        <entry id="20" method="true" symbol="getHeartRateString"/>
+        <entry id="21" method="true" symbol="getNotificationCount"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="29" method="true" symbol="getWeeklyRunDistanceMiles"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="13" method="true" symbol="getCalories"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="40" symbol="ColorDarkGray"/>
+        <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="16" method="true" symbol="getDate"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="43" symbol="ColorWhite"/>
+        <entry field="true" id="38" symbol="ColorBlack"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="12" method="true" symbol="getBatteryString"/>
+        <entry id="8" object="true" symbol="g_faceView"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="26" method="true" symbol="getTime"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="35" symbol="iconFont"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="22" method="true" symbol="getNotificationIcon"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="31" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="37" symbol="BackgroundColorTitle"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="7" object="true" symbol="g_faceApp"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="32" symbol="futuraLarge"/>
+        <entry field="true" id="41" symbol="ColorLightGray"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="18" method="true" symbol="getDoNotDisturb"/>
+        <entry field="true" id="44" symbol="ForegroundColorTitle"/>
+        <entry id="9" module="true" symbol="Layouts"/>
+        <entry id="23" method="true" symbol="getPM"/>
+        <entry field="true" id="34" symbol="futuraXsmall"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="8391857" method="true" symbol="getUserActivityHistory"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8390696" symbol="firstDayOfWeek"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435636" name="dictionary" stackId="1" startPc="268435603"/>
+        <entry arg="true" endPc="268435679" name="dc" stackId="1" startPc="268435638"/>
+        <entry endPc="268435697" name="time" stackId="1" startPc="268435683"/>
+        <entry endPc="268435736" name="hours" stackId="1" startPc="268435701"/>
+        <entry endPc="268435772" name="settings" stackId="1" startPc="268435741"/>
+        <entry endPc="268435772" name="conn" stackId="2" startPc="268435741"/>
+        <entry endPc="268435819" name="calories" stackId="1" startPc="268435777"/>
+        <entry endPc="268435852" name="heartRateI" stackId="1" startPc="268435823"/>
+        <entry endPc="268435885" name="milesString" stackId="1" startPc="268435856"/>
+        <entry endPc="268435907" name="devSettings" stackId="1" startPc="268435889"/>
+        <entry endPc="268436025" name="curr" stackId="1" startPc="268435947"/>
+        <entry endPc="268436025" name="dateString" stackId="2" startPc="268435947"/>
+        <entry endPc="268436213" name="notifications" stackId="1" startPc="268436192"/>
+        <entry endPc="268436380" name="today" stackId="1" startPc="268436218"/>
+        <entry endPc="268436380" name="info" stackId="2" startPc="268436218"/>
+        <entry endPc="268436380" name="firstDayOfWeek" stackId="3" startPc="268436218"/>
+        <entry endPc="268436380" name="settings" stackId="4" startPc="268436218"/>
+        <entry endPc="268436380" name="days" stackId="5" startPc="268436218"/>
+        <entry arg="true" endPc="268436434" name="dc" stackId="1" startPc="268436399"/>
+        <entry endPc="268436480" name="steps" stackId="1" startPc="268436438"/>
+        <entry endPc="268436500" name="miles" stackId="1" startPc="268436484"/>
+        <entry endPc="268436592" name="settings" stackId="1" startPc="268436544"/>
+        <entry endPc="268436587" name="dnd" stackId="2" startPc="268436567"/>
+        <entry endPc="268436750" name="dist" stackId="1" startPc="268436597"/>
+        <entry endPc="268436744" name="i" stackId="2" startPc="268436615"/>
+        <entry endPc="268436741" name="next" stackId="3" startPc="268436633"/>
+        <entry endPc="268436741" name="weekStart" stackId="4" startPc="268436633"/>
+        <entry arg="true" endPc="268438408" name="dc" stackId="1" startPc="268436766"/>
+        <entry endPc="268438407" name="timeLabel" stackId="2" startPc="268436769"/>
+        <entry endPc="268438407" name="pmLabel" stackId="3" startPc="268436769"/>
+        <entry endPc="268438407" name="dateLabel" stackId="4" startPc="268436769"/>
+        <entry endPc="268438407" name="heartRateLabel" stackId="5" startPc="268436769"/>
+        <entry endPc="268438407" name="caloriesLabel" stackId="6" startPc="268436769"/>
+        <entry endPc="268438407" name="batteryLabel" stackId="7" startPc="268436769"/>
+        <entry endPc="268438407" name="batteryIcon" stackId="8" startPc="268436769"/>
+        <entry endPc="268438407" name="stepsLabel" stackId="9" startPc="268436769"/>
+        <entry endPc="268438407" name="stepsIcon" stackId="10" startPc="268436769"/>
+        <entry endPc="268438407" name="weeklyDistanceLabel" stackId="11" startPc="268436769"/>
+        <entry endPc="268438407" name="weeklyDistanceIcon" stackId="12" startPc="268436769"/>
+        <entry endPc="268438407" name="notificationsIcon" stackId="13" startPc="268436769"/>
+        <entry endPc="268438407" name="bluetoothIcon" stackId="14" startPc="268436769"/>
+        <entry endPc="268438407" name="doNotDisturbIcon" stackId="15" startPc="268436769"/>
+        <entry endPc="268438407" name="percX" stackId="16" startPc="268436769"/>
+        <entry endPc="268438407" name="percY" stackId="17" startPc="268436769"/>
+        <entry endPc="268438542" name="hours" stackId="1" startPc="268438412"/>
+        <entry endPc="268438542" name="min" stackId="2" startPc="268438412"/>
+        <entry endPc="268438542" name="timeString" stackId="3" startPc="268438412"/>
+        <entry arg="true" endPc="268440150" name="dc" stackId="1" startPc="268438543"/>
+        <entry endPc="268440150" name="local_Rez_Fonts_futuraXsmall" stackId="2" startPc="268438554"/>
+        <entry endPc="268440150" name="local_Rez_Fonts_futuraSmallFull" stackId="3" startPc="268438554"/>
+        <entry endPc="268440150" name="local_Rez_Fonts_futuraLarge" stackId="4" startPc="268438554"/>
+        <entry endPc="268440150" name="local_Rez_Fonts_iconFont" stackId="5" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_TimeLabel" stackId="6" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_PmLabel" stackId="7" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_DateLabel" stackId="8" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_HeartIcon" stackId="9" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_HeartRateLabel" stackId="10" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_CaloriesIcon" stackId="11" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_CaloriesLabel" stackId="12" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_BatteryIcon" stackId="13" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_BatteryLabel" stackId="14" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_StepsIcon" stackId="15" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_StepsLabel" stackId="16" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_RunIcon" stackId="17" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_WeeklyMiles" stackId="18" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_NotificationsIcon" stackId="19" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_BluetoothIcon" stackId="20" startPc="268438554"/>
+        <entry endPc="268440150" name="rez_cmp_local_text_DoNotDisturbIcon" stackId="21" startPc="268438554"/>
+    </localVars>
+    <deviceInfo deviceVersion="810ede84fd9ce09eefda5d76cb08298db48e456c" partNumber="006-B4433-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="iconFont"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="futuraXsmall"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="futuraLarge"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="futuraSmallFull"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/g_faceApp" offset="143" parentId="globals" symbolId="g_faceApp" type="class"/>
+        <dataEntry label="globals/Background" offset="223" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/Rez" offset="276" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/g_faceView" offset="338" parentId="globals" symbolId="g_faceView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="634" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="669" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="704" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="766" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="g_faceApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435492" name="getApp" startPc="268435472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435504" name="&lt;init&gt;" parent="Background" startPc="268435493">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="g_faceView" startPc="268435525">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435539" name="onStart" parent="g_faceApp" startPc="268435537">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435553" name="onSettingsChanged" parent="g_faceApp" startPc="268435540">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435581" name="getInitialView" parent="g_faceApp" startPc="268435554">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435596" name="initialize" parent="g_faceApp" startPc="268435582">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435599" name="onStop" parent="g_faceApp" startPc="268435597">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435637" name="initialize" parent="Background" startPc="268435600">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435679" name="draw" parent="Background" startPc="268435638">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435697" name="getTime" parent="g_faceView" startPc="268435680">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435737" name="getPM" parent="g_faceView" startPc="268435698">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435773" name="getConnectionState" parent="g_faceView" startPc="268435738">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435819" name="getCaloriesString" parent="g_faceView" startPc="268435774">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435852" name="getHeartRate" parent="g_faceView" startPc="268435820">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435885" name="getDistanceLabel" parent="g_faceView" startPc="268435853">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435907" name="getNotificationCount" parent="g_faceView" startPc="268435886">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435925" name="getSteps" parent="g_faceView" startPc="268435908">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435943" name="getBattery" parent="g_faceView" startPc="268435926">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436025" name="getDate" parent="g_faceView" startPc="268435944">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436053" name="getBatteryString" parent="g_faceView" startPc="268436026">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436188" name="getBatteryIcon" parent="g_faceView" startPc="268436054">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436214" name="getNotificationIcon" parent="g_faceView" startPc="268436189">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="g_faceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436380" name="getWeekStart" parent="g_faceView" startPc="268436215">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="g_faceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="g_faceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436398" name="getBatteryStatus" parent="g_faceView" startPc="268436381">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436434" name="onLayout" parent="g_faceView" startPc="268436399">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436480" name="getStepsString" parent="g_faceView" startPc="268436435">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436500" name="getWeeklyRunDistanceMiles" parent="g_faceView" startPc="268436481">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436522" name="getHeartRateString" parent="g_faceView" startPc="268436501">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436540" name="getCalories" parent="g_faceView" startPc="268436523">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="g_faceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436593" name="getDoNotDisturb" parent="g_faceView" startPc="268436541">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436750" name="getWeeklyRunningDistance" parent="g_faceView" startPc="268436594">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436765" name="initialize" parent="g_faceView" startPc="268436751">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438408" name="onUpdate" parent="g_faceView" startPc="268436766">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438542" name="getTimeString" parent="g_faceView" startPc="268438409">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440150" name="WatchFace" parent="Layouts" startPc="268438543">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
