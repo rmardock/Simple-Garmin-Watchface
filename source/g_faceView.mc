@@ -406,7 +406,7 @@ class g_faceView extends WatchUi.WatchFace {
 
     // Function to get distance string
     function getDistanceLabel() as String {
-        var milesString = getWeeklyRunDistanceMiles().format("%0.2d") + " mi";
+        var milesString = getWeeklyRunDistanceMiles().format("%0.2f") + " mi";
         return milesString;
     }
 

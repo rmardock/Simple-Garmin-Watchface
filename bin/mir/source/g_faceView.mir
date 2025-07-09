@@ -2072,7 +2072,7 @@ _home_ry_development_garmin_watchface_g_face_g_face_source_g_faceView_mc_408_42_
         %tmp.3 = invoke %tmp.1 %tmp.2();
         symbol [ format %tmp.4 409 54 60 ];
         %tmp.4 = getv function %tmp.3 :format;
-        %tmp.5 = "%0.2d";
+        %tmp.5 = "%0.2f";
         %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
         %tmp.7 = " mi";
         %tmp.8 = add %tmp.6 %tmp.7;
