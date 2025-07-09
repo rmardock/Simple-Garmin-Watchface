@@ -1,0 +1,10 @@
+<menu2 id="SettingsMenu" title="@Strings.SettingsMenuTitle">
+    <menu-item id="NotificationsColor" label="@Strings.NotificationsColor"></menu-item>
+    <menu-item id="StepsColor" label="@Strings.StepsColor"></menu-item>
+    <menu-item id="DateColor" label="@Strings.DateColor"></menu-item>
+    <menu-item id="TimeColor" label="@Strings.TimeColor"></menu-item>
+    <menu-item id="BatteryColor" label="@Strings.BatteryColor"></menu-item>
+    <menu-item id="CaloriesColor" label="@Strings.CaloriesColor"></menu-item>
+    <menu-item id="HeartRateColor" label="@Strings.HeartRateColor"></menu-item>
+    <menu-item id="WeeklyDistanceColor" label="@Strings.WeeklyDistanceColor"></menu-item>
+</menu2>

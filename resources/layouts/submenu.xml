@@ -1,0 +1,10 @@
+<menu2 id="SettingsSubMenu" title="@Strings.SettingsSubMenuTitle">
+    <menu-item id="CatppuccinYellow" label="@Strings.CatppuccinYellow"></menu-item>
+    <menu-item id="CatppuccinRed" label="@Strings.CatppuccinRed"></menu-item>
+    <menu-item id="CatppuccinGreen" label="@Strings.CatppuccinGreen"></menu-item>
+    <menu-item id="CatppuccinBlue" label="@Strings.CatppuccinBlue"></menu-item>
+    <menu-item id="CatppuccinPurple" label="@Strings.CatppuccinPurple"></menu-item>
+    <menu-item id="ColorWhite" label="@Strings.ColorWhite"></menu-item>
+    <menu-item id="ColorBlue" label="@Strings.ColorBlue"></menu-item>
+    <menu-item id="ColorGreen" label="@Strings.ColorGreen"></menu-item>
+</menu2>
