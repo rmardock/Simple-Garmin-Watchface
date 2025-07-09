@@ -317,37 +317,85 @@ class g_faceView extends WatchUi.WatchFace {
     }
 
     // Function to get weekly running distance
-    function getWeeklyRunningDistance() as Number or Null {
-        var distance = 0;
-        if(UserProfile has :getUserActivityHistory) 
+    // function getWeeklyRunningDistance() as Number or Null {
+    //     var distance = 0;
+    //     if(UserProfile has :getUserActivityHistory) 
+    //     {
+    //         var i = UserProfile.getUserActivityHistory();
+    //         var today = Time.today();
+    //         var first = System.getDeviceSettings().firstDayOfWeek;
+    //         var beginning = Time.Gregorian.info(today, 0).day_of_week;
+    //         if(i != null) 
+    //         {
+    //             var next = i.next();
+
+    //             while(next != null) 
+    //             {
+    //                 if(next.type == Activity.SPORT_RUNNING)
+    //                 {
+    //                     if(next.distance != null)
+    //                     {
+    //                         if(next.startTime != null && first.lessThan(next.startTime))
+    //                         {
+    //                             distance += next.distance as Number;
+    //                         }
+    //                     }
+    //                     else
+    //                     {
+    //                         distance = 0;
+    //                     }
+    //                 }
+    //                 next = i.next();
+    //             }
+    //         }
+    //     }
+    //     return distance; //distance in meters
+    // }
+
+    function getWeekStart() as Moment {
+        var today = new Time.Moment(Time.today().value());
+        var info = Gregorian.info(today, Time.FORMAT_SHORT);
+        var firstDayOfWeek = 1;
+
+        var settings = System.getDeviceSettings();
+        if(settings has :firstDayOfWeek)
+        {
+            firstDayOfWeek = settings.firstDayOfWeek as Number;
+        }
+
+        var days = info.day_of_week as Number - firstDayOfWeek;
+        if(days < 0)
+        {
+            days += 7;
+        }
+
+        return today.subtract(new Time.Duration(days * 86400)) as Moment;
+    }
+
+    function getWeeklyRunningDistance() as Number {
+        var dist = 0;
+        if(UserProfile has :getUserActivityHistory)
         {
             var i = UserProfile.getUserActivityHistory();
-            if(i != null) 
+            if(i != null)
             {
                 var next = i.next();
-                var first = System.getDeviceSettings().firstDayOfWeek as Moment;
+                var weekStart = getWeekStart();
 
-                while(next != null) 
+                while(next != null)
                 {
-                    if(next.type == Activity.SPORT_RUNNING)
+                    if(next.type == Activity.SPORT_RUNNING && next.distance != null)
                     {
-                        if(next.distance != null)
+                        if(next.startTime != null && weekStart.lessThan(next.startTime as Moment))
                         {
-                            if(next.startTime != null && first.lessThan(next.startTime as Moment))
-                            {
-                                distance += next.distance as Number;
-                            }
-                        }
-                        else
-                        {
-                            distance = 0;
+                            dist += next.distance as Number;
                         }
                     }
                     next = i.next();
                 }
             }
         }
-        return distance; //distance in meters
+        return dist;
     }
 
     // Function to get distance in miles as string
