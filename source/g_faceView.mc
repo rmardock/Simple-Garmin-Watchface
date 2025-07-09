@@ -208,6 +208,10 @@ class g_faceView extends WatchUi.WatchFace {
             {
                 hours = hours - 12;
             }
+            if(hours == 0)
+            {
+                hours = hours + 12;
+            }
         }
         // Format time string
         var timeString = Lang.format(
@@ -316,42 +320,7 @@ class g_faceView extends WatchUi.WatchFace {
         return getCalories().format("%d");
     }
 
-    // Function to get weekly running distance
-    // function getWeeklyRunningDistance() as Number or Null {
-    //     var distance = 0;
-    //     if(UserProfile has :getUserActivityHistory) 
-    //     {
-    //         var i = UserProfile.getUserActivityHistory();
-    //         var today = Time.today();
-    //         var first = System.getDeviceSettings().firstDayOfWeek;
-    //         var beginning = Time.Gregorian.info(today, 0).day_of_week;
-    //         if(i != null) 
-    //         {
-    //             var next = i.next();
-
-    //             while(next != null) 
-    //             {
-    //                 if(next.type == Activity.SPORT_RUNNING)
-    //                 {
-    //                     if(next.distance != null)
-    //                     {
-    //                         if(next.startTime != null && first.lessThan(next.startTime))
-    //                         {
-    //                             distance += next.distance as Number;
-    //                         }
-    //                     }
-    //                     else
-    //                     {
-    //                         distance = 0;
-    //                     }
-    //                 }
-    //                 next = i.next();
-    //             }
-    //         }
-    //     }
-    //     return distance; //distance in meters
-    // }
-
+    // Function to get start of week
     function getWeekStart() as Moment {
         var today = new Time.Moment(Time.today().value());
         var info = Gregorian.info(today, Time.FORMAT_SHORT);
@@ -372,6 +341,7 @@ class g_faceView extends WatchUi.WatchFace {
         return today.subtract(new Time.Duration(days * 86400)) as Moment;
     }
 
+    // Function to get weekly running distance (in meters)
     function getWeeklyRunningDistance() as Number {
         var dist = 0;
         if(UserProfile has :getUserActivityHistory)
@@ -398,7 +368,7 @@ class g_faceView extends WatchUi.WatchFace {
         return dist;
     }
 
-    // Function to get distance in miles as string
+    // Function to get distance in miles 
     function getWeeklyRunDistanceMiles() as Float {
         var miles = getWeeklyRunningDistance()/1609.344;
         return miles;
