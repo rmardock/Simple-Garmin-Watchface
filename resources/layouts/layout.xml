@@ -27,12 +27,12 @@
 
     <!-- Steps (iconFont "#") -->
     <label id="StepsIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" text="#" />
-    <label id="StepsLabel" x="center" y="18%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
+    <label id="StepsLabel" x="55%" y="18%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
     
     <!-- Run Distance (iconFont "%") -->
     <!-- Color -->
     <label id="RunIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" text="%" />
-    <label id="WeeklyMiles" x="center" y="85%" font="@Fonts.futuraSmallFull" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
+    <label id="WeeklyMiles" x="55%" y="85%" font="@Fonts.futuraSmallFull" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
 
     <!-- Notifications (iconFont "@") (change this to ",") -->
     <label id="NotificationsIcon" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />

@@ -42,11 +42,11 @@ module Rez {
 
             var rez_cmp_local_text_StepsIcon = new WatchUi.Text({:identifier=>"StepsIcon", :color=>Graphics.COLOR_GREEN, :text=>"#", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
 
-            var rez_cmp_local_text_StepsLabel = new WatchUi.Text({:identifier=>"StepsLabel", :color=>Graphics.COLOR_GREEN, :locX=>(390 * 0.5), :locY=>(390 * (18 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraXsmall});
+            var rez_cmp_local_text_StepsLabel = new WatchUi.Text({:identifier=>"StepsLabel", :color=>Graphics.COLOR_GREEN, :locX=>(390 * (55 / 100.0)), :locY=>(390 * (18 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraXsmall});
 
             var rez_cmp_local_text_RunIcon = new WatchUi.Text({:identifier=>"RunIcon", :color=>Graphics.COLOR_GREEN, :text=>"%", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
 
-            var rez_cmp_local_text_WeeklyMiles = new WatchUi.Text({:identifier=>"WeeklyMiles", :color=>Graphics.COLOR_GREEN, :locX=>(390 * 0.5), :locY=>(390 * (85 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraSmallFull});
+            var rez_cmp_local_text_WeeklyMiles = new WatchUi.Text({:identifier=>"WeeklyMiles", :color=>Graphics.COLOR_GREEN, :locX=>(390 * (55 / 100.0)), :locY=>(390 * (85 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_futuraSmallFull});
 
             var rez_cmp_local_text_NotificationsIcon = new WatchUi.Text({:identifier=>"NotificationsIcon", :color=>Graphics.COLOR_WHITE, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_iconFont});
 
