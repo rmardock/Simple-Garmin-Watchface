@@ -1,0 +1,355 @@
+{
+  "settings" : [ {
+    "key" : "NotificationsColor",
+    "valueType" : "number",
+    "defaultValue" : 16777215,
+    "configTitle" : "NotificationsColor",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "CatppuccinYellow",
+      "value" : 16331439
+    }, {
+      "display" : "CatppuccinRed",
+      "value" : 15961000
+    }, {
+      "display" : "CatppuccinGreen",
+      "value" : 10937256
+    }, {
+      "display" : "CatppuccinBlue",
+      "value" : 9034987
+    }, {
+      "display" : "CatppuccinPurple",
+      "value" : 13346551
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    }, {
+      "display" : "ColorBlue",
+      "value" : 43775
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "StepsColor",
+    "valueType" : "number",
+    "defaultValue" : 65280,
+    "configTitle" : "StepsColor",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "CatppuccinYellow",
+      "value" : 16331439
+    }, {
+      "display" : "CatppuccinRed",
+      "value" : 15961000
+    }, {
+      "display" : "CatppuccinGreen",
+      "value" : 10937256
+    }, {
+      "display" : "CatppuccinBlue",
+      "value" : 9034987
+    }, {
+      "display" : "CatppuccinPurple",
+      "value" : 13346551
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    }, {
+      "display" : "ColorBlue",
+      "value" : 43775
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "DateColor",
+    "valueType" : "number",
+    "defaultValue" : 43775,
+    "configTitle" : "DateColor",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "CatppuccinYellow",
+      "value" : 16331439
+    }, {
+      "display" : "CatppuccinRed",
+      "value" : 15961000
+    }, {
+      "display" : "CatppuccinGreen",
+      "value" : 10937256
+    }, {
+      "display" : "CatppuccinBlue",
+      "value" : 9034987
+    }, {
+      "display" : "CatppuccinPurple",
+      "value" : 13346551
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    }, {
+      "display" : "ColorBlue",
+      "value" : 43775
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "TimeColor",
+    "valueType" : "number",
+    "defaultValue" : 43775,
+    "configTitle" : "TimeColor",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "CatppuccinYellow",
+      "value" : 16331439
+    }, {
+      "display" : "CatppuccinRed",
+      "value" : 15961000
+    }, {
+      "display" : "CatppuccinGreen",
+      "value" : 10937256
+    }, {
+      "display" : "CatppuccinBlue",
+      "value" : 9034987
+    }, {
+      "display" : "CatppuccinPurple",
+      "value" : 13346551
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    }, {
+      "display" : "ColorBlue",
+      "value" : 43775
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "BatteryColor",
+    "valueType" : "number",
+    "defaultValue" : 16777215,
+    "configTitle" : "BatteryColor",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "CatppuccinYellow",
+      "value" : 16331439
+    }, {
+      "display" : "CatppuccinRed",
+      "value" : 15961000
+    }, {
+      "display" : "CatppuccinGreen",
+      "value" : 10937256
+    }, {
+      "display" : "CatppuccinBlue",
+      "value" : 9034987
+    }, {
+      "display" : "CatppuccinPurple",
+      "value" : 13346551
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    }, {
+      "display" : "ColorBlue",
+      "value" : 43775
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "CaloriesColor",
+    "valueType" : "number",
+    "defaultValue" : 16777215,
+    "configTitle" : "CaloriesColor",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "CatppuccinYellow",
+      "value" : 16331439
+    }, {
+      "display" : "CatppuccinRed",
+      "value" : 15961000
+    }, {
+      "display" : "CatppuccinGreen",
+      "value" : 10937256
+    }, {
+      "display" : "CatppuccinBlue",
+      "value" : 9034987
+    }, {
+      "display" : "CatppuccinPurple",
+      "value" : 13346551
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    }, {
+      "display" : "ColorBlue",
+      "value" : 43775
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "HeartRateColor",
+    "valueType" : "number",
+    "defaultValue" : 16777215,
+    "configTitle" : "HeartRateColor",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "CatppuccinYellow",
+      "value" : 16331439
+    }, {
+      "display" : "CatppuccinRed",
+      "value" : 15961000
+    }, {
+      "display" : "CatppuccinGreen",
+      "value" : 10937256
+    }, {
+      "display" : "CatppuccinBlue",
+      "value" : 9034987
+    }, {
+      "display" : "CatppuccinPurple",
+      "value" : 13346551
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    }, {
+      "display" : "ColorBlue",
+      "value" : 43775
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "WeeklyDistanceColor",
+    "valueType" : "number",
+    "defaultValue" : 65280,
+    "configTitle" : "WeeklyDistanceColor",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "CatppuccinYellow",
+      "value" : 16331439
+    }, {
+      "display" : "CatppuccinRed",
+      "value" : 15961000
+    }, {
+      "display" : "CatppuccinGreen",
+      "value" : 10937256
+    }, {
+      "display" : "CatppuccinBlue",
+      "value" : 9034987
+    }, {
+      "display" : "CatppuccinPurple",
+      "value" : 13346551
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    }, {
+      "display" : "ColorBlue",
+      "value" : 43775
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Use24HrFormat",
+    "valueType" : "boolean",
+    "defaultValue" : false,
+    "configTitle" : "Use24HrFormat",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "CatppuccinBlue" : "Catppuccin Blue",
+      "ColorBlue" : "Blue",
+      "TimeColor" : "Time Color",
+      "CaloriesColor" : "Calories Color",
+      "DateColor" : "Date Color",
+      "CatppuccinRed" : "Catppuccin Red",
+      "CatppuccinGreen" : "Catppuccin Green",
+      "SettingsMenuTitle" : "Settings",
+      "NotificationsColor" : "Notifications Color",
+      "Use24HrFormat" : "24 Hour Format",
+      "AppName" : "g_face",
+      "BatteryColor" : "Battery Color",
+      "CatppuccinYellow" : "Catppuccin Yellow",
+      "CatppuccinPurple" : "Catppuccin Purple",
+      "HeartRateColor" : "Heart Rate Color",
+      "WeeklyDistanceColor" : "Distance Color",
+      "StepsColor" : "Steps Color",
+      "SettingsSubMenuTitle" : "Color",
+      "ColorWhite" : "White",
+      "ColorGreen" : "Green"
+    }
+  }
+}

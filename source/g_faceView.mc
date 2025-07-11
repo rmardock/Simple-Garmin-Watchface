@@ -104,38 +104,38 @@ class g_faceView extends WatchUi.WatchFace {
         // -- Steps Icon -- //
         if(getSteps() < 10)
         {
-            stepsIcon.setLocation(percX*0.42, percY*0.17);
+            stepsIcon.setLocation(percX*0.47, percY*0.17);
         }
         if(getSteps() >= 10 && getSteps() < 100)
         {
-            stepsIcon.setLocation(percX*0.41, percY*0.17);
+            stepsIcon.setLocation(percX*0.46, percY*0.17);
         }
         if(getSteps() >= 100 && getSteps() < 1000)
         {
-            stepsIcon.setLocation(percX*0.39, percY*0.17);
+            stepsIcon.setLocation(percX*0.44, percY*0.17);
         }
         if(getSteps() >= 1000 && getSteps() < 10000)
         {
-            stepsIcon.setLocation(percX*0.37, percY*0.17);
+            stepsIcon.setLocation(percX*0.42, percY*0.17);
         }
         if(getSteps() >= 10000)
         {
-            stepsIcon.setLocation(percX*0.35, percY*0.17);
+            stepsIcon.setLocation(percX*0.4, percY*0.17);
         }
 
         // -- Running Icon -- //
         if(getWeeklyRunDistanceMiles() == 0)
         {
             weeklyDistanceLabel.setText("0 mi");
-            weeklyDistanceIcon.setLocation(percX*0.34, percY*0.85);
+            weeklyDistanceIcon.setLocation(percX*0.39, percY*0.85);
         }
         if(getWeeklyRunDistanceMiles() > 0 && getWeeklyRunDistanceMiles() < 10)
         {
-            weeklyDistanceIcon.setLocation(percX*0.3, percY*0.85);
+            weeklyDistanceIcon.setLocation(percX*0.35, percY*0.85);
         }
         if(getWeeklyRunDistanceMiles() > 10 && getWeeklyRunDistanceMiles() < 100)
         {
-            weeklyDistanceIcon.setLocation(percX*0.27, percY*0.85);
+            weeklyDistanceIcon.setLocation(percX*0.32, percY*0.85);
         }
 
 

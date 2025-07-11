@@ -1,23 +1,23 @@
-[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+[ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
 import Toybox.Lang;
-[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+[ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
 import Toybox.System;
-[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+[ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsView.mc"; @line = 5; @symbol_classdef = [g_faceSettingsView,5,6,24]; @symbol_extends<0> = [WatchUi,5,33,40]; @symbol_extends<1> = [Menu2,5,41,46]; ]
+[ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsView.mc"; @line = 5; @symbol_classdef = [g_faceSettingsView,5,6,24]; @symbol_extends<0> = [WatchUi,5,33,40]; @symbol_extends<1> = [Menu2,5,41,46]; ]
 class g_faceSettingsView extends WatchUi.Menu2 {
-    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsView.mc"; @line = 5; ]
+    [ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsView.mc"; @line = 5; ]
     <init> {
     }
-    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsView.mc"; @line = 5; ]
+    [ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsView.mc"; @line = 5; ]
     static
     <init> {
     }
-    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsView.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    [ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsView.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
     function initialize() as Void {
-_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsView_mc_7_26_10_4_start:
-[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsView.mc" 8 8 ]
-        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsView_mc_7_26_10_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsView_mc_7_26_10_4_stop" ]
+_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsView_mc_7_26_10_4_start:
+[ "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsView.mc" 8 8 ]
+        [ "_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsView_mc_7_26_10_4_start" "_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsView_mc_7_26_10_4_stop" ]
         %menu.1 = local;
         symbol [ menu %menu.1 8 12 16 ];
         symbol [ Rez %tmp.2 8 19 22 ];
@@ -28,15 +28,15 @@ _home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsView_mc
         %tmp.4 = getv %tmp.3 :SettingsMenu;
         lputv %menu.1 %tmp.4;
         symbol [ menu %menu.1 8 12 16 ];
-[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsView.mc" 9 8 ]
+[ "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsView.mc" 9 8 ]
         %tmp.5 = lgetv %menu.1;
         symbol [ menu %tmp.5 9 8 12 ];
         symbol [ initialize %tmp.6 9 13 23 ];
         %tmp.6 = getv function %tmp.5 :initialize;
         invoke %tmp.5 %tmp.6();
-_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsView_mc_7_26_10_4_stop:
+_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsView_mc_7_26_10_4_stop:
     }
 }
-[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsView.mc"; @line = 1; ]
+[ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsView.mc"; @line = 1; ]
 <init> {
 }

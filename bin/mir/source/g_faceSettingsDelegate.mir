@@ -1,34 +1,34 @@
-[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+[ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
 import Toybox.Application;
-[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+[ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
 import Toybox.System;
-[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+[ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsDelegate.mc"; @line = 5; @symbol_classdef = [g_faceSettingsDelegate,5,6,28]; @symbol_extends<0> = [WatchUi,5,37,44]; @symbol_extends<1> = [Menu2InputDelegate,5,45,63]; ]
+[ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc"; @line = 5; @symbol_classdef = [g_faceSettingsDelegate,5,6,28]; @symbol_extends<0> = [WatchUi,5,37,44]; @symbol_extends<1> = [Menu2InputDelegate,5,45,63]; ]
 class g_faceSettingsDelegate extends WatchUi.Menu2InputDelegate {
-    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsDelegate.mc"; @line = 5; ]
+    [ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc"; @line = 5; ]
     <init> {
     }
-    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsDelegate.mc"; @line = 5; ]
+    [ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc"; @line = 5; ]
     static
     <init> {
     }
-    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    [ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
     function initialize() as Void {
-_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegate_mc_7_26_9_4_start:
-[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsDelegate.mc" 8 8 ]
+_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_7_26_9_4_start:
+[ "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 8 8 ]
         symbol [ Menu2InputDelegate %tmp.2 8 8 26 ];
         %tmp.2 = getv ? :Menu2InputDelegate;
         symbol [ initialize %tmp.3 8 27 37 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegate_mc_7_26_9_4_stop:
+_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_7_26_9_4_stop:
     }
-    [ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsDelegate.mc"; @line = 11; @symbol_functiondef = [onSelect,11,13,21]; @symbol_param<0> = [item,11,22,26]; ]
+    [ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc"; @line = 11; @symbol_functiondef = [onSelect,11,13,21]; @symbol_param<0> = [item,11,22,26]; ]
     function onSelect(item) {
-_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegate_mc_11_28_18_4_start:
-[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsDelegate.mc" 12 8 ]
-        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegate_mc_11_28_18_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegate_mc_11_28_18_4_stop" ]
+_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_11_28_18_4_start:
+[ "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 12 8 ]
+        [ "_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_11_28_18_4_start" "_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_11_28_18_4_stop" ]
         %id.1 = local;
         symbol [ id %id.1 12 12 14 ];
         %tmp.1 = lgetv %item;
@@ -38,8 +38,8 @@ _home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegat
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %id.1 %tmp.3;
         symbol [ id %id.1 12 12 14 ];
-[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsDelegate.mc" 13 8 ]
-        [ "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegate_mc_11_28_18_4_start" "_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegate_mc_11_28_18_4_stop" ]
+[ "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 13 8 ]
+        [ "_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_11_28_18_4_start" "_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_11_28_18_4_stop" ]
         %subMenu.2 = local;
         symbol [ subMenu %subMenu.2 13 12 19 ];
         symbol [ Rez %tmp.5 13 22 25 ];
@@ -50,27 +50,27 @@ _home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegat
         %tmp.7 = getv %tmp.6 :SettingsSubMenu;
         lputv %subMenu.2 %tmp.7;
         symbol [ subMenu %subMenu.2 13 12 19 ];
-[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsDelegate.mc" 14 8 ]
-_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegate_mc_14_8_17_8_if_stmt:
+[ "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 14 8 ]
+_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_14_8_17_8_if_stmt:
         %tmp.8 = lgetv %id.1;
         symbol [ id %tmp.8 14 11 13 ];
         %tmp.9 = "NotificationsColor";
         %tmp.10 = eq %tmp.8 %tmp.9;
-        bf %tmp.10 @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegate_mc_14_8_17_8_if_end;
-_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegate_mc_14_8_17_8_if_true:
-_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegate_mc_15_8_17_8_start:
-[ "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsDelegate.mc" 16 12 ]
+        bf %tmp.10 @_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_14_8_17_8_if_end;
+_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_14_8_17_8_if_true:
+_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_15_8_17_8_start:
+[ "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 16 12 ]
         %tmp.11 = lgetv %subMenu.2;
         symbol [ subMenu %tmp.11 16 12 19 ];
         symbol [ initialize %tmp.12 16 20 30 ];
         %tmp.12 = getv function %tmp.11 :initialize;
         invoke %tmp.11 %tmp.12();
-_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegate_mc_15_8_17_8_stop:
-        goto @_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegate_mc_14_8_17_8_if_end;
-_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegate_mc_14_8_17_8_if_end:
-_home_ry_development_garmin_watchface_g_face_g_face_source_g_faceSettingsDelegate_mc_11_28_18_4_stop:
+_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_15_8_17_8_stop:
+        goto @_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_14_8_17_8_if_end;
+_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_14_8_17_8_if_end:
+_home_ry_development_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_11_28_18_4_stop:
     }
 }
-[ @file = "/home/ry/development/garmin-watchface/g_face/g_face/source/g_faceSettingsDelegate.mc"; @line = 1; ]
+[ @file = "/home/ry/development/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc"; @line = 1; ]
 <init> {
 }
