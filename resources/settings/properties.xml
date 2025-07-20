@@ -1,14 +1,16 @@
 <properties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
 
     <!-- Properties for element colors -->
-    <property id="NotificationsColor" type="number">0xffffff</property>
-    <property id="StepsColor" type="number">0x00ff00</property>
-    <property id="DateColor" type="number">0x00aaff</property>
-    <property id="TimeColor" type="number">0x00aaff</property>
-    <property id="BatteryColor" type="number">0xffffff</property>
-    <property id="CaloriesColor" type="number">0xffffff</property>
-    <property id="HeartRateColor" type="number">0xffffff</property>
-    <property id="WeeklyDistanceColor" type="number">0x00ff00</property>
+    <property id="NotificationsColor" type="number">0xf9e2af</property>
+    <property id="StepsColor" type="number">0xa6e3a8</property>
+    <property id="DateColor" type="number">0xcba6f7</property>
+    <property id="TimeColor" type="number">0xf9e2af</property>
+    <property id="BatteryColor" type="number">0xa6e3a8</property>
+    <property id="CaloriesColor" type="number">0x89dceb</property>
+    <property id="HeartRateColor" type="number">0xf38ba8</property>
+    <property id="WeeklyDistanceColor" type="number">0xcba6f7</property>
+    <property id="BluetoothColor" type="number">0x89dceb</property>
+    <property id="DoNotDisturbColor" type="number">0xf38ba8</property>
 
     <!-- Property for 24Hr format -->
     <property id="Use24HrFormat" type="boolean">false</property>

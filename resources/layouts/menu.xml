@@ -7,4 +7,6 @@
     <menu-item id="CaloriesColor" label="@Strings.CaloriesColor"></menu-item>
     <menu-item id="HeartRateColor" label="@Strings.HeartRateColor"></menu-item>
     <menu-item id="WeeklyDistanceColor" label="@Strings.WeeklyDistanceColor"></menu-item>
+    <menu-item id="BluetoothColor" label="@Strings.BluetoothColor"></menu-item>
+    <menu-item id="DoNotDisturbColor" label="@Strings.DoNotDisturbColor"></menu-item>
 </menu2>

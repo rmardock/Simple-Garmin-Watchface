@@ -2,7 +2,7 @@
   "settings" : [ {
     "key" : "NotificationsColor",
     "valueType" : "number",
-    "defaultValue" : 16777215,
+    "defaultValue" : 16376495,
     "configTitle" : "NotificationsColor",
     "configPrompt" : null,
     "configType" : "list",
@@ -41,7 +41,7 @@
   }, {
     "key" : "StepsColor",
     "valueType" : "number",
-    "defaultValue" : 65280,
+    "defaultValue" : 10937256,
     "configTitle" : "StepsColor",
     "configPrompt" : null,
     "configType" : "list",
@@ -80,7 +80,7 @@
   }, {
     "key" : "DateColor",
     "valueType" : "number",
-    "defaultValue" : 43775,
+    "defaultValue" : 13346551,
     "configTitle" : "DateColor",
     "configPrompt" : null,
     "configType" : "list",
@@ -119,7 +119,7 @@
   }, {
     "key" : "TimeColor",
     "valueType" : "number",
-    "defaultValue" : 43775,
+    "defaultValue" : 16376495,
     "configTitle" : "TimeColor",
     "configPrompt" : null,
     "configType" : "list",
@@ -158,7 +158,7 @@
   }, {
     "key" : "BatteryColor",
     "valueType" : "number",
-    "defaultValue" : 16777215,
+    "defaultValue" : 10937256,
     "configTitle" : "BatteryColor",
     "configPrompt" : null,
     "configType" : "list",
@@ -197,7 +197,7 @@
   }, {
     "key" : "CaloriesColor",
     "valueType" : "number",
-    "defaultValue" : 16777215,
+    "defaultValue" : 9034987,
     "configTitle" : "CaloriesColor",
     "configPrompt" : null,
     "configType" : "list",
@@ -236,7 +236,7 @@
   }, {
     "key" : "HeartRateColor",
     "valueType" : "number",
-    "defaultValue" : 16777215,
+    "defaultValue" : 15961000,
     "configTitle" : "HeartRateColor",
     "configPrompt" : null,
     "configType" : "list",
@@ -275,7 +275,7 @@
   }, {
     "key" : "WeeklyDistanceColor",
     "valueType" : "number",
-    "defaultValue" : 65280,
+    "defaultValue" : 13346551,
     "configTitle" : "WeeklyDistanceColor",
     "configPrompt" : null,
     "configType" : "list",
@@ -333,6 +333,7 @@
       "CatppuccinBlue" : "Catppuccin Blue",
       "ColorBlue" : "Blue",
       "TimeColor" : "Time Color",
+      "DoNotDisturbColor" : "Do Not Disturb Color",
       "CaloriesColor" : "Calories Color",
       "DateColor" : "Date Color",
       "CatppuccinRed" : "Catppuccin Red",
@@ -343,6 +344,7 @@
       "AppName" : "g_face",
       "BatteryColor" : "Battery Color",
       "CatppuccinYellow" : "Catppuccin Yellow",
+      "BluetoothColor" : "Bluetooth Color",
       "CatppuccinPurple" : "Catppuccin Purple",
       "HeartRateColor" : "Heart Rate Color",
       "WeeklyDistanceColor" : "Distance Color",

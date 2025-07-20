@@ -1,0 +1,42 @@
+[ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsSubMenu.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsSubMenu.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsSubMenu.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsSubMenu.mc"; @line = 5; @symbol_classdef = [g_faceSettingsSubMenu,5,6,27]; @symbol_extends<0> = [WatchUi,5,36,43]; @symbol_extends<1> = [Menu2,5,44,49]; ]
+class g_faceSettingsSubMenu extends WatchUi.Menu2 {
+    [ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsSubMenu.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsSubMenu.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsSubMenu.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsSubMenu_mc_7_26_11_4_start:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsSubMenu.mc" 9 8 ]
+        [ "_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsSubMenu_mc_7_26_11_4_start" "_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsSubMenu_mc_7_26_11_4_stop" ]
+        %subMenu.1 = local;
+        symbol [ subMenu %subMenu.1 9 12 19 ];
+        symbol [ Rez %tmp.2 9 22 25 ];
+        %tmp.2 = getv ? :Rez;
+        symbol [ Menus %tmp.3 9 26 31 ];
+        %tmp.3 = getv %tmp.2 :Menus;
+        symbol [ SettingsSubMenu %tmp.4 9 32 47 ];
+        %tmp.4 = getv %tmp.3 :SettingsSubMenu;
+        lputv %subMenu.1 %tmp.4;
+        symbol [ subMenu %subMenu.1 9 12 19 ];
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsSubMenu.mc" 10 8 ]
+        %tmp.5 = lgetv %subMenu.1;
+        symbol [ subMenu %tmp.5 10 8 15 ];
+        symbol [ initialize %tmp.6 10 16 26 ];
+        %tmp.6 = getv function %tmp.5 :initialize;
+        invoke %tmp.5 %tmp.6();
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsSubMenu_mc_7_26_11_4_stop:
+    }
+}
+[ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsSubMenu.mc"; @line = 1; ]
+<init> {
+}

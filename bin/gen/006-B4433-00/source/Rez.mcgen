@@ -70,6 +70,8 @@ module Rez {
                 addItem(new WatchUi.MenuItem($.Rez.Strings.CaloriesColor, null, :CaloriesColor, null));
                 addItem(new WatchUi.MenuItem($.Rez.Strings.HeartRateColor, null, :HeartRateColor, null));
                 addItem(new WatchUi.MenuItem($.Rez.Strings.WeeklyDistanceColor, null, :WeeklyDistanceColor, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.BluetoothColor, null, :BluetoothColor, null));
+                addItem(new WatchUi.MenuItem($.Rez.Strings.DoNotDisturbColor, null, :DoNotDisturbColor, null));
             }
         }
 
@@ -92,6 +94,7 @@ module Rez {
         (:initialized) var CatppuccinBlue as ResourceId;
         (:initialized) var ColorBlue as ResourceId;
         (:initialized) var TimeColor as ResourceId;
+        (:initialized) var DoNotDisturbColor as ResourceId;
         (:initialized) var CaloriesColor as ResourceId;
         (:initialized) var DateColor as ResourceId;
         (:initialized) var CatppuccinRed as ResourceId;
@@ -102,6 +105,7 @@ module Rez {
         (:initialized) var AppName as ResourceId;
         (:initialized) var BatteryColor as ResourceId;
         (:initialized) var CatppuccinYellow as ResourceId;
+        (:initialized) var BluetoothColor as ResourceId;
         (:initialized) var CatppuccinPurple as ResourceId;
         (:initialized) var HeartRateColor as ResourceId;
         (:initialized) var WeeklyDistanceColor as ResourceId;

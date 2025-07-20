@@ -9,11 +9,15 @@ class g_faceSettingsDelegate extends WatchUi.Menu2InputDelegate {
     }
 
     function onSelect(item) {
-        var id = item.getId();
-        var subMenu = Rez.Menus.SettingsSubMenu;
-        if(id == "NotificationsColor")
-        {
-            subMenu.initialize();
-        }
+        var id = item.getId().toString();
+
+        // SubMenu    
+        var subMenu = new g_faceSettingsSubMenu();
+        WatchUi.pushView(subMenu, new g_faceSubMenuDelegate(id), WatchUi.SLIDE_LEFT);
+    }
+
+    function onBack() {
+        WatchUi.popView(WatchUi.SLIDE_RIGHT);
+        return;
     }
 }

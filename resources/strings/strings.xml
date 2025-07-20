@@ -12,6 +12,8 @@
     <string id="HeartRateColor">Heart Rate Color</string>
     <string id="WeeklyDistanceColor">Distance Color</string>
     <string id="Use24HrFormat">24 Hour Format</string>
+    <string id="BluetoothColor">Bluetooth Color</string>
+    <string id="DoNotDisturbColor">Do Not Disturb Color</string>
 
     <!-- Color Titles (Catppuccin Mocha) -->
     <string id="CatppuccinYellow">Catppuccin Yellow</string>

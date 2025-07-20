@@ -17,9 +17,9 @@ class g_faceApp extends Application.AppBase {
     }
 
     // return settings view
-    // function getSettingsView() as [Views] or [Views, InputDelegates] or Null {
-    //     return [ new g_faceSettingsView() ];
-    // }
+    function getSettingsView() as [Views] or [Views, InputDelegates] or Null {
+        return [ new g_faceSettingsView(), new g_faceSettingsDelegate() ];
+    }
 
     // // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
