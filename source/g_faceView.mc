@@ -309,26 +309,54 @@ class g_faceView extends WatchUi.WatchFace {
         
         if(getBatteryStatus())
         {
-            return "=";
+            return "|";
         }
-        if(getBattery() < 15)
+        if(getBattery() < 10)
         {
-            return ":";
+            return "[";
         }
-        if(getBattery() >= 15 && getBattery() < 45){
+        if(getBattery() >= 10 && getBattery() < 20){
+            return "(";
+        }
+        if(getBattery() >= 20 && getBattery() < 30)
+        {
+            return ")";
+        }
+        if(getBattery() >=30 && getBattery() < 40)
+        {
+            return "*";
+        }
+        if(getBattery() >= 40 && getBattery() < 50)
+        {
+            return "+";
+        }
+        if(getBattery() >= 50 && getBattery() < 60)
+        {
             return ",";
         }
-        if(getBattery() >= 45 && getBattery() < 85)
+        if(getBattery() >= 60 && getBattery() < 70)
         {
             return "-";
         }
-        if(getBattery() >=85)
+        if(getBattery() >= 70 && getBattery() < 80)
         {
             return ".";
         }
+        if(getBattery() >= 80 && getBattery() < 90)
+        {
+            return ":";
+        }
+        if(getBattery() >= 90 && getBattery() < 95)
+        {
+            return "=";
+        }
+        if(getBattery() >=95)
+        {
+            return "^";
+        }
         else
         {
-            return ".";
+            return "^";
         }
     }
 

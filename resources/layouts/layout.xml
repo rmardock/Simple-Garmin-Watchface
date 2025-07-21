@@ -21,7 +21,10 @@
     <label id="CaloriesIcon" x="50%" y="65%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#89dceb" text="$" />
     <label id="CaloriesLabel" x="50%" y="75%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#89dceb" />
 
-    <!-- Battery (iconFont ",-.:=")-->
+    <!-- Battery (iconFont)
+        10% = "("   20% = ")"   30% = "*"   40% = "+"   50% = ","   60% = "-"   70% = "."   80% = ":"
+        90% = "="   100% = "^"  0% = "["    critical = "]"  charging = "|"
+    -->
     <label id="BatteryIcon" x="25%" y="65%" font="@Fonts.iconFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#a6e3a8" />
     <label id="BatteryLabel" x="25.5%" y="75%" font="@Fonts.futuraXsmall" justification="Graphics.TEXT_JUSTIFY_CENTER" color="#a6e3a8" />
 
