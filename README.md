@@ -19,4 +19,4 @@ My main reason for building this project is to use this watchface on my Garmin F
 - *Allows color customization for any data field from set color list*
 - *Customization can be applied with the on-device watch face customization menu*
 
-<img src="img/watchface_preview_alt_01.png" alt="watchface_image" width="200" />        <img src="img/watchface_preview_alt_02.png" alt="watchface_image" width="200" />
+<img src="img/watchface_preview_03.png" alt="watchface_image" width="200" />        <img src="img/watchface_preview_04.png" alt="watchface_image" width="200" />
