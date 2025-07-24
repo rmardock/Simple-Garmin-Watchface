@@ -19,239 +19,319 @@ class g_faceSubMenuDelegate extends WatchUi.Menu2InputDelegate {
     var setting;
     [ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc"; @line = 10; @symbol_functiondef = [initialize,10,13,23]; @symbol_param<0> = [s,10,24,25]; ]
     function initialize(s) as Void {
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_10_27_14_4_start:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 11 8 ]
-        symbol [ Menu2InputDelegate %tmp.2 11 8 26 ];
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_10_27_15_4_start:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 12 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 12 8 26 ];
         %tmp.2 = getv ? :Menu2InputDelegate;
-        symbol [ initialize %tmp.3 11 27 37 ];
+        symbol [ initialize %tmp.3 12 27 37 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 13 8 ]
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 14 8 ]
         %tmp.4 = lgetv %s;
-        symbol [ s %tmp.4 13 18 19 ];
-        symbol [ setting ? 13 8 15 ];
+        symbol [ s %tmp.4 14 18 19 ];
+        symbol [ setting ? 14 8 15 ];
         putv self :setting %tmp.4;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_10_27_14_4_stop:
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_10_27_15_4_stop:
     }
-    [ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc"; @line = 16; @symbol_functiondef = [onSelect,16,13,21]; @symbol_param<0> = [item,16,22,26]; ]
+    [ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc"; @line = 17; @symbol_functiondef = [onSelect,17,13,21]; @symbol_param<0> = [item,17,22,26]; ]
     function onSelect(item) {
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_16_28_52_4_start:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 17 8 ]
-        [ "_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_16_28_52_4_start" "_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_16_28_52_4_stop" ]
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_17_28_62_4_start:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 18 8 ]
+        [ "_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_17_28_62_4_start" "_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_17_28_62_4_stop" ]
         %id.1 = local;
-        symbol [ id %id.1 17 12 14 ];
+        symbol [ id %id.1 18 12 14 ];
         %tmp.1 = lgetv %item;
-        symbol [ item %tmp.1 17 17 21 ];
-        symbol [ getId %tmp.2 17 22 27 ];
+        symbol [ item %tmp.1 18 17 21 ];
+        symbol [ getId %tmp.2 18 22 27 ];
         %tmp.2 = getv function %tmp.1 :getId;
         %tmp.3 = invoke %tmp.1 %tmp.2();
-        symbol [ toString %tmp.4 17 30 38 ];
+        symbol [ toString %tmp.4 18 30 38 ];
         %tmp.4 = getv function %tmp.3 :toString;
         %tmp.5 = invoke %tmp.3 %tmp.4();
         lputv %id.1 %tmp.5;
-        symbol [ id %id.1 17 12 14 ];
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 19 8 ]
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_19_8_23_8_if_stmt:
+        symbol [ id %id.1 18 12 14 ];
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 21 8 ]
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_21_8_25_8_if_stmt:
         %tmp.6 = lgetv %id.1;
-        symbol [ id %tmp.6 19 11 13 ];
-        symbol [ equals %tmp.7 19 14 20 ];
+        symbol [ id %tmp.6 21 11 13 ];
+        symbol [ equals %tmp.7 21 14 20 ];
         %tmp.7 = getv function %tmp.6 :equals;
         %tmp.8 = "CatppuccinYellow";
         %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
-        bf %tmp.9 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_19_8_23_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_19_8_23_8_if_true:
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_20_8_23_8_start:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 22 12 ]
-        symbol [ Properties %tmp.11 22 12 22 ];
+        bf %tmp.9 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_21_8_25_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_21_8_25_8_if_true:
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_22_8_25_8_start:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 23 12 ]
+        symbol [ Properties %tmp.11 23 12 22 ];
         %tmp.11 = getv ? :Properties;
-        symbol [ setValue %tmp.12 22 23 31 ];
+        symbol [ setValue %tmp.12 23 23 31 ];
         %tmp.12 = getv function %tmp.11 :setValue;
-        symbol [ setting %tmp.14 22 32 39 ];
+        symbol [ setting %tmp.14 23 32 39 ];
         %tmp.14 = getv ? :setting;
         %tmp.15 = 0xf9e2af;
         invoke %tmp.11 %tmp.12(%tmp.14, %tmp.15);
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_20_8_23_8_stop:
-        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_19_8_23_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_19_8_23_8_if_end:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 24 8 ]
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_24_8_27_8_if_stmt:
-        %tmp.16 = lgetv %id.1;
-        symbol [ id %tmp.16 24 11 13 ];
-        symbol [ equals %tmp.17 24 14 20 ];
-        %tmp.17 = getv function %tmp.16 :equals;
-        %tmp.18 = "CatppuccinRed";
-        %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
-        bf %tmp.19 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_24_8_27_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_24_8_27_8_if_true:
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_25_8_27_8_start:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 26 12 ]
-        symbol [ Properties %tmp.21 26 12 22 ];
-        %tmp.21 = getv ? :Properties;
-        symbol [ setValue %tmp.22 26 23 31 ];
-        %tmp.22 = getv function %tmp.21 :setValue;
-        symbol [ setting %tmp.24 26 32 39 ];
-        %tmp.24 = getv ? :setting;
-        %tmp.25 = 0xf38ba8;
-        invoke %tmp.21 %tmp.22(%tmp.24, %tmp.25);
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_25_8_27_8_stop:
-        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_24_8_27_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_24_8_27_8_if_end:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 28 8 ]
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_28_8_31_8_if_stmt:
-        %tmp.26 = lgetv %id.1;
-        symbol [ id %tmp.26 28 11 13 ];
-        symbol [ equals %tmp.27 28 14 20 ];
-        %tmp.27 = getv function %tmp.26 :equals;
-        %tmp.28 = "CatppuccinGreen";
-        %tmp.29 = invoke %tmp.26 %tmp.27(%tmp.28);
-        bf %tmp.29 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_28_8_31_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_28_8_31_8_if_true:
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_29_8_31_8_start:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 30 12 ]
-        symbol [ Properties %tmp.31 30 12 22 ];
-        %tmp.31 = getv ? :Properties;
-        symbol [ setValue %tmp.32 30 23 31 ];
-        %tmp.32 = getv function %tmp.31 :setValue;
-        symbol [ setting %tmp.34 30 32 39 ];
-        %tmp.34 = getv ? :setting;
-        %tmp.35 = 0xa6e3a8;
-        invoke %tmp.31 %tmp.32(%tmp.34, %tmp.35);
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_29_8_31_8_stop:
-        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_28_8_31_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_28_8_31_8_if_end:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 32 8 ]
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_32_8_35_8_if_stmt:
-        %tmp.36 = lgetv %id.1;
-        symbol [ id %tmp.36 32 11 13 ];
-        symbol [ equals %tmp.37 32 14 20 ];
-        %tmp.37 = getv function %tmp.36 :equals;
-        %tmp.38 = "CatppuccinBlue";
-        %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
-        bf %tmp.39 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_32_8_35_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_32_8_35_8_if_true:
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_33_8_35_8_start:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 24 12 ]
+        symbol [ WatchUi %tmp.16 24 12 19 ];
+        %tmp.16 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.17 24 20 27 ];
+        %tmp.17 = getv function %tmp.16 :popView;
+        symbol [ WatchUi %tmp.18 24 28 35 ];
+        %tmp.18 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.19 24 36 47 ];
+        %tmp.19 = getv %tmp.18 :SLIDE_RIGHT;
+        invoke %tmp.16 %tmp.17(%tmp.19);
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_22_8_25_8_stop:
+        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_21_8_25_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_21_8_25_8_if_end:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 26 8 ]
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_26_8_30_8_if_stmt:
+        %tmp.20 = lgetv %id.1;
+        symbol [ id %tmp.20 26 11 13 ];
+        symbol [ equals %tmp.21 26 14 20 ];
+        %tmp.21 = getv function %tmp.20 :equals;
+        %tmp.22 = "CatppuccinRed";
+        %tmp.23 = invoke %tmp.20 %tmp.21(%tmp.22);
+        bf %tmp.23 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_26_8_30_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_26_8_30_8_if_true:
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_27_8_30_8_start:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 28 12 ]
+        symbol [ Properties %tmp.25 28 12 22 ];
+        %tmp.25 = getv ? :Properties;
+        symbol [ setValue %tmp.26 28 23 31 ];
+        %tmp.26 = getv function %tmp.25 :setValue;
+        symbol [ setting %tmp.28 28 32 39 ];
+        %tmp.28 = getv ? :setting;
+        %tmp.29 = 0xf38ba8;
+        invoke %tmp.25 %tmp.26(%tmp.28, %tmp.29);
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 29 12 ]
+        symbol [ WatchUi %tmp.30 29 12 19 ];
+        %tmp.30 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.31 29 20 27 ];
+        %tmp.31 = getv function %tmp.30 :popView;
+        symbol [ WatchUi %tmp.32 29 28 35 ];
+        %tmp.32 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.33 29 36 47 ];
+        %tmp.33 = getv %tmp.32 :SLIDE_RIGHT;
+        invoke %tmp.30 %tmp.31(%tmp.33);
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_27_8_30_8_stop:
+        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_26_8_30_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_26_8_30_8_if_end:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 31 8 ]
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_31_8_35_8_if_stmt:
+        %tmp.34 = lgetv %id.1;
+        symbol [ id %tmp.34 31 11 13 ];
+        symbol [ equals %tmp.35 31 14 20 ];
+        %tmp.35 = getv function %tmp.34 :equals;
+        %tmp.36 = "CatppuccinGreen";
+        %tmp.37 = invoke %tmp.34 %tmp.35(%tmp.36);
+        bf %tmp.37 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_31_8_35_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_31_8_35_8_if_true:
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_32_8_35_8_start:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 33 12 ]
+        symbol [ Properties %tmp.39 33 12 22 ];
+        %tmp.39 = getv ? :Properties;
+        symbol [ setValue %tmp.40 33 23 31 ];
+        %tmp.40 = getv function %tmp.39 :setValue;
+        symbol [ setting %tmp.42 33 32 39 ];
+        %tmp.42 = getv ? :setting;
+        %tmp.43 = 0xa6e3a8;
+        invoke %tmp.39 %tmp.40(%tmp.42, %tmp.43);
 [ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 34 12 ]
-        symbol [ Properties %tmp.41 34 12 22 ];
-        %tmp.41 = getv ? :Properties;
-        symbol [ setValue %tmp.42 34 23 31 ];
-        %tmp.42 = getv function %tmp.41 :setValue;
-        symbol [ setting %tmp.44 34 32 39 ];
-        %tmp.44 = getv ? :setting;
-        %tmp.45 = 0x89dceb;
-        invoke %tmp.41 %tmp.42(%tmp.44, %tmp.45);
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_33_8_35_8_stop:
-        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_32_8_35_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_32_8_35_8_if_end:
+        symbol [ WatchUi %tmp.44 34 12 19 ];
+        %tmp.44 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.45 34 20 27 ];
+        %tmp.45 = getv function %tmp.44 :popView;
+        symbol [ WatchUi %tmp.46 34 28 35 ];
+        %tmp.46 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.47 34 36 47 ];
+        %tmp.47 = getv %tmp.46 :SLIDE_RIGHT;
+        invoke %tmp.44 %tmp.45(%tmp.47);
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_32_8_35_8_stop:
+        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_31_8_35_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_31_8_35_8_if_end:
 [ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 36 8 ]
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_36_8_39_8_if_stmt:
-        %tmp.46 = lgetv %id.1;
-        symbol [ id %tmp.46 36 11 13 ];
-        symbol [ equals %tmp.47 36 14 20 ];
-        %tmp.47 = getv function %tmp.46 :equals;
-        %tmp.48 = "CatppuccinPurple";
-        %tmp.49 = invoke %tmp.46 %tmp.47(%tmp.48);
-        bf %tmp.49 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_36_8_39_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_36_8_39_8_if_true:
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_37_8_39_8_start:
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_36_8_40_8_if_stmt:
+        %tmp.48 = lgetv %id.1;
+        symbol [ id %tmp.48 36 11 13 ];
+        symbol [ equals %tmp.49 36 14 20 ];
+        %tmp.49 = getv function %tmp.48 :equals;
+        %tmp.50 = "CatppuccinBlue";
+        %tmp.51 = invoke %tmp.48 %tmp.49(%tmp.50);
+        bf %tmp.51 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_36_8_40_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_36_8_40_8_if_true:
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_37_8_40_8_start:
 [ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 38 12 ]
-        symbol [ Properties %tmp.51 38 12 22 ];
-        %tmp.51 = getv ? :Properties;
-        symbol [ setValue %tmp.52 38 23 31 ];
-        %tmp.52 = getv function %tmp.51 :setValue;
-        symbol [ setting %tmp.54 38 32 39 ];
-        %tmp.54 = getv ? :setting;
-        %tmp.55 = 0xcba6f7;
-        invoke %tmp.51 %tmp.52(%tmp.54, %tmp.55);
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_37_8_39_8_stop:
-        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_36_8_39_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_36_8_39_8_if_end:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 40 8 ]
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_40_8_43_8_if_stmt:
-        %tmp.56 = lgetv %id.1;
-        symbol [ id %tmp.56 40 11 13 ];
-        symbol [ equals %tmp.57 40 14 20 ];
-        %tmp.57 = getv function %tmp.56 :equals;
-        %tmp.58 = "ColorWhite";
-        %tmp.59 = invoke %tmp.56 %tmp.57(%tmp.58);
-        bf %tmp.59 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_40_8_43_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_40_8_43_8_if_true:
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_41_8_43_8_start:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 42 12 ]
-        symbol [ Properties %tmp.61 42 12 22 ];
-        %tmp.61 = getv ? :Properties;
-        symbol [ setValue %tmp.62 42 23 31 ];
-        %tmp.62 = getv function %tmp.61 :setValue;
-        symbol [ setting %tmp.64 42 32 39 ];
-        %tmp.64 = getv ? :setting;
-        %tmp.65 = 0xffffff;
-        invoke %tmp.61 %tmp.62(%tmp.64, %tmp.65);
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_41_8_43_8_stop:
-        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_40_8_43_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_40_8_43_8_if_end:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 44 8 ]
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_44_8_47_8_if_stmt:
-        %tmp.66 = lgetv %id.1;
-        symbol [ id %tmp.66 44 11 13 ];
-        symbol [ equals %tmp.67 44 14 20 ];
-        %tmp.67 = getv function %tmp.66 :equals;
-        %tmp.68 = "ColorBlue";
-        %tmp.69 = invoke %tmp.66 %tmp.67(%tmp.68);
-        bf %tmp.69 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_44_8_47_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_44_8_47_8_if_true:
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_45_8_47_8_start:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 46 12 ]
-        symbol [ Properties %tmp.71 46 12 22 ];
-        %tmp.71 = getv ? :Properties;
-        symbol [ setValue %tmp.72 46 23 31 ];
-        %tmp.72 = getv function %tmp.71 :setValue;
-        symbol [ setting %tmp.74 46 32 39 ];
-        %tmp.74 = getv ? :setting;
-        %tmp.75 = 0x00aaff;
-        invoke %tmp.71 %tmp.72(%tmp.74, %tmp.75);
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_45_8_47_8_stop:
-        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_44_8_47_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_44_8_47_8_if_end:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 48 8 ]
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_48_8_51_8_if_stmt:
+        symbol [ Properties %tmp.53 38 12 22 ];
+        %tmp.53 = getv ? :Properties;
+        symbol [ setValue %tmp.54 38 23 31 ];
+        %tmp.54 = getv function %tmp.53 :setValue;
+        symbol [ setting %tmp.56 38 32 39 ];
+        %tmp.56 = getv ? :setting;
+        %tmp.57 = 0x89dceb;
+        invoke %tmp.53 %tmp.54(%tmp.56, %tmp.57);
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 39 12 ]
+        symbol [ WatchUi %tmp.58 39 12 19 ];
+        %tmp.58 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.59 39 20 27 ];
+        %tmp.59 = getv function %tmp.58 :popView;
+        symbol [ WatchUi %tmp.60 39 28 35 ];
+        %tmp.60 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.61 39 36 47 ];
+        %tmp.61 = getv %tmp.60 :SLIDE_RIGHT;
+        invoke %tmp.58 %tmp.59(%tmp.61);
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_37_8_40_8_stop:
+        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_36_8_40_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_36_8_40_8_if_end:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 41 8 ]
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_41_8_45_8_if_stmt:
+        %tmp.62 = lgetv %id.1;
+        symbol [ id %tmp.62 41 11 13 ];
+        symbol [ equals %tmp.63 41 14 20 ];
+        %tmp.63 = getv function %tmp.62 :equals;
+        %tmp.64 = "CatppuccinPurple";
+        %tmp.65 = invoke %tmp.62 %tmp.63(%tmp.64);
+        bf %tmp.65 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_41_8_45_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_41_8_45_8_if_true:
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_42_8_45_8_start:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 43 12 ]
+        symbol [ Properties %tmp.67 43 12 22 ];
+        %tmp.67 = getv ? :Properties;
+        symbol [ setValue %tmp.68 43 23 31 ];
+        %tmp.68 = getv function %tmp.67 :setValue;
+        symbol [ setting %tmp.70 43 32 39 ];
+        %tmp.70 = getv ? :setting;
+        %tmp.71 = 0xcba6f7;
+        invoke %tmp.67 %tmp.68(%tmp.70, %tmp.71);
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 44 12 ]
+        symbol [ WatchUi %tmp.72 44 12 19 ];
+        %tmp.72 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.73 44 20 27 ];
+        %tmp.73 = getv function %tmp.72 :popView;
+        symbol [ WatchUi %tmp.74 44 28 35 ];
+        %tmp.74 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.75 44 36 47 ];
+        %tmp.75 = getv %tmp.74 :SLIDE_RIGHT;
+        invoke %tmp.72 %tmp.73(%tmp.75);
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_42_8_45_8_stop:
+        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_41_8_45_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_41_8_45_8_if_end:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 46 8 ]
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_46_8_50_8_if_stmt:
         %tmp.76 = lgetv %id.1;
-        symbol [ id %tmp.76 48 11 13 ];
-        symbol [ equals %tmp.77 48 14 20 ];
+        symbol [ id %tmp.76 46 11 13 ];
+        symbol [ equals %tmp.77 46 14 20 ];
         %tmp.77 = getv function %tmp.76 :equals;
-        %tmp.78 = "ColorGreen";
+        %tmp.78 = "ColorWhite";
         %tmp.79 = invoke %tmp.76 %tmp.77(%tmp.78);
-        bf %tmp.79 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_48_8_51_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_48_8_51_8_if_true:
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_49_8_51_8_start:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 50 12 ]
-        symbol [ Properties %tmp.81 50 12 22 ];
+        bf %tmp.79 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_46_8_50_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_46_8_50_8_if_true:
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_47_8_50_8_start:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 48 12 ]
+        symbol [ Properties %tmp.81 48 12 22 ];
         %tmp.81 = getv ? :Properties;
-        symbol [ setValue %tmp.82 50 23 31 ];
+        symbol [ setValue %tmp.82 48 23 31 ];
         %tmp.82 = getv function %tmp.81 :setValue;
-        symbol [ setting %tmp.84 50 32 39 ];
+        symbol [ setting %tmp.84 48 32 39 ];
         %tmp.84 = getv ? :setting;
-        %tmp.85 = 0x00ff00;
+        %tmp.85 = 0xffffff;
         invoke %tmp.81 %tmp.82(%tmp.84, %tmp.85);
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_49_8_51_8_stop:
-        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_48_8_51_8_if_end;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_48_8_51_8_if_end:
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_16_28_52_4_stop:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 49 12 ]
+        symbol [ WatchUi %tmp.86 49 12 19 ];
+        %tmp.86 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.87 49 20 27 ];
+        %tmp.87 = getv function %tmp.86 :popView;
+        symbol [ WatchUi %tmp.88 49 28 35 ];
+        %tmp.88 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.89 49 36 47 ];
+        %tmp.89 = getv %tmp.88 :SLIDE_RIGHT;
+        invoke %tmp.86 %tmp.87(%tmp.89);
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_47_8_50_8_stop:
+        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_46_8_50_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_46_8_50_8_if_end:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 51 8 ]
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_51_8_56_8_if_stmt:
+        %tmp.90 = lgetv %id.1;
+        symbol [ id %tmp.90 51 11 13 ];
+        symbol [ equals %tmp.91 51 14 20 ];
+        %tmp.91 = getv function %tmp.90 :equals;
+        %tmp.92 = "ColorBlue";
+        %tmp.93 = invoke %tmp.90 %tmp.91(%tmp.92);
+        bf %tmp.93 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_51_8_56_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_51_8_56_8_if_true:
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_52_8_56_8_start:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 53 12 ]
+        symbol [ Properties %tmp.95 53 12 22 ];
+        %tmp.95 = getv ? :Properties;
+        symbol [ setValue %tmp.96 53 23 31 ];
+        %tmp.96 = getv function %tmp.95 :setValue;
+        symbol [ setting %tmp.98 53 32 39 ];
+        %tmp.98 = getv ? :setting;
+        %tmp.99 = 0x00aaff;
+        invoke %tmp.95 %tmp.96(%tmp.98, %tmp.99);
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 54 12 ]
+        symbol [ WatchUi %tmp.100 54 12 19 ];
+        %tmp.100 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.101 54 20 27 ];
+        %tmp.101 = getv function %tmp.100 :popView;
+        symbol [ WatchUi %tmp.102 54 28 35 ];
+        %tmp.102 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.103 54 36 47 ];
+        %tmp.103 = getv %tmp.102 :SLIDE_RIGHT;
+        invoke %tmp.100 %tmp.101(%tmp.103);
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_52_8_56_8_stop:
+        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_51_8_56_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_51_8_56_8_if_end:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 57 8 ]
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_57_8_61_8_if_stmt:
+        %tmp.104 = lgetv %id.1;
+        symbol [ id %tmp.104 57 11 13 ];
+        symbol [ equals %tmp.105 57 14 20 ];
+        %tmp.105 = getv function %tmp.104 :equals;
+        %tmp.106 = "ColorGreen";
+        %tmp.107 = invoke %tmp.104 %tmp.105(%tmp.106);
+        bf %tmp.107 @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_57_8_61_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_57_8_61_8_if_true:
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_58_8_61_8_start:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 59 12 ]
+        symbol [ Properties %tmp.109 59 12 22 ];
+        %tmp.109 = getv ? :Properties;
+        symbol [ setValue %tmp.110 59 23 31 ];
+        %tmp.110 = getv function %tmp.109 :setValue;
+        symbol [ setting %tmp.112 59 32 39 ];
+        %tmp.112 = getv ? :setting;
+        %tmp.113 = 0x00ff00;
+        invoke %tmp.109 %tmp.110(%tmp.112, %tmp.113);
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 60 12 ]
+        symbol [ WatchUi %tmp.114 60 12 19 ];
+        %tmp.114 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.115 60 20 27 ];
+        %tmp.115 = getv function %tmp.114 :popView;
+        symbol [ WatchUi %tmp.116 60 28 35 ];
+        %tmp.116 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.117 60 36 47 ];
+        %tmp.117 = getv %tmp.116 :SLIDE_RIGHT;
+        invoke %tmp.114 %tmp.115(%tmp.117);
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_58_8_61_8_stop:
+        goto @_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_57_8_61_8_if_end;
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_57_8_61_8_if_end:
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_17_28_62_4_stop:
     }
-    [ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc"; @line = 54; @symbol_functiondef = [onBack,54,13,19]; ]
+    [ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc"; @line = 65; @symbol_functiondef = [onBack,65,13,19]; ]
     function onBack() {
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_54_22_57_4_start:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 55 8 ]
-        symbol [ WatchUi %tmp.1 55 8 15 ];
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_65_22_68_4_start:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 66 8 ]
+        symbol [ WatchUi %tmp.1 66 8 15 ];
         %tmp.1 = getm $.Toybox.WatchUi;
-        symbol [ popView %tmp.2 55 16 23 ];
+        symbol [ popView %tmp.2 66 16 23 ];
         %tmp.2 = getv function %tmp.1 :popView;
-        symbol [ WatchUi %tmp.3 55 24 31 ];
+        symbol [ WatchUi %tmp.3 66 24 31 ];
         %tmp.3 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_RIGHT %tmp.4 55 32 43 ];
+        symbol [ SLIDE_RIGHT %tmp.4 66 32 43 ];
         %tmp.4 = getv %tmp.3 :SLIDE_RIGHT;
         invoke %tmp.1 %tmp.2(%tmp.4);
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 56 8 ]
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc" 67 8 ]
         ret ?;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_54_22_57_4_stop:
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSubMenuDelegate_mc_65_22_68_4_stop:
     }
 }
 [ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSubMenuDelegate.mc"; @line = 1; ]

@@ -113,7 +113,7 @@ class g_faceView extends WatchUi.WatchFace {
         var percX = dc.getWidth();
         var percY = dc.getHeight();
 
-        // ***** Set element locations ***** //
+        // ***** Set dynamic element locations ***** //
         // -- AM/PM Label -- //
         if((getTime().hour >= 10 && getTime().hour<= 12) || (getTime().hour >=22) || (getTime().hour == 0))
         {
@@ -196,6 +196,8 @@ class g_faceView extends WatchUi.WatchFace {
         {
             doNotDisturbIcon.setLocation(percX*0.5, percY*0.05);
         }
+
+        // ***** End of dynamic element locations ***** //
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
@@ -304,7 +306,7 @@ class g_faceView extends WatchUi.WatchFace {
         return Toybox.System.getSystemStats().charging;
     }
 
-    // Function to get battery icon
+    // Function to get battery icon based on charge level / status
     function getBatteryIcon() as String {
         
         if(getBatteryStatus())
@@ -457,7 +459,8 @@ class g_faceView extends WatchUi.WatchFace {
     function getConnectionState() as Boolean {
         var settings = System.getDeviceSettings();
         var conn = settings.phoneConnected;
-
+        
+        // If phone is connected
         if(conn)
         {
             return true;
@@ -471,9 +474,11 @@ class g_faceView extends WatchUi.WatchFace {
     // Function to get do not disturb
     function getDoNotDisturb() as Boolean {
         var settings = System.getDeviceSettings();
+        // Check if device supports do not disturb
         if(settings has :doNotDisturb)
         {
             var dnd = settings.doNotDisturb;
+            // If do not disturb is on
             if(dnd)
             {
                 return true;

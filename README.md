@@ -15,10 +15,8 @@ My main reason for building this project is to use this watchface on my Garmin F
 - *Heart Rate*
 - *Weekly Running Distance (in miles)*
 
-### **Planned Features**
-This watchface is still a work in progress. I plan on building settings with a menu that will allow the user to customize the appearance and possibily the data fields for the watchface on their device.
-
-### **Alternative Color Scheme**
-For now, an alternative color scheme is available on the alt branch. This is just until the on-device settings are ironed out.
+### **On-Device Settings**
+- *Allows color customization for any data field from set color list*
+- *Customization can be applied with the on-device watch face customization menu*
 
 <img src="img/watchface_preview_alt_01.png" alt="watchface_image" width="200" />        <img src="img/watchface_preview_alt_02.png" alt="watchface_image" width="200" />

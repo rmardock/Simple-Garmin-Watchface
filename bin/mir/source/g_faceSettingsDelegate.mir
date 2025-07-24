@@ -15,76 +15,76 @@ class g_faceSettingsDelegate extends WatchUi.Menu2InputDelegate {
     }
     [ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
     function initialize() as Void {
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_7_26_9_4_start:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 8 8 ]
-        symbol [ Menu2InputDelegate %tmp.2 8 8 26 ];
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_7_26_10_4_start:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 9 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 9 8 26 ];
         %tmp.2 = getv ? :Menu2InputDelegate;
-        symbol [ initialize %tmp.3 8 27 37 ];
+        symbol [ initialize %tmp.3 9 27 37 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_7_26_9_4_stop:
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_7_26_10_4_stop:
     }
-    [ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc"; @line = 11; @symbol_functiondef = [onSelect,11,13,21]; @symbol_param<0> = [item,11,22,26]; ]
+    [ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc"; @line = 12; @symbol_functiondef = [onSelect,12,13,21]; @symbol_param<0> = [item,12,22,26]; ]
     function onSelect(item) {
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_11_28_17_4_start:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 12 8 ]
-        [ "_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_11_28_17_4_start" "_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_11_28_17_4_stop" ]
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_12_28_19_4_start:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 14 8 ]
+        [ "_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_12_28_19_4_start" "_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_12_28_19_4_stop" ]
         %id.1 = local;
-        symbol [ id %id.1 12 12 14 ];
+        symbol [ id %id.1 14 12 14 ];
         %tmp.1 = lgetv %item;
-        symbol [ item %tmp.1 12 17 21 ];
-        symbol [ getId %tmp.2 12 22 27 ];
+        symbol [ item %tmp.1 14 17 21 ];
+        symbol [ getId %tmp.2 14 22 27 ];
         %tmp.2 = getv function %tmp.1 :getId;
         %tmp.3 = invoke %tmp.1 %tmp.2();
-        symbol [ toString %tmp.4 12 30 38 ];
+        symbol [ toString %tmp.4 14 30 38 ];
         %tmp.4 = getv function %tmp.3 :toString;
         %tmp.5 = invoke %tmp.3 %tmp.4();
         lputv %id.1 %tmp.5;
-        symbol [ id %id.1 12 12 14 ];
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 15 8 ]
-        [ "_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_11_28_17_4_start" "_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_11_28_17_4_stop" ]
+        symbol [ id %id.1 14 12 14 ];
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 17 8 ]
+        [ "_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_12_28_19_4_start" "_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_12_28_19_4_stop" ]
         %subMenu.2 = local;
-        symbol [ subMenu %subMenu.2 15 12 19 ];
-        symbol [ g_faceSettingsSubMenu %tmp.9 15 26 47 ];
+        symbol [ subMenu %subMenu.2 17 12 19 ];
+        symbol [ g_faceSettingsSubMenu %tmp.9 17 26 47 ];
         %tmp.9 = getv ? :g_faceSettingsSubMenu;
         %tmp.6 = newc %tmp.9 ();
         lputv %subMenu.2 %tmp.6;
-        symbol [ subMenu %subMenu.2 15 12 19 ];
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 16 8 ]
-        symbol [ WatchUi %tmp.10 16 8 15 ];
+        symbol [ subMenu %subMenu.2 17 12 19 ];
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 18 8 ]
+        symbol [ WatchUi %tmp.10 18 8 15 ];
         %tmp.10 = getm $.Toybox.WatchUi;
-        symbol [ pushView %tmp.11 16 16 24 ];
+        symbol [ pushView %tmp.11 18 16 24 ];
         %tmp.11 = getv function %tmp.10 :pushView;
         %tmp.12 = lgetv %subMenu.2;
-        symbol [ subMenu %tmp.12 16 25 32 ];
-        symbol [ g_faceSubMenuDelegate %tmp.16 16 38 59 ];
+        symbol [ subMenu %tmp.12 18 25 32 ];
+        symbol [ g_faceSubMenuDelegate %tmp.16 18 38 59 ];
         %tmp.16 = getv ? :g_faceSubMenuDelegate;
         %tmp.17 = lgetv %id.1;
-        symbol [ id %tmp.17 16 60 62 ];
+        symbol [ id %tmp.17 18 60 62 ];
         %tmp.13 = newc %tmp.16 (%tmp.17);
-        symbol [ WatchUi %tmp.18 16 65 72 ];
+        symbol [ WatchUi %tmp.18 18 65 72 ];
         %tmp.18 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_LEFT %tmp.19 16 73 83 ];
+        symbol [ SLIDE_LEFT %tmp.19 18 73 83 ];
         %tmp.19 = getv %tmp.18 :SLIDE_LEFT;
         invoke %tmp.10 %tmp.11(%tmp.12, %tmp.13, %tmp.19);
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_11_28_17_4_stop:
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_12_28_19_4_stop:
     }
-    [ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc"; @line = 19; @symbol_functiondef = [onBack,19,13,19]; ]
+    [ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc"; @line = 22; @symbol_functiondef = [onBack,22,13,19]; ]
     function onBack() {
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_19_22_22_4_start:
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 20 8 ]
-        symbol [ WatchUi %tmp.1 20 8 15 ];
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_22_22_25_4_start:
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 23 8 ]
+        symbol [ WatchUi %tmp.1 23 8 15 ];
         %tmp.1 = getm $.Toybox.WatchUi;
-        symbol [ popView %tmp.2 20 16 23 ];
+        symbol [ popView %tmp.2 23 16 23 ];
         %tmp.2 = getv function %tmp.1 :popView;
-        symbol [ WatchUi %tmp.3 20 24 31 ];
+        symbol [ WatchUi %tmp.3 23 24 31 ];
         %tmp.3 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_RIGHT %tmp.4 20 32 43 ];
+        symbol [ SLIDE_RIGHT %tmp.4 23 32 43 ];
         %tmp.4 = getv %tmp.3 :SLIDE_RIGHT;
         invoke %tmp.1 %tmp.2(%tmp.4);
-[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 21 8 ]
+[ "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc" 24 8 ]
         ret ?;
-_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_19_22_22_4_stop:
+_home_ry_dev_Simple_Garmin_Watchface_source_g_faceSettingsDelegate_mc_22_22_25_4_stop:
     }
 }
 [ @file = "/home/ry/dev/Simple-Garmin-Watchface/source/g_faceSettingsDelegate.mc"; @line = 1; ]
